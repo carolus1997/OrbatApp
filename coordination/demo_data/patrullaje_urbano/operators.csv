@@ -1,0 +1,16 @@
+id,name,role,unit,status,photo,equipment
+op_patrullaje_urbano_001,Carlos Ruiz,supervisor,team_patrullaje_urbano_010101,active,https://placehold.co/300x300?text=op_patrullaje_urbano_001,bodycam;gps_tracker;radio
+op_patrullaje_urbano_002,Lucia Navarro,operador,team_patrullaje_urbano_010102,active,https://placehold.co/300x300?text=op_patrullaje_urbano_002,bodycam;gps_tracker;radio
+op_patrullaje_urbano_003,Javier Diaz,conductor,team_patrullaje_urbano_010103,active,https://placehold.co/300x300?text=op_patrullaje_urbano_003,bodycam;gps_tracker;radio
+op_patrullaje_urbano_004,Marta Vega,tecnico_drones,team_patrullaje_urbano_010101,active,https://placehold.co/300x300?text=op_patrullaje_urbano_004,control_dron;gps_tracker;radio;tablet_tactica
+op_patrullaje_urbano_005,Sergio Castro,operador_CCTV,team_patrullaje_urbano_010102,active,https://placehold.co/300x300?text=op_patrullaje_urbano_005,gps_tracker;radio;terminal_video
+op_patrullaje_urbano_006,Ana Serrano,supervisor,team_patrullaje_urbano_010103,active,https://placehold.co/300x300?text=op_patrullaje_urbano_006,bodycam;gps_tracker;radio
+op_patrullaje_urbano_007,Diego Fuentes,operador,team_patrullaje_urbano_010101,standby,https://placehold.co/300x300?text=op_patrullaje_urbano_007,bodycam;gps_tracker;radio
+op_patrullaje_urbano_008,Elena Santos,conductor,team_patrullaje_urbano_010102,active,https://placehold.co/300x300?text=op_patrullaje_urbano_008,bodycam;gps_tracker;radio
+op_patrullaje_urbano_009,Raul Lopez,tecnico_drones,team_patrullaje_urbano_010103,active,https://placehold.co/300x300?text=op_patrullaje_urbano_009,control_dron;gps_tracker;radio;tablet_tactica
+op_patrullaje_urbano_010,Nuria Ortega,operador_CCTV,team_patrullaje_urbano_010101,active,https://placehold.co/300x300?text=op_patrullaje_urbano_010,gps_tracker;radio;terminal_video
+op_patrullaje_urbano_011,Pablo Cano,supervisor,team_patrullaje_urbano_010102,active,https://placehold.co/300x300?text=op_patrullaje_urbano_011,bodycam;gps_tracker;radio
+op_patrullaje_urbano_012,Irene Romero,operador,team_patrullaje_urbano_010103,active,https://placehold.co/300x300?text=op_patrullaje_urbano_012,bodycam;gps_tracker;radio
+op_patrullaje_urbano_013,Hector Nunez,conductor,team_patrullaje_urbano_010101,active,https://placehold.co/300x300?text=op_patrullaje_urbano_013,bodycam;gps_tracker;radio
+op_patrullaje_urbano_014,Paula Rey,tecnico_drones,team_patrullaje_urbano_010102,active,https://placehold.co/300x300?text=op_patrullaje_urbano_014,control_dron;gps_tracker;radio;tablet_tactica
+op_patrullaje_urbano_015,Ruben Gomez,operador_CCTV,team_patrullaje_urbano_010103,active,https://placehold.co/300x300?text=op_patrullaje_urbano_015,gps_tracker;radio;terminal_video

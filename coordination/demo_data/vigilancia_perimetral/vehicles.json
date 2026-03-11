@@ -1,0 +1,30 @@
+[
+  {
+    "id": "veh_vigilancia_perimetral_001",
+    "type": "patrulla",
+    "identifier": "V-VIGILANCIA_PERIMETRAL_001",
+    "unit_assigned": "team_vigilancia_perimetral_010101",
+    "status": "active"
+  },
+  {
+    "id": "veh_vigilancia_perimetral_002",
+    "type": "SUV_seguridad",
+    "identifier": "V-VIGILANCIA_PERIMETRAL_002",
+    "unit_assigned": "team_vigilancia_perimetral_010102",
+    "status": "active"
+  },
+  {
+    "id": "veh_vigilancia_perimetral_003",
+    "type": "moto_vigilancia",
+    "identifier": "V-VIGILANCIA_PERIMETRAL_003",
+    "unit_assigned": "team_vigilancia_perimetral_010103",
+    "status": "active"
+  },
+  {
+    "id": "veh_vigilancia_perimetral_004",
+    "type": "dron",
+    "identifier": "V-VIGILANCIA_PERIMETRAL_004",
+    "unit_assigned": "team_vigilancia_perimetral_010101",
+    "status": "active"
+  }
+]

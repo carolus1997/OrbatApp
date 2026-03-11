@@ -1,0 +1,13 @@
+id,name,role,unit,status,photo,equipment
+op_vigilancia_perimetral_001,Carlos Ruiz,supervisor,team_vigilancia_perimetral_010101,active,https://placehold.co/300x300?text=op_vigilancia_perimetral_001,bodycam;gps_tracker;radio
+op_vigilancia_perimetral_002,Lucia Navarro,operador,team_vigilancia_perimetral_010102,active,https://placehold.co/300x300?text=op_vigilancia_perimetral_002,bodycam;gps_tracker;radio
+op_vigilancia_perimetral_003,Javier Diaz,conductor,team_vigilancia_perimetral_010103,active,https://placehold.co/300x300?text=op_vigilancia_perimetral_003,bodycam;gps_tracker;radio
+op_vigilancia_perimetral_004,Marta Vega,tecnico_drones,team_vigilancia_perimetral_010101,standby,https://placehold.co/300x300?text=op_vigilancia_perimetral_004,control_dron;gps_tracker;radio;tablet_tactica
+op_vigilancia_perimetral_005,Sergio Castro,operador_CCTV,team_vigilancia_perimetral_010102,active,https://placehold.co/300x300?text=op_vigilancia_perimetral_005,gps_tracker;radio;terminal_video
+op_vigilancia_perimetral_006,Ana Serrano,supervisor,team_vigilancia_perimetral_010103,active,https://placehold.co/300x300?text=op_vigilancia_perimetral_006,bodycam;gps_tracker;radio
+op_vigilancia_perimetral_007,Diego Fuentes,operador,team_vigilancia_perimetral_010101,active,https://placehold.co/300x300?text=op_vigilancia_perimetral_007,bodycam;gps_tracker;radio
+op_vigilancia_perimetral_008,Elena Santos,conductor,team_vigilancia_perimetral_010102,active,https://placehold.co/300x300?text=op_vigilancia_perimetral_008,bodycam;gps_tracker;radio
+op_vigilancia_perimetral_009,Raul Lopez,tecnico_drones,team_vigilancia_perimetral_010103,standby,https://placehold.co/300x300?text=op_vigilancia_perimetral_009,control_dron;gps_tracker;radio;tablet_tactica
+op_vigilancia_perimetral_010,Nuria Ortega,operador_CCTV,team_vigilancia_perimetral_010101,active,https://placehold.co/300x300?text=op_vigilancia_perimetral_010,gps_tracker;radio;terminal_video
+op_vigilancia_perimetral_011,Pablo Cano,supervisor,team_vigilancia_perimetral_010102,standby,https://placehold.co/300x300?text=op_vigilancia_perimetral_011,bodycam;gps_tracker;radio
+op_vigilancia_perimetral_012,Irene Romero,operador,team_vigilancia_perimetral_010103,active,https://placehold.co/300x300?text=op_vigilancia_perimetral_012,bodycam;gps_tracker;radio

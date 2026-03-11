@@ -1,0 +1,7 @@
+flowchart TB
+  CMD[Unit Commands\ncreate/edit/delete] --> APP[Application Services]
+  APP --> RULES[Hierarchy Rules\nno cycles, parent checks]
+  APP --> REPO[Unit Repository]
+  APP --> EV[Domain Events]
+  EV --> OUT[Outbox/Event Bus]
+  APP --> AUD[Audit Trail]

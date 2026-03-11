@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORBAT // UNIT INFO</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Orbitron:wght@400;600;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-void:            #020408;
+      --bg-primary:         #060c16;
+      --bg-panel:           #09111f;
+      --bg-panel-alt:       #0c1828;
+      --bg-hover:           #0f1f34;
+      --border-dim:         #0d1e30;
+      --border-mid:         #183550;
+      --border-bright:      #1e4a70;
+      --accent-green:       #00e87a;
+      --accent-green-dim:   #00a050;
+      --accent-green-glow:  rgba(0, 232, 122, 0.10);
+      --accent-amber:       #ffaa33;
+      --accent-red:         #ff3b52;
+      --accent-blue:        #3cb8e8;
+      --accent-cyan:        #00d4e8;
+      --accent-violet:      #8866ff;
+      --text-bright:        #e4f2ff;
+      --text-primary:       #9abdd8;
+      --text-secondary:     #5a88a8;
+      --text-muted:         #2a5070;
+      --text-dim:           #163045;
+      --font-mono:    'JetBrains Mono', 'Courier New', monospace;
+      --font-display: 'Orbitron', sans-serif;
+      --tr-fast: 140ms ease;
+      --tr-mid:  280ms ease;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      width: 100%; min-height: 100%;
+      background: var(--bg-void);
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 13px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::after {
+      content: '';
+      position: fixed; inset: 0;
+      background: repeating-linear-gradient(
+        0deg, transparent, transparent 3px,
+        rgba(0, 3, 10, 0.07) 3px, rgba(0, 3, 10, 0.07) 4px
+      );
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* ── Header ── */
+    #header {
+      display: flex; align-items: center;
+      padding: 0 16px; gap: 16px; height: 48px;
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border-dim);
+      position: sticky; top: 0; z-index: 100;
+      overflow: hidden;
+    }
+    #header::after {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0; height: 1px;
+      background: linear-gradient(90deg, transparent 0%, var(--accent-blue) 30%, var(--accent-green) 60%, transparent 100%);
+      opacity: 0.5;
+    }
+    .logo {
+      display: flex; align-items: center; gap: 10px;
+      font-family: var(--font-display);
+      font-size: 13px; font-weight: 900; letter-spacing: 5px;
+      color: var(--text-bright); text-transform: uppercase; flex-shrink: 0;
+    }
+    .logo-mark {
+      position: relative; width: 26px; height: 26px;
+      border: 1.5px solid var(--accent-green-dim);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--accent-green); font-size: 11px;
+    }
+    .logo-mark::before {
+      content: ''; position: absolute; top: -3px; left: -3px;
+      width: 5px; height: 5px;
+      border-top: 1.5px solid var(--accent-green);
+      border-left: 1.5px solid var(--accent-green);
+    }
+    .logo-mark::after {
+      content: ''; position: absolute; bottom: -3px; right: -3px;
+      width: 5px; height: 5px;
+      border-bottom: 1.5px solid var(--accent-green);
+      border-right: 1.5px solid var(--accent-green);
+    }
+    .logo-sub { font-size: 8px; font-weight: 400; color: var(--text-secondary); letter-spacing: 3px; }
+    .h-sep { width: 1px; height: 22px; background: var(--border-mid); flex-shrink: 0; }
+    .h-spacer { flex: 1; }
+    .h-pill {
+      display: flex; align-items: center; gap: 7px;
+      font-size: 9px; color: var(--text-secondary);
+      letter-spacing: 1.5px; text-transform: uppercase; flex-shrink: 0;
+    }
+    .status-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--accent-amber);
+      box-shadow: 0 0 6px var(--accent-amber); flex-shrink: 0;
+    }
+    .status-dot.online { background: var(--accent-green); box-shadow: 0 0 6px var(--accent-green); animation: pulse-dot 2.2s infinite; }
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; } 50% { opacity: 0.4; }
+    }
+    .h-nav-btn {
+      display: flex; align-items: center; gap: 6px;
+      padding: 4px 10px;
+      background: transparent; border: 1px solid var(--border-mid);
+      color: var(--text-secondary);
+      font-family: var(--font-mono); font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase;
+      text-decoration: none; cursor: pointer; transition: all var(--tr-fast); flex-shrink: 0;
+    }
+    .h-nav-btn:hover { border-color: var(--border-bright); color: var(--text-primary); background: var(--bg-hover); }
+    .h-nav-icon { font-size: 11px; }
+    .h-time { font-family: var(--font-display); font-size: 12px; font-weight: 600; letter-spacing: 3px; color: var(--accent-cyan); }
+
+    /* ── Breadcrumb ── */
+    #breadcrumb {
+      display: flex; align-items: center; gap: 8px;
+      padding: 0 16px; height: 28px;
+      background: rgba(0,0,0,0.40);
+      border-bottom: 1px solid var(--border-dim);
+      font-size: 9px; color: var(--text-muted); letter-spacing: 1.5px; text-transform: uppercase;
+    }
+    .bc-sep { color: var(--border-mid); }
+    .bc-current { color: var(--accent-amber); }
+    .bc-unit-id { color: var(--accent-cyan); }
+
+    /* ── Page content ── */
+    #page-content {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px 20px 48px;
+      display: flex; flex-direction: column; gap: 20px;
+    }
+
+    /* ── Loading / error states ── */
+    #page-state {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      padding: 80px 20px; gap: 12px;
+      color: var(--text-muted); font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+    }
+    .state-icon { font-size: 36px; color: var(--border-mid); }
+
+    /* ── Section label ── */
+    .section-label {
+      font-family: var(--font-display);
+      font-size: 9px; font-weight: 600; letter-spacing: 3px;
+      color: var(--text-muted); text-transform: uppercase;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-dim);
+      margin-bottom: 12px;
+    }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-dim);
+      padding: 16px;
+    }
+    .card-hdr {
+      font-family: var(--font-display);
+      font-size: 9px; font-weight: 600; letter-spacing: 2.5px;
+      color: var(--text-secondary); text-transform: uppercase;
+      margin-bottom: 12px; padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-dim);
+    }
+
+    /* ── Main unit card ── */
+    .unit-hero {
+      background: var(--bg-panel);
+      border: 1px solid var(--border-dim);
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .unit-hero::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--accent-green-dim), transparent);
+    }
+    .unit-hero-top {
+      display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;
+    }
+    .unit-echelon-badge {
+      width: 60px; height: 60px;
+      border: 1.5px solid var(--border-bright);
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 2px; flex-shrink: 0;
+      background: rgba(0,0,0,0.5);
+    }
+    .unit-echelon-icon { font-size: 24px; color: var(--accent-green); }
+    .unit-echelon-txt { font-size: 7px; letter-spacing: 1.5px; color: var(--text-muted); text-transform: uppercase; }
+
+    .unit-hero-info { flex: 1; min-width: 200px; }
+    .unit-hero-name {
+      font-family: var(--font-display);
+      font-size: 20px; font-weight: 900; letter-spacing: 3px;
+      color: var(--text-bright); text-transform: uppercase; line-height: 1.2;
+    }
+    .unit-hero-id {
+      font-size: 11px; color: var(--accent-cyan); letter-spacing: 2px;
+      margin-top: 4px;
+    }
+    .unit-hero-meta {
+      display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px;
+    }
+    .meta-chip {
+      display: flex; gap: 5px; align-items: center;
+      padding: 3px 8px;
+      border: 1px solid var(--border-mid);
+      font-size: 9px; letter-spacing: 1px; text-transform: uppercase;
+    }
+    .meta-chip-lbl { color: var(--text-dim); }
+    .meta-chip-val { color: var(--text-secondary); }
+    .meta-chip-val.fresh  { color: var(--accent-green); }
+    .meta-chip-val.stale  { color: var(--accent-amber); }
+    .meta-chip-val.lost   { color: var(--accent-red); }
+    .meta-chip-val.active { color: var(--accent-green); }
+
+    /* ── Info grid ── */
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1px;
+      background: var(--border-dim);
+      border: 1px solid var(--border-dim);
+    }
+    .info-cell {
+      background: var(--bg-panel);
+      padding: 10px 14px;
+    }
+    .info-lbl {
+      font-size: 8px; letter-spacing: 1.5px; text-transform: uppercase;
+      color: var(--text-dim); margin-bottom: 3px;
+    }
+    .info-val {
+      font-size: 12px; color: var(--text-primary);
+      word-break: break-all;
+    }
+    .info-val.hi { color: var(--accent-cyan); }
+    .info-val.em { color: var(--text-bright); }
+
+    /* ── Hierarchy chain ── */
+    .chain {
+      display: flex; align-items: center; gap: 0; flex-wrap: wrap;
+    }
+    .chain-node {
+      display: flex; align-items: center; gap: 8px;
+      padding: 8px 14px;
+      background: var(--bg-panel);
+      border: 1px solid var(--border-dim);
+      cursor: pointer;
+      transition: all var(--tr-fast);
+      text-decoration: none;
+    }
+    .chain-node:hover { border-color: var(--border-bright); background: var(--bg-hover); }
+    .chain-node.current {
+      border-color: var(--accent-green-dim);
+      background: rgba(0, 232, 122, 0.04);
+    }
+    .chain-node-icon { font-size: 14px; color: var(--text-muted); }
+    .chain-node-info { display: flex; flex-direction: column; }
+    .chain-node-name { font-size: 10px; color: var(--text-primary); letter-spacing: 0.5px; }
+    .chain-node-id { font-size: 8px; color: var(--text-muted); letter-spacing: 1px; }
+    .chain-arrow {
+      padding: 0 6px;
+      color: var(--border-bright);
+      font-size: 12px;
+    }
+
+    /* ── Children grid ── */
+    .children-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 8px;
+    }
+    .child-card {
+      display: flex; align-items: center; gap: 12px;
+      padding: 12px 14px;
+      background: var(--bg-panel);
+      border: 1px solid var(--border-dim);
+      cursor: pointer; text-decoration: none;
+      transition: all var(--tr-fast);
+    }
+    .child-card:hover { border-color: var(--border-bright); background: var(--bg-hover); }
+    .child-icon { font-size: 20px; color: var(--text-muted); flex-shrink: 0; }
+    .child-info { flex: 1; min-width: 0; }
+    .child-name { font-size: 11px; color: var(--text-bright); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .child-meta { font-size: 9px; color: var(--text-muted); letter-spacing: 1px; margin-top: 2px; }
+    .child-arrow { font-size: 10px; color: var(--text-dim); flex-shrink: 0; }
+
+    /* ── No children placeholder ── */
+    .no-children {
+      padding: 20px;
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 9px; letter-spacing: 2px; text-transform: uppercase;
+      border: 1px dashed var(--border-dim);
+    }
+
+    /* ── Actions ── */
+    .action-row {
+      display: flex; gap: 10px; flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 8px 16px;
+      background: transparent; border: 1px solid var(--border-mid);
+      color: var(--text-secondary);
+      font-family: var(--font-mono); font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase;
+      cursor: pointer; text-decoration: none; transition: all var(--tr-fast);
+    }
+    .btn:hover { border-color: var(--border-bright); color: var(--text-primary); background: var(--bg-hover); }
+    .btn-green { border-color: var(--accent-green-dim); color: var(--accent-green); }
+    .btn-green:hover { background: var(--accent-green-glow); border-color: var(--accent-green); }
+
+    /* ── Footer ── */
+    #footer {
+      display: flex; align-items: center;
+      padding: 0 16px; gap: 16px; height: 30px;
+      background: var(--bg-panel);
+      border-top: 1px solid var(--border-dim);
+      font-size: 9px; letter-spacing: 1px; color: var(--text-dim);
+      position: fixed; bottom: 0; left: 0; right: 0;
+    }
+    .footer-brand {
+      font-family: var(--font-display); font-size: 8px; font-weight: 600;
+      letter-spacing: 3px; color: var(--border-bright); text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+
+<header id="header">
+  <div class="logo">
+    <div class="logo-mark">⊕</div>
+    ORBAT
+    <span class="logo-sub">// UNIT INFO</span>
+  </div>
+  <div class="h-sep"></div>
+  <div class="h-pill">
+    <div class="status-dot" id="api-dot"></div>
+    <span id="api-txt">CONNECTING</span>
+  </div>
+  <div class="h-sep"></div>
+  <div class="h-spacer"></div>
+  <a class="h-nav-btn" href="index.html" title="Map">
+    <span class="h-nav-icon">◎</span> MAP
+  </a>
+  <a class="h-nav-btn" href="orbat_bulk.html" title="Bulk Create">
+    <span class="h-nav-icon">≡</span> BULK
+  </a>
+  <div class="h-sep"></div>
+  <div class="h-time" id="h-time">00:00:00Z</div>
+</header>
+
+<div id="breadcrumb">
+  <span>ORBAT</span>
+  <span class="bc-sep">›</span>
+  <span>Units</span>
+  <span class="bc-sep">›</span>
+  <span class="bc-current" id="bc-unit-id">—</span>
+</div>
+
+<div id="page-content">
+  <div id="page-state">
+    <div class="state-icon">◎</div>
+    <div>Loading unit data…</div>
+  </div>
+</div>
+
+<footer id="footer">
+  <span class="footer-brand">ORBAT GEOSPATIAL</span>
+  <span>// UNIT INFO VIEW</span>
+</footer>
+
+<script>
+'use strict';
+
+const BASE = '';
+
+// ── Clock ──────────────────────────────────────────────────────────────────
+function isoClock() {
+  const d = new Date();
+  return d.toISOString().substring(11, 19) + 'Z';
+}
+setInterval(() => { document.getElementById('h-time').textContent = isoClock(); }, 1000);
+document.getElementById('h-time').textContent = isoClock();
+
+// ── Echelon icons ──────────────────────────────────────────────────────────
+const ECHELON_ICONS = { company: '▣', platoon: '▤', squad: '▥', operator: '◌', team: '▦' };
+function echelonIcon(e) { return ECHELON_ICONS[e] || '◇'; }
+
+// ── Params ─────────────────────────────────────────────────────────────────
+const params = new URLSearchParams(location.search);
+const targetId = params.get('id') || '';
+
+// ── API ────────────────────────────────────────────────────────────────────
+async function fetchUnits() {
+  const r = await fetch(BASE + '/units');
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  return r.json();  // returns array or object
+}
+
+// ── Render ─────────────────────────────────────────────────────────────────
+function setApiStatus(online) {
+  const dot = document.getElementById('api-dot');
+  const txt = document.getElementById('api-txt');
+  if (online) {
+    dot.className = 'status-dot online';
+    txt.textContent = 'API ONLINE';
+  } else {
+    dot.className = 'status-dot';
+    txt.textContent = 'API OFFLINE';
+  }
+}
+
+function renderError(msg) {
+  document.getElementById('page-content').innerHTML = `
+    <div id="page-state">
+      <div class="state-icon">⊗</div>
+      <div>${msg}</div>
+      <a class="btn" href="index.html">← BACK TO MAP</a>
+    </div>`;
+}
+
+function unitUrl(id) {
+  return `orbat_unit_info.html?id=${encodeURIComponent(id)}`;
+}
+
+function renderPage(unitsArr, unit) {
+  // Build lookup
+  const byId = {};
+  unitsArr.forEach(u => { byId[u.id] = u; });
+
+  // Update breadcrumb
+  document.getElementById('bc-unit-id').textContent = unit.id;
+  document.title = `ORBAT // ${unit.name || unit.id}`;
+
+  // Build ancestor chain
+  const ancestors = [];
+  let pid = unit.parent_id;
+  while (pid && byId[pid]) {
+    ancestors.unshift(byId[pid]);
+    pid = byId[pid].parent_id;
+  }
+
+  // Find direct children
+  const children = unitsArr.filter(u => u.parent_id === unit.id);
+
+  // Freshness class helper
+  function freshnessClass(f) {
+    return f === 'fresh' ? 'fresh' : f === 'stale' ? 'stale' : f === 'lost' ? 'lost' : '';
+  }
+
+  // ── Hierarchy chain HTML ──
+  const chainNodes = [...ancestors, unit];
+  const chainHtml = chainNodes.map((n, i) => `
+    ${i > 0 ? '<span class="chain-arrow">›</span>' : ''}
+    <a class="chain-node ${n.id === unit.id ? 'current' : ''}" href="${unitUrl(n.id)}">
+      <span class="chain-node-icon">${echelonIcon(n.echelon)}</span>
+      <div class="chain-node-info">
+        <div class="chain-node-name">${n.name || n.id}</div>
+        <div class="chain-node-id">${n.id}</div>
+      </div>
+    </a>`).join('');
+
+  // ── Children HTML ──
+  const childrenHtml = children.length
+    ? `<div class="children-grid">${children.map(c => `
+        <a class="child-card" href="${unitUrl(c.id)}">
+          <span class="child-icon">${echelonIcon(c.echelon)}</span>
+          <div class="child-info">
+            <div class="child-name">${c.name || c.id}</div>
+            <div class="child-meta">${(c.echelon || 'unit').toUpperCase()} · ${c.id}${c.type ? ' · ' + c.type.toUpperCase() : ''}</div>
+          </div>
+          <span class="child-arrow">›</span>
+        </a>`).join('')}
+      </div>`
+    : '<div class="no-children">No subordinate units</div>';
+
+  // ── Position info ──
+  const hasPosLatLon = unit.lat != null && unit.lon != null;
+  const posHtml = hasPosLatLon
+    ? `<div class="info-cell"><div class="info-lbl">Latitude</div><div class="info-val">${(+unit.lat).toFixed(5)}</div></div>
+       <div class="info-cell"><div class="info-lbl">Longitude</div><div class="info-val">${(+unit.lon).toFixed(5)}</div></div>`
+    : `<div class="info-cell"><div class="info-lbl">Position</div><div class="info-val" style="color:var(--text-dim)">No position data</div></div>`;
+
+  document.getElementById('page-content').innerHTML = `
+
+    <!-- Hero card -->
+    <div class="unit-hero">
+      <div class="unit-hero-top">
+        <div class="unit-echelon-badge">
+          <div class="unit-echelon-icon">${echelonIcon(unit.echelon)}</div>
+          <div class="unit-echelon-txt">${unit.echelon || 'unit'}</div>
+        </div>
+        <div class="unit-hero-info">
+          <div class="unit-hero-name">${unit.name || unit.id}</div>
+          <div class="unit-hero-id">${unit.id}</div>
+          <div class="unit-hero-meta">
+            ${unit.type        ? `<div class="meta-chip"><span class="meta-chip-lbl">TYPE</span><span class="meta-chip-val">${unit.type}</span></div>` : ''}
+            ${unit.status      ? `<div class="meta-chip"><span class="meta-chip-lbl">STATUS</span><span class="meta-chip-val ${unit.status}">${unit.status}</span></div>` : ''}
+            ${unit.callsign    ? `<div class="meta-chip"><span class="meta-chip-lbl">CALLSIGN</span><span class="meta-chip-val">${unit.callsign}</span></div>` : ''}
+            <div class="meta-chip"><span class="meta-chip-lbl">SUBORDINATES</span><span class="meta-chip-val">${children.length}</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hierarchy chain -->
+    <div>
+      <div class="section-label">Chain of Command</div>
+      <div class="chain">${chainHtml}</div>
+    </div>
+
+    <!-- Detail fields -->
+    <div>
+      <div class="section-label">Unit Data</div>
+      <div class="info-grid">
+        <div class="info-cell"><div class="info-lbl">Unit ID</div><div class="info-val hi">${unit.id}</div></div>
+        <div class="info-cell"><div class="info-lbl">Name</div><div class="info-val em">${unit.name || '—'}</div></div>
+        <div class="info-cell"><div class="info-lbl">Echelon</div><div class="info-val">${unit.echelon || '—'}</div></div>
+        <div class="info-cell"><div class="info-lbl">Type</div><div class="info-val">${unit.type || '—'}</div></div>
+        <div class="info-cell"><div class="info-lbl">Status</div><div class="info-val">${unit.status || '—'}</div></div>
+        <div class="info-cell"><div class="info-lbl">Callsign</div><div class="info-val">${unit.callsign || '—'}</div></div>
+        <div class="info-cell"><div class="info-lbl">Parent Unit</div><div class="info-val">${unit.parent_id
+          ? `<a href="${unitUrl(unit.parent_id)}" style="color:var(--accent-cyan);text-decoration:none">${byId[unit.parent_id]?.name || unit.parent_id}</a>`
+          : '<span style="color:var(--text-dim)">Root unit</span>'}</div></div>
+        <div class="info-cell"><div class="info-lbl">Order</div><div class="info-val">${unit.order ?? '—'}</div></div>
+        ${posHtml}
+      </div>
+    </div>
+
+    <!-- Subordinate units -->
+    <div>
+      <div class="section-label">Subordinate Units (${children.length})</div>
+      ${childrenHtml}
+    </div>
+
+    <!-- Actions -->
+    <div>
+      <div class="section-label">Actions</div>
+      <div class="action-row">
+        <a class="btn btn-green" href="index.html#unit=${encodeURIComponent(unit.id)}">◎ VIEW ON MAP</a>
+        <a class="btn" href="index.html">← BACK TO MAP</a>
+        ${unit.parent_id ? `<a class="btn" href="${unitUrl(unit.parent_id)}">↑ PARENT UNIT</a>` : ''}
+      </div>
+    </div>
+  `;
+}
+
+// ── Main ───────────────────────────────────────────────────────────────────
+(async () => {
+  if (!targetId) { renderError('No unit ID specified (use ?id=...)'); return; }
+
+  try {
+    const data = await fetchUnits();
+    setApiStatus(true);
+
+    // API may return array or {units:[...]} wrapper
+    const unitsArr = Array.isArray(data) ? data : (data.units || Object.values(data));
+    const unit = unitsArr.find(u => u.id === targetId);
+
+    if (!unit) {
+      renderError(`Unit "${targetId}" not found.`);
+      return;
+    }
+
+    renderPage(unitsArr, unit);
+  } catch (err) {
+    setApiStatus(false);
+    renderError(`Failed to load unit data: ${err.message}`);
+  }
+})();
+</script>
+</body>
+</html>

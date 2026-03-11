@@ -1,0 +1,3242 @@
+[
+  {
+    "event_id": "1d72147c-4497-4f84-975f-2f28dbef7371",
+    "schema_version": "1.0.0",
+    "event_type": "CALL_EVENT",
+    "occurred_at": "2026-03-05T07:00:00Z",
+    "ingested_at": "2026-03-05T07:00:00.314000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0001",
+    "correlation_id": "corr_op_patrol_mad_20260305_001",
+    "trace_id": "trace_op_patrol_mad_20260305_0001",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_006"
+      }
+    ],
+    "geo": {
+      "lat": 40.443406,
+      "lon": -3.779729,
+      "accuracy": 14.2,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "call",
+      "attributes": {
+        "direction": "incoming",
+        "duration_s": 116
+      },
+      "confidence": 0.87
+    }
+  },
+  {
+    "event_id": "fb87acd2-cfd5-46ed-a962-289f9a4780f8",
+    "schema_version": "1.0.0",
+    "event_type": "ALERT_RAISED",
+    "occurred_at": "2026-03-05T07:00:25Z",
+    "ingested_at": "2026-03-05T07:00:25.427000Z",
+    "source_system": "manual",
+    "source_ref": "src_op_patrol_mad_20260305_0002",
+    "correlation_id": "corr_op_patrol_mad_20260305_001",
+    "trace_id": "trace_op_patrol_mad_20260305_0002",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_004"
+      }
+    ],
+    "geo": {
+      "lat": 40.436703,
+      "lon": -3.727811,
+      "accuracy": 11.7,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "alert",
+      "attributes": {
+        "alert_type": "intrusion",
+        "severity": "high"
+      },
+      "confidence": 0.87
+    }
+  },
+  {
+    "event_id": "2154be8f-18eb-4988-aef6-28f894006398",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:00:50Z",
+    "ingested_at": "2026-03-05T07:00:50.413000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0003",
+    "correlation_id": "corr_op_patrol_mad_20260305_001",
+    "trace_id": "trace_op_patrol_mad_20260305_0003",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_004"
+      }
+    ],
+    "geo": {
+      "lat": 40.455721,
+      "lon": -3.682934,
+      "accuracy": 7.5,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.84
+    }
+  },
+  {
+    "event_id": "0e61e439-7ad1-4ccd-a736-28bcb46569b1",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:01:15Z",
+    "ingested_at": "2026-03-05T07:01:15.437000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0004",
+    "correlation_id": "corr_op_patrol_mad_20260305_001",
+    "trace_id": "trace_op_patrol_mad_20260305_0004",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_014"
+      }
+    ],
+    "geo": {
+      "lat": 40.353577,
+      "lon": -3.772606,
+      "accuracy": 14.8,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "bodycam",
+        "priority": "high"
+      },
+      "confidence": 0.89
+    }
+  },
+  {
+    "event_id": "476ffebf-0011-42bf-a5d1-21f158555f0c",
+    "schema_version": "1.0.0",
+    "event_type": "ALERT_RAISED",
+    "occurred_at": "2026-03-05T07:01:40Z",
+    "ingested_at": "2026-03-05T07:01:40.125000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0005",
+    "correlation_id": "corr_op_patrol_mad_20260305_001",
+    "trace_id": "trace_op_patrol_mad_20260305_0005",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_012"
+      }
+    ],
+    "geo": {
+      "lat": 40.365015,
+      "lon": -3.651342,
+      "accuracy": 11.7,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "alert",
+      "attributes": {
+        "alert_type": "panic_button",
+        "severity": "high"
+      },
+      "confidence": 0.85
+    }
+  },
+  {
+    "event_id": "251848d1-366d-4fd8-9b3c-7622dab1768c",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:02:05Z",
+    "ingested_at": "2026-03-05T07:02:05.576000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0006",
+    "correlation_id": "corr_op_patrol_mad_20260305_002",
+    "trace_id": "trace_op_patrol_mad_20260305_0006",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.402011,
+      "lon": -3.659716,
+      "accuracy": 13.2,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "bodycam",
+        "priority": "medium"
+      },
+      "confidence": 0.79
+    }
+  },
+  {
+    "event_id": "226e0311-694a-4549-bbff-fea04523ed8b",
+    "schema_version": "1.0.0",
+    "event_type": "ALERT_RAISED",
+    "occurred_at": "2026-03-05T07:02:30Z",
+    "ingested_at": "2026-03-05T07:02:30.447000Z",
+    "source_system": "manual",
+    "source_ref": "src_op_patrol_mad_20260305_0007",
+    "correlation_id": "corr_op_patrol_mad_20260305_002",
+    "trace_id": "trace_op_patrol_mad_20260305_0007",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_013"
+      }
+    ],
+    "geo": {
+      "lat": 40.35214,
+      "lon": -3.742998,
+      "accuracy": 11.6,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "alert",
+      "attributes": {
+        "alert_type": "crowd_density",
+        "severity": "medium"
+      },
+      "confidence": 0.91
+    }
+  },
+  {
+    "event_id": "d56776e1-6a13-4436-9396-064e468feab9",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:02:55Z",
+    "ingested_at": "2026-03-05T07:02:55.509000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0008",
+    "correlation_id": "corr_op_patrol_mad_20260305_002",
+    "trace_id": "trace_op_patrol_mad_20260305_0008",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_011"
+      }
+    ],
+    "geo": {
+      "lat": 40.480839,
+      "lon": -3.732222,
+      "accuracy": 8.3,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.96
+    }
+  },
+  {
+    "event_id": "3392829b-cd97-4149-a47b-2d5c1792f1dc",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:03:20Z",
+    "ingested_at": "2026-03-05T07:03:20.464000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0009",
+    "correlation_id": "corr_op_patrol_mad_20260305_002",
+    "trace_id": "trace_op_patrol_mad_20260305_0009",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_015"
+      }
+    ],
+    "geo": {
+      "lat": 40.464481,
+      "lon": -3.632873,
+      "accuracy": 14.8,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "standby",
+        "to": "standby"
+      },
+      "confidence": 0.86
+    }
+  },
+  {
+    "event_id": "e934f806-2de6-492b-98a4-c2ca8d8d4f98",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:03:45Z",
+    "ingested_at": "2026-03-05T07:03:45.386000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0010",
+    "correlation_id": "corr_op_patrol_mad_20260305_002",
+    "trace_id": "trace_op_patrol_mad_20260305_0010",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.363866,
+      "lon": -3.727705,
+      "accuracy": 12.4,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "active",
+        "to": "standby"
+      },
+      "confidence": 0.82
+    }
+  },
+  {
+    "event_id": "5578b435-f174-41eb-9ca8-124bdec03408",
+    "schema_version": "1.0.0",
+    "event_type": "ALERT_RAISED",
+    "occurred_at": "2026-03-05T07:04:10Z",
+    "ingested_at": "2026-03-05T07:04:10.161000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0011",
+    "correlation_id": "corr_op_patrol_mad_20260305_003",
+    "trace_id": "trace_op_patrol_mad_20260305_0011",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_011"
+      }
+    ],
+    "geo": {
+      "lat": 40.361898,
+      "lon": -3.776739,
+      "accuracy": 5.7,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "alert",
+      "attributes": {
+        "alert_type": "intrusion",
+        "severity": "medium"
+      },
+      "confidence": 0.75
+    }
+  },
+  {
+    "event_id": "ccb310ba-caee-40f0-85ad-9b41847a8daa",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:04:35Z",
+    "ingested_at": "2026-03-05T07:04:35.287000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0012",
+    "correlation_id": "corr_op_patrol_mad_20260305_003",
+    "trace_id": "trace_op_patrol_mad_20260305_0012",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.42259,
+      "lon": -3.631378,
+      "accuracy": 10.3,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "cctv",
+        "priority": "high"
+      },
+      "confidence": 0.97
+    }
+  },
+  {
+    "event_id": "ddaa12e7-d17d-4277-9838-30620650cabb",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:05:00Z",
+    "ingested_at": "2026-03-05T07:05:00.243000Z",
+    "source_system": "manual",
+    "source_ref": "src_op_patrol_mad_20260305_0013",
+    "correlation_id": "corr_op_patrol_mad_20260305_003",
+    "trace_id": "trace_op_patrol_mad_20260305_0013",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_005"
+      }
+    ],
+    "geo": {
+      "lat": 40.385553,
+      "lon": -3.71146,
+      "accuracy": 8.1,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.86
+    }
+  },
+  {
+    "event_id": "9898badd-17a6-4fb0-ab37-bc787f42ab25",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:05:25Z",
+    "ingested_at": "2026-03-05T07:05:25.654000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0014",
+    "correlation_id": "corr_op_patrol_mad_20260305_003",
+    "trace_id": "trace_op_patrol_mad_20260305_0014",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_011"
+      }
+    ],
+    "geo": {
+      "lat": 40.40438,
+      "lon": -3.647882,
+      "accuracy": 10.5,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.81
+    }
+  },
+  {
+    "event_id": "3102402a-7415-46a0-8e58-61641a05113e",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:05:50Z",
+    "ingested_at": "2026-03-05T07:05:50.306000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0015",
+    "correlation_id": "corr_op_patrol_mad_20260305_003",
+    "trace_id": "trace_op_patrol_mad_20260305_0015",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "unit",
+        "entity_id": "team_patrullaje_urbano_010103"
+      }
+    ],
+    "geo": {
+      "lat": 40.386772,
+      "lon": -3.738664,
+      "accuracy": 7.1,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.88
+    }
+  },
+  {
+    "event_id": "c7dadad0-1e57-4da5-8542-3a1f7fbd451b",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:06:15Z",
+    "ingested_at": "2026-03-05T07:06:15.607000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0016",
+    "correlation_id": "corr_op_patrol_mad_20260305_004",
+    "trace_id": "trace_op_patrol_mad_20260305_0016",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_015"
+      }
+    ],
+    "geo": {
+      "lat": 40.456869,
+      "lon": -3.765111,
+      "accuracy": 6.4,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "standby",
+        "to": "incident"
+      },
+      "confidence": 0.91
+    }
+  },
+  {
+    "event_id": "e8db218c-38f2-4a0a-8093-bd9d60a88859",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:06:40Z",
+    "ingested_at": "2026-03-05T07:06:40.584000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0017",
+    "correlation_id": "corr_op_patrol_mad_20260305_004",
+    "trace_id": "trace_op_patrol_mad_20260305_0017",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.370225,
+      "lon": -3.760695,
+      "accuracy": 6.1,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.75
+    }
+  },
+  {
+    "event_id": "1165d4d8-7185-457e-b72b-172d3bae63b3",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:07:05Z",
+    "ingested_at": "2026-03-05T07:07:05.318000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0018",
+    "correlation_id": "corr_op_patrol_mad_20260305_004",
+    "trace_id": "trace_op_patrol_mad_20260305_0018",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_005"
+      }
+    ],
+    "geo": {
+      "lat": 40.387741,
+      "lon": -3.731637,
+      "accuracy": 11.8,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.75
+    }
+  },
+  {
+    "event_id": "50103a2b-34eb-4ec0-8ccc-44d2323da845",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:07:30Z",
+    "ingested_at": "2026-03-05T07:07:30.610000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0019",
+    "correlation_id": "corr_op_patrol_mad_20260305_004",
+    "trace_id": "trace_op_patrol_mad_20260305_0019",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "unit",
+        "entity_id": "team_patrullaje_urbano_010102"
+      }
+    ],
+    "geo": {
+      "lat": 40.359498,
+      "lon": -3.77178,
+      "accuracy": 14.4,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.85
+    }
+  },
+  {
+    "event_id": "63dc5d53-b150-4d89-bd33-b290ff8e8260",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:07:55Z",
+    "ingested_at": "2026-03-05T07:07:55.374000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0020",
+    "correlation_id": "corr_op_patrol_mad_20260305_004",
+    "trace_id": "trace_op_patrol_mad_20260305_0020",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_010"
+      }
+    ],
+    "geo": {
+      "lat": 40.427011,
+      "lon": -3.653481,
+      "accuracy": 6.5,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "active",
+        "to": "active"
+      },
+      "confidence": 0.86
+    }
+  },
+  {
+    "event_id": "bf14f2c4-d6ae-4c97-9c27-7640856eadb0",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:08:20Z",
+    "ingested_at": "2026-03-05T07:08:20.203000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0021",
+    "correlation_id": "corr_op_patrol_mad_20260305_005",
+    "trace_id": "trace_op_patrol_mad_20260305_0021",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_012"
+      }
+    ],
+    "geo": {
+      "lat": 40.35781,
+      "lon": -3.76799,
+      "accuracy": 4.0,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.84
+    }
+  },
+  {
+    "event_id": "1bdac767-3519-42ad-bf8e-505a6a5b2666",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:08:45Z",
+    "ingested_at": "2026-03-05T07:08:45.322000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0022",
+    "correlation_id": "corr_op_patrol_mad_20260305_005",
+    "trace_id": "trace_op_patrol_mad_20260305_0022",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_007"
+      }
+    ],
+    "geo": {
+      "lat": 40.41713,
+      "lon": -3.676378,
+      "accuracy": 14.0,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "bodycam",
+        "priority": "medium"
+      },
+      "confidence": 0.94
+    }
+  },
+  {
+    "event_id": "ed153298-7f75-4495-8fe6-37cadf31c2ea",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:09:10Z",
+    "ingested_at": "2026-03-05T07:09:10.632000Z",
+    "source_system": "manual",
+    "source_ref": "src_op_patrol_mad_20260305_0023",
+    "correlation_id": "corr_op_patrol_mad_20260305_005",
+    "trace_id": "trace_op_patrol_mad_20260305_0023",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_003"
+      }
+    ],
+    "geo": {
+      "lat": 40.400041,
+      "lon": -3.684314,
+      "accuracy": 13.8,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.92
+    }
+  },
+  {
+    "event_id": "62fedba5-4246-4bcf-b879-713de95772f0",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:09:35Z",
+    "ingested_at": "2026-03-05T07:09:35.299000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0024",
+    "correlation_id": "corr_op_patrol_mad_20260305_005",
+    "trace_id": "trace_op_patrol_mad_20260305_0024",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "unit",
+        "entity_id": "team_patrullaje_urbano_010101"
+      }
+    ],
+    "geo": {
+      "lat": 40.476572,
+      "lon": -3.750962,
+      "accuracy": 10.4,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "bodycam",
+        "priority": "high"
+      },
+      "confidence": 0.89
+    }
+  },
+  {
+    "event_id": "28d3ea76-081c-4caa-b4cd-5461382a9de1",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:10:00Z",
+    "ingested_at": "2026-03-05T07:10:00.627000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0025",
+    "correlation_id": "corr_op_patrol_mad_20260305_005",
+    "trace_id": "trace_op_patrol_mad_20260305_0025",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "unit",
+        "entity_id": "team_patrullaje_urbano_010103"
+      }
+    ],
+    "geo": {
+      "lat": 40.460171,
+      "lon": -3.691985,
+      "accuracy": 9.0,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.8
+    }
+  },
+  {
+    "event_id": "cdb6604b-15ff-40e3-b16c-62b5bfa6e0f4",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:10:25Z",
+    "ingested_at": "2026-03-05T07:10:25.490000Z",
+    "source_system": "manual",
+    "source_ref": "src_op_patrol_mad_20260305_0026",
+    "correlation_id": "corr_op_patrol_mad_20260305_006",
+    "trace_id": "trace_op_patrol_mad_20260305_0026",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_010"
+      }
+    ],
+    "geo": {
+      "lat": 40.430065,
+      "lon": -3.658402,
+      "accuracy": 6.2,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.87
+    }
+  },
+  {
+    "event_id": "5b9c3dc5-91d7-46be-a56a-c9a657687adf",
+    "schema_version": "1.0.0",
+    "event_type": "CALL_EVENT",
+    "occurred_at": "2026-03-05T07:10:50Z",
+    "ingested_at": "2026-03-05T07:10:50.537000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0027",
+    "correlation_id": "corr_op_patrol_mad_20260305_006",
+    "trace_id": "trace_op_patrol_mad_20260305_0027",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_012"
+      }
+    ],
+    "geo": {
+      "lat": 40.488761,
+      "lon": -3.633931,
+      "accuracy": 9.1,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "call",
+      "attributes": {
+        "direction": "incoming",
+        "duration_s": 159
+      },
+      "confidence": 0.75
+    }
+  },
+  {
+    "event_id": "b695caec-3789-4fb0-8da8-da6cab85f671",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:11:15Z",
+    "ingested_at": "2026-03-05T07:11:15.587000Z",
+    "source_system": "manual",
+    "source_ref": "src_op_patrol_mad_20260305_0028",
+    "correlation_id": "corr_op_patrol_mad_20260305_006",
+    "trace_id": "trace_op_patrol_mad_20260305_0028",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_013"
+      }
+    ],
+    "geo": {
+      "lat": 40.391374,
+      "lon": -3.632501,
+      "accuracy": 9.6,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "standby",
+        "to": "standby"
+      },
+      "confidence": 0.96
+    }
+  },
+  {
+    "event_id": "ff6674a2-a47e-4b1f-9d85-38fa602d01d4",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:11:40Z",
+    "ingested_at": "2026-03-05T07:11:40.621000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0029",
+    "correlation_id": "corr_op_patrol_mad_20260305_006",
+    "trace_id": "trace_op_patrol_mad_20260305_0029",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_006"
+      }
+    ],
+    "geo": {
+      "lat": 40.416173,
+      "lon": -3.72478,
+      "accuracy": 10.1,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "standby",
+        "to": "incident"
+      },
+      "confidence": 0.87
+    }
+  },
+  {
+    "event_id": "170380fa-a77c-4164-9000-7fc05db64f30",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:12:05Z",
+    "ingested_at": "2026-03-05T07:12:05.604000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0030",
+    "correlation_id": "corr_op_patrol_mad_20260305_006",
+    "trace_id": "trace_op_patrol_mad_20260305_0030",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_008"
+      }
+    ],
+    "geo": {
+      "lat": 40.488146,
+      "lon": -3.653217,
+      "accuracy": 11.2,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.76
+    }
+  },
+  {
+    "event_id": "34a2f661-f1b3-448a-8fe5-0f137a86d729",
+    "schema_version": "1.0.0",
+    "event_type": "CALL_EVENT",
+    "occurred_at": "2026-03-05T07:12:30Z",
+    "ingested_at": "2026-03-05T07:12:30.278000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0031",
+    "correlation_id": "corr_op_patrol_mad_20260305_007",
+    "trace_id": "trace_op_patrol_mad_20260305_0031",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_002"
+      }
+    ],
+    "geo": {
+      "lat": 40.455044,
+      "lon": -3.737596,
+      "accuracy": 10.9,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "call",
+      "attributes": {
+        "direction": "incoming",
+        "duration_s": 122
+      },
+      "confidence": 0.83
+    }
+  },
+  {
+    "event_id": "97bcec5a-a370-4dca-8cad-b87e7b63f805",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:12:55Z",
+    "ingested_at": "2026-03-05T07:12:55.414000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0032",
+    "correlation_id": "corr_op_patrol_mad_20260305_007",
+    "trace_id": "trace_op_patrol_mad_20260305_0032",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_008"
+      }
+    ],
+    "geo": {
+      "lat": 40.399435,
+      "lon": -3.764249,
+      "accuracy": 11.0,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.96
+    }
+  },
+  {
+    "event_id": "b9f48441-36d7-475c-ad8c-6373262117bf",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:13:20Z",
+    "ingested_at": "2026-03-05T07:13:20.269000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0033",
+    "correlation_id": "corr_op_patrol_mad_20260305_007",
+    "trace_id": "trace_op_patrol_mad_20260305_0033",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_005"
+      }
+    ],
+    "geo": {
+      "lat": 40.420548,
+      "lon": -3.653197,
+      "accuracy": 5.9,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.74
+    }
+  },
+  {
+    "event_id": "2fc4e916-1590-42d2-ba3a-e2ebc4c63bdd",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:13:45Z",
+    "ingested_at": "2026-03-05T07:13:45.381000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0034",
+    "correlation_id": "corr_op_patrol_mad_20260305_007",
+    "trace_id": "trace_op_patrol_mad_20260305_0034",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_002"
+      }
+    ],
+    "geo": {
+      "lat": 40.474194,
+      "lon": -3.671582,
+      "accuracy": 5.7,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "active",
+        "to": "standby"
+      },
+      "confidence": 0.84
+    }
+  },
+  {
+    "event_id": "b8502d87-477d-4470-ba27-7ffc3a96468b",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:14:10Z",
+    "ingested_at": "2026-03-05T07:14:10.229000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0035",
+    "correlation_id": "corr_op_patrol_mad_20260305_007",
+    "trace_id": "trace_op_patrol_mad_20260305_0035",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.421508,
+      "lon": -3.68803,
+      "accuracy": 14.9,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.8
+    }
+  },
+  {
+    "event_id": "4a006184-8d48-459e-bd60-b58e2722ebdb",
+    "schema_version": "1.0.0",
+    "event_type": "CALL_EVENT",
+    "occurred_at": "2026-03-05T07:14:35Z",
+    "ingested_at": "2026-03-05T07:14:35.480000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0036",
+    "correlation_id": "corr_op_patrol_mad_20260305_008",
+    "trace_id": "trace_op_patrol_mad_20260305_0036",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_004"
+      }
+    ],
+    "geo": {
+      "lat": 40.429343,
+      "lon": -3.671558,
+      "accuracy": 11.9,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "call",
+      "attributes": {
+        "direction": "incoming",
+        "duration_s": 173
+      },
+      "confidence": 0.9
+    }
+  },
+  {
+    "event_id": "e3717e77-1a50-483b-bbde-1ac426ce0cb5",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:15:00Z",
+    "ingested_at": "2026-03-05T07:15:00.422000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0037",
+    "correlation_id": "corr_op_patrol_mad_20260305_008",
+    "trace_id": "trace_op_patrol_mad_20260305_0037",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_003"
+      }
+    ],
+    "geo": {
+      "lat": 40.358102,
+      "lon": -3.758854,
+      "accuracy": 9.9,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "standby",
+        "to": "incident"
+      },
+      "confidence": 0.98
+    }
+  },
+  {
+    "event_id": "030d3de8-7b9f-44ce-9881-43f9e78d6ecd",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:15:25Z",
+    "ingested_at": "2026-03-05T07:15:25.351000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0038",
+    "correlation_id": "corr_op_patrol_mad_20260305_008",
+    "trace_id": "trace_op_patrol_mad_20260305_0038",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_006"
+      }
+    ],
+    "geo": {
+      "lat": 40.344448,
+      "lon": -3.716868,
+      "accuracy": 6.9,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.75
+    }
+  },
+  {
+    "event_id": "34276612-8bb9-426a-8592-0e3550ecdf32",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:15:50Z",
+    "ingested_at": "2026-03-05T07:15:50.694000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0039",
+    "correlation_id": "corr_op_patrol_mad_20260305_008",
+    "trace_id": "trace_op_patrol_mad_20260305_0039",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_004"
+      }
+    ],
+    "geo": {
+      "lat": 40.433624,
+      "lon": -3.678335,
+      "accuracy": 9.1,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.91
+    }
+  },
+  {
+    "event_id": "0a550b37-b13c-4abc-a433-43122b8b5212",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:16:15Z",
+    "ingested_at": "2026-03-05T07:16:15.258000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0040",
+    "correlation_id": "corr_op_patrol_mad_20260305_008",
+    "trace_id": "trace_op_patrol_mad_20260305_0040",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.389362,
+      "lon": -3.628099,
+      "accuracy": 11.7,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "bodycam",
+        "priority": "low"
+      },
+      "confidence": 0.87
+    }
+  },
+  {
+    "event_id": "14f35b7b-1ff3-4c4c-91cf-45fbc2bfd95c",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:16:40Z",
+    "ingested_at": "2026-03-05T07:16:40.574000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0041",
+    "correlation_id": "corr_op_patrol_mad_20260305_009",
+    "trace_id": "trace_op_patrol_mad_20260305_0041",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_002"
+      }
+    ],
+    "geo": {
+      "lat": 40.466872,
+      "lon": -3.764103,
+      "accuracy": 11.5,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "bodycam",
+        "priority": "medium"
+      },
+      "confidence": 0.87
+    }
+  },
+  {
+    "event_id": "67a63fd7-d717-476d-9a05-76503128bcf8",
+    "schema_version": "1.0.0",
+    "event_type": "CALL_EVENT",
+    "occurred_at": "2026-03-05T07:17:05Z",
+    "ingested_at": "2026-03-05T07:17:05.141000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0042",
+    "correlation_id": "corr_op_patrol_mad_20260305_009",
+    "trace_id": "trace_op_patrol_mad_20260305_0042",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_009"
+      }
+    ],
+    "geo": {
+      "lat": 40.368971,
+      "lon": -3.759852,
+      "accuracy": 10.2,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "call",
+      "attributes": {
+        "direction": "incoming",
+        "duration_s": 182
+      },
+      "confidence": 0.74
+    }
+  },
+  {
+    "event_id": "c4bbfa80-3472-49c6-8eb9-dd9a7fda5060",
+    "schema_version": "1.0.0",
+    "event_type": "ALERT_RAISED",
+    "occurred_at": "2026-03-05T07:17:30Z",
+    "ingested_at": "2026-03-05T07:17:30.673000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0043",
+    "correlation_id": "corr_op_patrol_mad_20260305_009",
+    "trace_id": "trace_op_patrol_mad_20260305_0043",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_004"
+      }
+    ],
+    "geo": {
+      "lat": 40.347588,
+      "lon": -3.641368,
+      "accuracy": 5.4,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "alert",
+      "attributes": {
+        "alert_type": "crowd_density",
+        "severity": "medium"
+      },
+      "confidence": 0.82
+    }
+  },
+  {
+    "event_id": "009e06be-cec2-4a86-9b5a-9288ef09b723",
+    "schema_version": "1.0.0",
+    "event_type": "ALERT_RAISED",
+    "occurred_at": "2026-03-05T07:17:55Z",
+    "ingested_at": "2026-03-05T07:17:55.236000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0044",
+    "correlation_id": "corr_op_patrol_mad_20260305_009",
+    "trace_id": "trace_op_patrol_mad_20260305_0044",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.401724,
+      "lon": -3.722074,
+      "accuracy": 10.5,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "alert",
+      "attributes": {
+        "alert_type": "crowd_density",
+        "severity": "medium"
+      },
+      "confidence": 0.84
+    }
+  },
+  {
+    "event_id": "58d98927-02f5-4fbf-a832-3e6ab5afdbe9",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:18:20Z",
+    "ingested_at": "2026-03-05T07:18:20.230000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0045",
+    "correlation_id": "corr_op_patrol_mad_20260305_009",
+    "trace_id": "trace_op_patrol_mad_20260305_0045",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_002"
+      }
+    ],
+    "geo": {
+      "lat": 40.341759,
+      "lon": -3.767074,
+      "accuracy": 10.7,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.74
+    }
+  },
+  {
+    "event_id": "8ab39797-2517-4c28-94c2-444607184651",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:18:45Z",
+    "ingested_at": "2026-03-05T07:18:45.237000Z",
+    "source_system": "manual",
+    "source_ref": "src_op_patrol_mad_20260305_0046",
+    "correlation_id": "corr_op_patrol_mad_20260305_010",
+    "trace_id": "trace_op_patrol_mad_20260305_0046",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_003"
+      }
+    ],
+    "geo": {
+      "lat": 40.398811,
+      "lon": -3.637905,
+      "accuracy": 8.6,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.94
+    }
+  },
+  {
+    "event_id": "c8e3ab22-1817-479e-98fb-5a7c8f48c682",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:19:10Z",
+    "ingested_at": "2026-03-05T07:19:10.213000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0047",
+    "correlation_id": "corr_op_patrol_mad_20260305_010",
+    "trace_id": "trace_op_patrol_mad_20260305_0047",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.3991,
+      "lon": -3.660866,
+      "accuracy": 8.1,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.76
+    }
+  },
+  {
+    "event_id": "96a3b1df-af35-4bca-b68d-2a4a9a22850c",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:19:35Z",
+    "ingested_at": "2026-03-05T07:19:35.172000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0048",
+    "correlation_id": "corr_op_patrol_mad_20260305_010",
+    "trace_id": "trace_op_patrol_mad_20260305_0048",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_015"
+      }
+    ],
+    "geo": {
+      "lat": 40.386263,
+      "lon": -3.687533,
+      "accuracy": 6.3,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.9
+    }
+  },
+  {
+    "event_id": "ff4ef25d-aa13-4cee-81ad-657775877066",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:20:00Z",
+    "ingested_at": "2026-03-05T07:20:00.393000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0049",
+    "correlation_id": "corr_op_patrol_mad_20260305_010",
+    "trace_id": "trace_op_patrol_mad_20260305_0049",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.373723,
+      "lon": -3.658014,
+      "accuracy": 14.1,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.81
+    }
+  },
+  {
+    "event_id": "2e1dcbe3-ec53-43df-805e-f7fd4d3ada81",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:20:25Z",
+    "ingested_at": "2026-03-05T07:20:25.549000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0050",
+    "correlation_id": "corr_op_patrol_mad_20260305_010",
+    "trace_id": "trace_op_patrol_mad_20260305_0050",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_002"
+      }
+    ],
+    "geo": {
+      "lat": 40.355185,
+      "lon": -3.730138,
+      "accuracy": 7.6,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.97
+    }
+  },
+  {
+    "event_id": "ebc473e8-5d0f-4840-99dd-58ef810e1b61",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:20:50Z",
+    "ingested_at": "2026-03-05T07:20:50.572000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0051",
+    "correlation_id": "corr_op_patrol_mad_20260305_011",
+    "trace_id": "trace_op_patrol_mad_20260305_0051",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "unit",
+        "entity_id": "team_patrullaje_urbano_010102"
+      }
+    ],
+    "geo": {
+      "lat": 40.364491,
+      "lon": -3.698025,
+      "accuracy": 7.8,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "bodycam",
+        "priority": "high"
+      },
+      "confidence": 0.75
+    }
+  },
+  {
+    "event_id": "8ad090db-5f92-4339-9ad6-432ef65a5b05",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:21:15Z",
+    "ingested_at": "2026-03-05T07:21:15.336000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0052",
+    "correlation_id": "corr_op_patrol_mad_20260305_011",
+    "trace_id": "trace_op_patrol_mad_20260305_0052",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.376312,
+      "lon": -3.760803,
+      "accuracy": 9.5,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "cctv",
+        "priority": "low"
+      },
+      "confidence": 0.84
+    }
+  },
+  {
+    "event_id": "ae6e6ab3-8be4-4a49-8a26-4ac00cbeb432",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:21:40Z",
+    "ingested_at": "2026-03-05T07:21:40.139000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0053",
+    "correlation_id": "corr_op_patrol_mad_20260305_011",
+    "trace_id": "trace_op_patrol_mad_20260305_0053",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_015"
+      }
+    ],
+    "geo": {
+      "lat": 40.467938,
+      "lon": -3.687879,
+      "accuracy": 10.3,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.91
+    }
+  },
+  {
+    "event_id": "7a5f78f1-7678-4fee-97f6-89c7aa19dc59",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:22:05Z",
+    "ingested_at": "2026-03-05T07:22:05.369000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0054",
+    "correlation_id": "corr_op_patrol_mad_20260305_011",
+    "trace_id": "trace_op_patrol_mad_20260305_0054",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.413834,
+      "lon": -3.716677,
+      "accuracy": 7.4,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.81
+    }
+  },
+  {
+    "event_id": "dcfc25f8-bd83-46e3-8405-8f8625273dce",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:22:30Z",
+    "ingested_at": "2026-03-05T07:22:30.225000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0055",
+    "correlation_id": "corr_op_patrol_mad_20260305_011",
+    "trace_id": "trace_op_patrol_mad_20260305_0055",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_003"
+      }
+    ],
+    "geo": {
+      "lat": 40.361563,
+      "lon": -3.683616,
+      "accuracy": 12.4,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.9
+    }
+  },
+  {
+    "event_id": "3576e3a0-c5cd-4b69-80e2-c1f2bd0f5c12",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:22:55Z",
+    "ingested_at": "2026-03-05T07:22:55.570000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0056",
+    "correlation_id": "corr_op_patrol_mad_20260305_012",
+    "trace_id": "trace_op_patrol_mad_20260305_0056",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_003"
+      }
+    ],
+    "geo": {
+      "lat": 40.400753,
+      "lon": -3.731549,
+      "accuracy": 7.0,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.74
+    }
+  },
+  {
+    "event_id": "10fb8705-a05e-408d-b7d8-845909909eb3",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:23:20Z",
+    "ingested_at": "2026-03-05T07:23:20.639000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0057",
+    "correlation_id": "corr_op_patrol_mad_20260305_012",
+    "trace_id": "trace_op_patrol_mad_20260305_0057",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_007"
+      }
+    ],
+    "geo": {
+      "lat": 40.422853,
+      "lon": -3.627323,
+      "accuracy": 12.1,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.73
+    }
+  },
+  {
+    "event_id": "2618f94a-af50-4333-b159-52032c6db2a5",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:23:45Z",
+    "ingested_at": "2026-03-05T07:23:45.471000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0058",
+    "correlation_id": "corr_op_patrol_mad_20260305_012",
+    "trace_id": "trace_op_patrol_mad_20260305_0058",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.336263,
+      "lon": -3.666781,
+      "accuracy": 14.9,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "active",
+        "to": "active"
+      },
+      "confidence": 0.86
+    }
+  },
+  {
+    "event_id": "7e73e401-aaf3-4085-ac64-1e62359b8c48",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:24:10Z",
+    "ingested_at": "2026-03-05T07:24:10.457000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0059",
+    "correlation_id": "corr_op_patrol_mad_20260305_012",
+    "trace_id": "trace_op_patrol_mad_20260305_0059",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_009"
+      }
+    ],
+    "geo": {
+      "lat": 40.375464,
+      "lon": -3.664203,
+      "accuracy": 11.2,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "cctv",
+        "priority": "medium"
+      },
+      "confidence": 0.96
+    }
+  },
+  {
+    "event_id": "d7870eae-b029-472d-a495-64fa74fccaf0",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:24:35Z",
+    "ingested_at": "2026-03-05T07:24:35.692000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0060",
+    "correlation_id": "corr_op_patrol_mad_20260305_012",
+    "trace_id": "trace_op_patrol_mad_20260305_0060",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_008"
+      }
+    ],
+    "geo": {
+      "lat": 40.46011,
+      "lon": -3.672781,
+      "accuracy": 13.1,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "active",
+        "to": "incident"
+      },
+      "confidence": 0.92
+    }
+  },
+  {
+    "event_id": "69403134-e1ae-4b86-8bf6-ddc96c29015f",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:25:00Z",
+    "ingested_at": "2026-03-05T07:25:00.469000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0061",
+    "correlation_id": "corr_op_patrol_mad_20260305_013",
+    "trace_id": "trace_op_patrol_mad_20260305_0061",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_014"
+      }
+    ],
+    "geo": {
+      "lat": 40.366247,
+      "lon": -3.75799,
+      "accuracy": 4.8,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "cctv",
+        "priority": "high"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "event_id": "be69e9de-7a80-4d8a-a7e3-fbcaa08ae1cf",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:25:25Z",
+    "ingested_at": "2026-03-05T07:25:25.289000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0062",
+    "correlation_id": "corr_op_patrol_mad_20260305_013",
+    "trace_id": "trace_op_patrol_mad_20260305_0062",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_015"
+      }
+    ],
+    "geo": {
+      "lat": 40.395737,
+      "lon": -3.671782,
+      "accuracy": 6.6,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.84
+    }
+  },
+  {
+    "event_id": "a678275b-eda2-4bea-aaaf-0514ac648443",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:25:50Z",
+    "ingested_at": "2026-03-05T07:25:50.408000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0063",
+    "correlation_id": "corr_op_patrol_mad_20260305_013",
+    "trace_id": "trace_op_patrol_mad_20260305_0063",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_012"
+      }
+    ],
+    "geo": {
+      "lat": 40.484603,
+      "lon": -3.649297,
+      "accuracy": 12.8,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.76
+    }
+  },
+  {
+    "event_id": "0bb05043-5b58-479f-bb44-2363e22ac86e",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:26:15Z",
+    "ingested_at": "2026-03-05T07:26:15.580000Z",
+    "source_system": "manual",
+    "source_ref": "src_op_patrol_mad_20260305_0064",
+    "correlation_id": "corr_op_patrol_mad_20260305_013",
+    "trace_id": "trace_op_patrol_mad_20260305_0064",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_003"
+      }
+    ],
+    "geo": {
+      "lat": 40.462967,
+      "lon": -3.765326,
+      "accuracy": 14.0,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.94
+    }
+  },
+  {
+    "event_id": "741b916d-05d6-4885-acaa-f94d05980146",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:26:40Z",
+    "ingested_at": "2026-03-05T07:26:40.349000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0065",
+    "correlation_id": "corr_op_patrol_mad_20260305_013",
+    "trace_id": "trace_op_patrol_mad_20260305_0065",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "unit",
+        "entity_id": "team_patrullaje_urbano_010101"
+      }
+    ],
+    "geo": {
+      "lat": 40.478932,
+      "lon": -3.645732,
+      "accuracy": 11.1,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "active",
+        "to": "standby"
+      },
+      "confidence": 0.93
+    }
+  },
+  {
+    "event_id": "8eb0ea2c-ab6f-4236-bad1-ef78f9ebb637",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:27:05Z",
+    "ingested_at": "2026-03-05T07:27:05.340000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0066",
+    "correlation_id": "corr_op_patrol_mad_20260305_014",
+    "trace_id": "trace_op_patrol_mad_20260305_0066",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_007"
+      }
+    ],
+    "geo": {
+      "lat": 40.34779,
+      "lon": -3.733904,
+      "accuracy": 7.3,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.73
+    }
+  },
+  {
+    "event_id": "f95fb5d6-c26a-499f-b931-c745ebe8b6f5",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:27:30Z",
+    "ingested_at": "2026-03-05T07:27:30.559000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0067",
+    "correlation_id": "corr_op_patrol_mad_20260305_014",
+    "trace_id": "trace_op_patrol_mad_20260305_0067",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_002"
+      }
+    ],
+    "geo": {
+      "lat": 40.36849,
+      "lon": -3.713349,
+      "accuracy": 11.3,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.74
+    }
+  },
+  {
+    "event_id": "23e4d4a8-f3d2-4461-9f58-dcc63736f68f",
+    "schema_version": "1.0.0",
+    "event_type": "CALL_EVENT",
+    "occurred_at": "2026-03-05T07:27:55Z",
+    "ingested_at": "2026-03-05T07:27:55.136000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0068",
+    "correlation_id": "corr_op_patrol_mad_20260305_014",
+    "trace_id": "trace_op_patrol_mad_20260305_0068",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "unit",
+        "entity_id": "team_patrullaje_urbano_010103"
+      }
+    ],
+    "geo": {
+      "lat": 40.385168,
+      "lon": -3.662729,
+      "accuracy": 10.9,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "call",
+      "attributes": {
+        "direction": "outgoing",
+        "duration_s": 209
+      },
+      "confidence": 0.93
+    }
+  },
+  {
+    "event_id": "50022ad7-2ce0-4f38-82c4-4ae925e8c915",
+    "schema_version": "1.0.0",
+    "event_type": "ALERT_RAISED",
+    "occurred_at": "2026-03-05T07:28:20Z",
+    "ingested_at": "2026-03-05T07:28:20.610000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0069",
+    "correlation_id": "corr_op_patrol_mad_20260305_014",
+    "trace_id": "trace_op_patrol_mad_20260305_0069",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_008"
+      }
+    ],
+    "geo": {
+      "lat": 40.340096,
+      "lon": -3.65581,
+      "accuracy": 9.0,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "alert",
+      "attributes": {
+        "alert_type": "panic_button",
+        "severity": "high"
+      },
+      "confidence": 0.8
+    }
+  },
+  {
+    "event_id": "12331bd3-de3f-420f-a073-a900c16ca68e",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:28:45Z",
+    "ingested_at": "2026-03-05T07:28:45.315000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0070",
+    "correlation_id": "corr_op_patrol_mad_20260305_014",
+    "trace_id": "trace_op_patrol_mad_20260305_0070",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_004"
+      }
+    ],
+    "geo": {
+      "lat": 40.467942,
+      "lon": -3.772351,
+      "accuracy": 11.2,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.79
+    }
+  },
+  {
+    "event_id": "41592cbd-f271-4db3-ba0e-f2058b5e4889",
+    "schema_version": "1.0.0",
+    "event_type": "ALERT_RAISED",
+    "occurred_at": "2026-03-05T07:29:10Z",
+    "ingested_at": "2026-03-05T07:29:10.651000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0071",
+    "correlation_id": "corr_op_patrol_mad_20260305_015",
+    "trace_id": "trace_op_patrol_mad_20260305_0071",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_011"
+      }
+    ],
+    "geo": {
+      "lat": 40.446333,
+      "lon": -3.767372,
+      "accuracy": 10.6,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "alert",
+      "attributes": {
+        "alert_type": "crowd_density",
+        "severity": "medium"
+      },
+      "confidence": 0.94
+    }
+  },
+  {
+    "event_id": "5dd9b4cc-d1b6-4c31-8ad7-2259b60e5e05",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:29:35Z",
+    "ingested_at": "2026-03-05T07:29:35.574000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0072",
+    "correlation_id": "corr_op_patrol_mad_20260305_015",
+    "trace_id": "trace_op_patrol_mad_20260305_0072",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_008"
+      }
+    ],
+    "geo": {
+      "lat": 40.336777,
+      "lon": -3.640794,
+      "accuracy": 7.9,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.99
+    }
+  },
+  {
+    "event_id": "1a564842-37b6-4361-a29c-4166c74210d7",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:30:00Z",
+    "ingested_at": "2026-03-05T07:30:00.249000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0073",
+    "correlation_id": "corr_op_patrol_mad_20260305_015",
+    "trace_id": "trace_op_patrol_mad_20260305_0073",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "unit",
+        "entity_id": "team_patrullaje_urbano_010102"
+      }
+    ],
+    "geo": {
+      "lat": 40.454562,
+      "lon": -3.721387,
+      "accuracy": 8.2,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.87
+    }
+  },
+  {
+    "event_id": "138005b7-a030-4cd3-9dad-4a5dea733166",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:30:25Z",
+    "ingested_at": "2026-03-05T07:30:25.441000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0074",
+    "correlation_id": "corr_op_patrol_mad_20260305_015",
+    "trace_id": "trace_op_patrol_mad_20260305_0074",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_004"
+      }
+    ],
+    "geo": {
+      "lat": 40.483683,
+      "lon": -3.775854,
+      "accuracy": 6.0,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "cctv",
+        "priority": "medium"
+      },
+      "confidence": 0.86
+    }
+  },
+  {
+    "event_id": "dd4d50fc-4498-4712-8a0e-99525fefc3f7",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:30:50Z",
+    "ingested_at": "2026-03-05T07:30:50.245000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0075",
+    "correlation_id": "corr_op_patrol_mad_20260305_015",
+    "trace_id": "trace_op_patrol_mad_20260305_0075",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.402327,
+      "lon": -3.636211,
+      "accuracy": 8.9,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "standby",
+        "to": "incident"
+      },
+      "confidence": 0.74
+    }
+  },
+  {
+    "event_id": "d999bbe2-6d69-4372-8b03-c4186dfd3dfe",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:31:15Z",
+    "ingested_at": "2026-03-05T07:31:15.640000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0076",
+    "correlation_id": "corr_op_patrol_mad_20260305_016",
+    "trace_id": "trace_op_patrol_mad_20260305_0076",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_008"
+      }
+    ],
+    "geo": {
+      "lat": 40.487621,
+      "lon": -3.653269,
+      "accuracy": 6.6,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "cctv",
+        "priority": "high"
+      },
+      "confidence": 0.85
+    }
+  },
+  {
+    "event_id": "b233931b-c36a-4850-9179-199fc17ef318",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:31:40Z",
+    "ingested_at": "2026-03-05T07:31:40.610000Z",
+    "source_system": "manual",
+    "source_ref": "src_op_patrol_mad_20260305_0077",
+    "correlation_id": "corr_op_patrol_mad_20260305_016",
+    "trace_id": "trace_op_patrol_mad_20260305_0077",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_001"
+      }
+    ],
+    "geo": {
+      "lat": 40.453066,
+      "lon": -3.648266,
+      "accuracy": 4.8,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.98
+    }
+  },
+  {
+    "event_id": "69748131-7509-4f29-8968-ec573c5c0500",
+    "schema_version": "1.0.0",
+    "event_type": "MEDIA_EVENT",
+    "occurred_at": "2026-03-05T07:32:05Z",
+    "ingested_at": "2026-03-05T07:32:05.650000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0078",
+    "correlation_id": "corr_op_patrol_mad_20260305_016",
+    "trace_id": "trace_op_patrol_mad_20260305_0078",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_012"
+      }
+    ],
+    "geo": {
+      "lat": 40.356345,
+      "lon": -3.728374,
+      "accuracy": 11.8,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "media",
+      "attributes": {
+        "media_type": "cctv",
+        "priority": "low"
+      },
+      "confidence": 0.81
+    }
+  },
+  {
+    "event_id": "a2667dff-7a54-4ed8-998c-5104a76fdc6c",
+    "schema_version": "1.0.0",
+    "event_type": "CALL_EVENT",
+    "occurred_at": "2026-03-05T07:32:30Z",
+    "ingested_at": "2026-03-05T07:32:30.666000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0079",
+    "correlation_id": "corr_op_patrol_mad_20260305_016",
+    "trace_id": "trace_op_patrol_mad_20260305_0079",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_007"
+      }
+    ],
+    "geo": {
+      "lat": 40.424689,
+      "lon": -3.687097,
+      "accuracy": 5.9,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "call",
+      "attributes": {
+        "direction": "outgoing",
+        "duration_s": 175
+      },
+      "confidence": 0.89
+    }
+  },
+  {
+    "event_id": "a614a213-d8c4-40c5-89c4-4394d3cf6ef7",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:32:55Z",
+    "ingested_at": "2026-03-05T07:32:55.546000Z",
+    "source_system": "manual",
+    "source_ref": "src_op_patrol_mad_20260305_0080",
+    "correlation_id": "corr_op_patrol_mad_20260305_016",
+    "trace_id": "trace_op_patrol_mad_20260305_0080",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_008"
+      }
+    ],
+    "geo": {
+      "lat": 40.409686,
+      "lon": -3.679654,
+      "accuracy": 7.2,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "standby",
+        "to": "incident"
+      },
+      "confidence": 0.98
+    }
+  },
+  {
+    "event_id": "dbc265d6-f13d-4704-a4b6-affa67ab6529",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:33:20Z",
+    "ingested_at": "2026-03-05T07:33:20.595000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0081",
+    "correlation_id": "corr_op_patrol_mad_20260305_017",
+    "trace_id": "trace_op_patrol_mad_20260305_0081",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_004"
+      }
+    ],
+    "geo": {
+      "lat": 40.427066,
+      "lon": -3.729987,
+      "accuracy": 11.9,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.92
+    }
+  },
+  {
+    "event_id": "c8db4010-c172-4806-9a0d-8262e3d328b8",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:33:45Z",
+    "ingested_at": "2026-03-05T07:33:45.393000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0082",
+    "correlation_id": "corr_op_patrol_mad_20260305_017",
+    "trace_id": "trace_op_patrol_mad_20260305_0082",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010101"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_010"
+      }
+    ],
+    "geo": {
+      "lat": 40.35254,
+      "lon": -3.771903,
+      "accuracy": 14.4,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "standby",
+        "to": "active"
+      },
+      "confidence": 0.95
+    }
+  },
+  {
+    "event_id": "54c815a4-ff94-4c34-b70d-3f246798e65e",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:34:10Z",
+    "ingested_at": "2026-03-05T07:34:10.143000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0083",
+    "correlation_id": "corr_op_patrol_mad_20260305_017",
+    "trace_id": "trace_op_patrol_mad_20260305_0083",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_003"
+      }
+    ],
+    "geo": {
+      "lat": 40.410871,
+      "lon": -3.62533,
+      "accuracy": 6.4,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.82
+    }
+  },
+  {
+    "event_id": "c382b341-9cf1-4be9-8cc9-dafa5c082824",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:34:35Z",
+    "ingested_at": "2026-03-05T07:34:35.494000Z",
+    "source_system": "gnss",
+    "source_ref": "src_op_patrol_mad_20260305_0084",
+    "correlation_id": "corr_op_patrol_mad_20260305_017",
+    "trace_id": "trace_op_patrol_mad_20260305_0084",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_013"
+      }
+    ],
+    "geo": {
+      "lat": 40.337239,
+      "lon": -3.771815,
+      "accuracy": 10.2,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.82
+    }
+  },
+  {
+    "event_id": "4e82fb62-d19f-46a2-b877-b7387e11b26a",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:35:00Z",
+    "ingested_at": "2026-03-05T07:35:00.467000Z",
+    "source_system": "manual",
+    "source_ref": "src_op_patrol_mad_20260305_0085",
+    "correlation_id": "corr_op_patrol_mad_20260305_017",
+    "trace_id": "trace_op_patrol_mad_20260305_0085",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_010"
+      }
+    ],
+    "geo": {
+      "lat": 40.450794,
+      "lon": -3.748151,
+      "accuracy": 9.6,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.86
+    }
+  },
+  {
+    "event_id": "cc0a5703-5478-4543-9ec9-b090397d6caa",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:35:25Z",
+    "ingested_at": "2026-03-05T07:35:25.446000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0086",
+    "correlation_id": "corr_op_patrol_mad_20260305_018",
+    "trace_id": "trace_op_patrol_mad_20260305_0086",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_002"
+      }
+    ],
+    "geo": {
+      "lat": 40.488499,
+      "lon": -3.661709,
+      "accuracy": 7.3,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.81
+    }
+  },
+  {
+    "event_id": "ba1e59bb-fcb5-4dfd-a4de-56a18e42d256",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:35:50Z",
+    "ingested_at": "2026-03-05T07:35:50.435000Z",
+    "source_system": "bodycam",
+    "source_ref": "src_op_patrol_mad_20260305_0087",
+    "correlation_id": "corr_op_patrol_mad_20260305_018",
+    "trace_id": "trace_op_patrol_mad_20260305_0087",
+    "classification": "restricted",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "operator",
+        "entity_id": "op_patrullaje_urbano_015"
+      }
+    ],
+    "geo": {
+      "lat": 40.372485,
+      "lon": -3.675105,
+      "accuracy": 14.7,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "standby",
+        "to": "incident"
+      },
+      "confidence": 0.88
+    }
+  },
+  {
+    "event_id": "0a567ef1-6b7f-4af9-a279-1e12e574cb57",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:36:15Z",
+    "ingested_at": "2026-03-05T07:36:15.232000Z",
+    "source_system": "cctv",
+    "source_ref": "src_op_patrol_mad_20260305_0088",
+    "correlation_id": "corr_op_patrol_mad_20260305_018",
+    "trace_id": "trace_op_patrol_mad_20260305_0088",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "unit",
+        "entity_id": "team_patrullaje_urbano_010102"
+      }
+    ],
+    "geo": {
+      "lat": 40.400566,
+      "lon": -3.712995,
+      "accuracy": 8.5,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.78
+    }
+  },
+  {
+    "event_id": "bca848a6-8f2d-41e7-b55b-b8cf91c6837b",
+    "schema_version": "1.0.0",
+    "event_type": "POSITION_UPDATED",
+    "occurred_at": "2026-03-05T07:36:40Z",
+    "ingested_at": "2026-03-05T07:36:40.505000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0089",
+    "correlation_id": "corr_op_patrol_mad_20260305_018",
+    "trace_id": "trace_op_patrol_mad_20260305_0089",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010102"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_002"
+      }
+    ],
+    "geo": {
+      "lat": 40.403546,
+      "lon": -3.6947,
+      "accuracy": 10.0,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "position",
+      "attributes": {
+        "status": "moving",
+        "note": "actualizacion_periodica"
+      },
+      "confidence": 0.9
+    }
+  },
+  {
+    "event_id": "0a0f2426-7731-434e-9658-78760a1beba1",
+    "schema_version": "1.0.0",
+    "event_type": "UNIT_STATUS_CHANGED",
+    "occurred_at": "2026-03-05T07:37:05Z",
+    "ingested_at": "2026-03-05T07:37:05.424000Z",
+    "source_system": "telephony",
+    "source_ref": "src_op_patrol_mad_20260305_0090",
+    "correlation_id": "corr_op_patrol_mad_20260305_018",
+    "trace_id": "trace_op_patrol_mad_20260305_0090",
+    "classification": "internal",
+    "operation_id": "op_patrol_mad_20260305",
+    "unit_refs": [
+      "team_patrullaje_urbano_010103"
+    ],
+    "entity_refs": [
+      {
+        "entity_type": "vehicle",
+        "entity_id": "veh_patrullaje_urbano_004"
+      }
+    ],
+    "geo": {
+      "lat": 40.440438,
+      "lon": -3.70176,
+      "accuracy": 9.3,
+      "srid": 4326
+    },
+    "payload": {
+      "kind": "status",
+      "attributes": {
+        "from": "active",
+        "to": "standby"
+      },
+      "confidence": 0.87
+    }
+  }
+]

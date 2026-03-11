@@ -1,0 +1,24 @@
+flowchart TB
+  subgraph OLTP[Operacional]
+    PG[(PostgreSQL + PostGIS)]
+  end
+
+  subgraph CACHE[Cache]
+    L1[(In-memory cache)]
+    L2[(Persistent cache)]
+  end
+
+  subgraph PROJ[Proyecciones]
+    ZV[(Zone Versions)]
+    EV[(GeoEvent Features)]
+    TS[(Track State)]
+  end
+
+  ORB[ORBAT] --> PG
+  TRK[Tracking] --> PG
+  EVT[Events] --> PG
+  DZ[Deployment Zone] --> ZV
+  EVT --> EV
+  TRK --> TS
+  GCD[Geocoding] --> L1
+  GCD --> L2

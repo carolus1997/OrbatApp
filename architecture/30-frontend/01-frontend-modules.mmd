@@ -1,0 +1,10 @@
+flowchart LR
+  MAP[Map View] --> PICK[Map Pick Contract]
+  PICK --> GCD[Reverse Geocoding API]
+  GCD --> FORM[Form State\n(unit/ingest draft)]
+  FORM --> SAVE[Persist Draft]
+  SAVE --> CONF[Confirm + Submit]
+
+  TOC[ORBAT TOC] --> ZAPI[Deployment Zone API]
+  EVT[Event Layer] --> EAPI[Geo Events API]
+  INS[Zone Inspector] --> ZAPI

@@ -1,0 +1,2245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7108,
+          40.411377
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_001",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 8.4,
+        "heading": 4.0,
+        "accuracy": 8.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.709605,
+          40.411684
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_002",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:45Z",
+        "speed": 4.7,
+        "heading": 18.9,
+        "accuracy": 6.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.708175,
+          40.411386
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_003",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:30Z",
+        "speed": 9.7,
+        "heading": 48.3,
+        "accuracy": 6.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70708,
+          40.410436
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_004",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:15Z",
+        "speed": 2.7,
+        "heading": 69.3,
+        "accuracy": 4.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.706824,
+          40.409094
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_005",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:00Z",
+        "speed": 8.8,
+        "heading": 105.2,
+        "accuracy": 5.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707585,
+          40.407824
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_006",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:45Z",
+        "speed": 8.5,
+        "heading": 133.5,
+        "accuracy": 11.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70911,
+          40.407079
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_007",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:30Z",
+        "speed": 6.3,
+        "heading": 164.2,
+        "accuracy": 8.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71083,
+          40.407084
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_008",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:15Z",
+        "speed": 5.0,
+        "heading": 181.5,
+        "accuracy": 8.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712135,
+          40.40774
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_009",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 8.6,
+        "heading": 208.6,
+        "accuracy": 4.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712663,
+          40.408694
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_010",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:45Z",
+        "speed": 8.9,
+        "heading": 233.6,
+        "accuracy": 9.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712438,
+          40.409531
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_011",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:30Z",
+        "speed": 7.6,
+        "heading": 248.7,
+        "accuracy": 4.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.711804,
+          40.409985
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_012",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:15Z",
+        "speed": 3.8,
+        "heading": 279.4,
+        "accuracy": 6.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.711189,
+          40.410043
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_013",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:00Z",
+        "speed": 2.6,
+        "heading": 304.1,
+        "accuracy": 11.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.710862,
+          40.409902
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010101_014",
+        "entity_id": "team_patrullaje_urbano_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:45Z",
+        "speed": 2.8,
+        "heading": 330.7,
+        "accuracy": 8.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7108,
+          40.414967
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_001",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 6.5,
+        "heading": 3.7,
+        "accuracy": 4.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.709536,
+          40.415292
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_002",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:45Z",
+        "speed": 8.7,
+        "heading": 31.3,
+        "accuracy": 8.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.708025,
+          40.414977
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_003",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:30Z",
+        "speed": 3.8,
+        "heading": 42.2,
+        "accuracy": 10.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.706867,
+          40.413972
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_004",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:15Z",
+        "speed": 4.5,
+        "heading": 72.7,
+        "accuracy": 6.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.706596,
+          40.412553
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_005",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:00Z",
+        "speed": 3.7,
+        "heading": 112.0,
+        "accuracy": 3.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707401,
+          40.411211
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_006",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:45Z",
+        "speed": 9.0,
+        "heading": 125.2,
+        "accuracy": 6.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.709014,
+          40.410423
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_007",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:30Z",
+        "speed": 7.2,
+        "heading": 152.6,
+        "accuracy": 12.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.710832,
+          40.410428
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_008",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:15Z",
+        "speed": 9.3,
+        "heading": 179.7,
+        "accuracy": 7.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712212,
+          40.411122
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_009",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 4.1,
+        "heading": 201.2,
+        "accuracy": 11.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71277,
+          40.41213
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_010",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:45Z",
+        "speed": 6.5,
+        "heading": 227.3,
+        "accuracy": 10.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712532,
+          40.413016
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_011",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:30Z",
+        "speed": 6.7,
+        "heading": 265.8,
+        "accuracy": 3.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.711861,
+          40.413496
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_012",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:15Z",
+        "speed": 5.2,
+        "heading": 278.0,
+        "accuracy": 9.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.711211,
+          40.413557
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_013",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:00Z",
+        "speed": 10.0,
+        "heading": 309.6,
+        "accuracy": 9.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.710865,
+          40.413407
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010102_014",
+        "entity_id": "team_patrullaje_urbano_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:45Z",
+        "speed": 2.7,
+        "heading": 326.1,
+        "accuracy": 7.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7108,
+          40.418557
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_001",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 4.1,
+        "heading": 2.8,
+        "accuracy": 10.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.709468,
+          40.418899
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_002",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:45Z",
+        "speed": 2.9,
+        "heading": 24.5,
+        "accuracy": 11.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707875,
+          40.418567
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_003",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:30Z",
+        "speed": 5.6,
+        "heading": 60.6,
+        "accuracy": 3.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.706654,
+          40.417508
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_004",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:15Z",
+        "speed": 9.0,
+        "heading": 72.6,
+        "accuracy": 7.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.706369,
+          40.416013
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_005",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:00Z",
+        "speed": 6.0,
+        "heading": 96.7,
+        "accuracy": 3.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707218,
+          40.414598
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_006",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:45Z",
+        "speed": 9.3,
+        "heading": 136.3,
+        "accuracy": 9.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.708917,
+          40.413768
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_007",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:30Z",
+        "speed": 4.4,
+        "heading": 157.5,
+        "accuracy": 9.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.710833,
+          40.413773
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_008",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:15Z",
+        "speed": 6.9,
+        "heading": 173.5,
+        "accuracy": 4.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712288,
+          40.414504
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_009",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 8.1,
+        "heading": 207.1,
+        "accuracy": 7.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712876,
+          40.415567
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_010",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:45Z",
+        "speed": 8.2,
+        "heading": 232.7,
+        "accuracy": 7.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712626,
+          40.4165
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_011",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:30Z",
+        "speed": 2.0,
+        "heading": 254.3,
+        "accuracy": 5.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.711918,
+          40.417006
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_012",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:15Z",
+        "speed": 2.2,
+        "heading": 292.2,
+        "accuracy": 10.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.711234,
+          40.417071
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_013",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:00Z",
+        "speed": 9.0,
+        "heading": 316.0,
+        "accuracy": 6.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.710869,
+          40.416913
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_patrullaje_urbano_010103_014",
+        "entity_id": "team_patrullaje_urbano_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:45Z",
+        "speed": 4.5,
+        "heading": 326.3,
+        "accuracy": 4.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7108,
+          40.422147
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_001",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 28.3,
+        "heading": 4.6,
+        "accuracy": 10.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7094,
+          40.422507
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_002",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:45Z",
+        "speed": 25.6,
+        "heading": 22.0,
+        "accuracy": 4.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707725,
+          40.422158
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_003",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:30Z",
+        "speed": 32.0,
+        "heading": 54.6,
+        "accuracy": 3.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.706441,
+          40.421045
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_004",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:15Z",
+        "speed": 27.5,
+        "heading": 77.7,
+        "accuracy": 6.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.706141,
+          40.419473
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_005",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:00Z",
+        "speed": 25.0,
+        "heading": 97.6,
+        "accuracy": 6.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707034,
+          40.417985
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_006",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:45Z",
+        "speed": 26.7,
+        "heading": 130.7,
+        "accuracy": 7.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70882,
+          40.417112
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_007",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:30Z",
+        "speed": 25.8,
+        "heading": 149.1,
+        "accuracy": 9.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.710835,
+          40.417118
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_008",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:15Z",
+        "speed": 24.6,
+        "heading": 183.1,
+        "accuracy": 9.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712364,
+          40.417887
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_009",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 25.8,
+        "heading": 214.4,
+        "accuracy": 11.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712983,
+          40.419004
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_010",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:45Z",
+        "speed": 30.9,
+        "heading": 223.5,
+        "accuracy": 3.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712719,
+          40.419985
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_011",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:30Z",
+        "speed": 25.9,
+        "heading": 261.2,
+        "accuracy": 6.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.711976,
+          40.420517
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_012",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:15Z",
+        "speed": 25.7,
+        "heading": 276.3,
+        "accuracy": 6.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.711256,
+          40.420585
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_013",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:00Z",
+        "speed": 31.5,
+        "heading": 310.8,
+        "accuracy": 10.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.710872,
+          40.420419
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_001_014",
+        "entity_id": "veh_patrullaje_urbano_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:45Z",
+        "speed": 27.8,
+        "heading": 340.9,
+        "accuracy": 5.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7108,
+          40.425737
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_001",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 25.5,
+        "heading": 359.0,
+        "accuracy": 8.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.709331,
+          40.426115
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_002",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:45Z",
+        "speed": 27.4,
+        "heading": 21.4,
+        "accuracy": 9.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707574,
+          40.425749
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_003",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:30Z",
+        "speed": 26.0,
+        "heading": 60.0,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.706228,
+          40.424581
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_004",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:15Z",
+        "speed": 27.5,
+        "heading": 84.6,
+        "accuracy": 5.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.705914,
+          40.422932
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_005",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:00Z",
+        "speed": 28.4,
+        "heading": 94.1,
+        "accuracy": 11.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70685,
+          40.421372
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_006",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:45Z",
+        "speed": 32.0,
+        "heading": 135.6,
+        "accuracy": 8.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.708724,
+          40.420457
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_007",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:30Z",
+        "speed": 31.8,
+        "heading": 163.2,
+        "accuracy": 7.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.710837,
+          40.420463
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_008",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:15Z",
+        "speed": 30.8,
+        "heading": 173.8,
+        "accuracy": 9.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712441,
+          40.421269
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_009",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 27.9,
+        "heading": 200.5,
+        "accuracy": 3.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.713089,
+          40.422441
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_010",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:45Z",
+        "speed": 27.2,
+        "heading": 223.2,
+        "accuracy": 8.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712813,
+          40.42347
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_011",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:30Z",
+        "speed": 27.0,
+        "heading": 267.5,
+        "accuracy": 7.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.712033,
+          40.424027
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_012",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:15Z",
+        "speed": 26.1,
+        "heading": 289.3,
+        "accuracy": 10.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.711278,
+          40.424099
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_013",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:00Z",
+        "speed": 27.6,
+        "heading": 307.9,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.710876,
+          40.423925
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_002_014",
+        "entity_id": "veh_patrullaje_urbano_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:45Z",
+        "speed": 31.7,
+        "heading": 345.1,
+        "accuracy": 11.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7073,
+          40.411827
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_001",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 24.6,
+        "heading": 353.7,
+        "accuracy": 5.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.705763,
+          40.412222
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_002",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:45Z",
+        "speed": 28.8,
+        "heading": 29.3,
+        "accuracy": 11.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.703925,
+          40.411839
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_003",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:30Z",
+        "speed": 25.9,
+        "heading": 44.0,
+        "accuracy": 10.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.702517,
+          40.410617
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_004",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:15Z",
+        "speed": 31.1,
+        "heading": 72.3,
+        "accuracy": 10.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.702188,
+          40.408892
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_005",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:00Z",
+        "speed": 28.8,
+        "heading": 105.5,
+        "accuracy": 6.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.703167,
+          40.407259
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_006",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:45Z",
+        "speed": 27.4,
+        "heading": 130.6,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.705128,
+          40.406301
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_007",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:30Z",
+        "speed": 28.2,
+        "heading": 163.4,
+        "accuracy": 10.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707339,
+          40.406307
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_008",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:15Z",
+        "speed": 25.6,
+        "heading": 184.8,
+        "accuracy": 9.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.709017,
+          40.407151
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_009",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 25.9,
+        "heading": 204.2,
+        "accuracy": 8.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.709695,
+          40.408377
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_010",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:45Z",
+        "speed": 29.4,
+        "heading": 228.0,
+        "accuracy": 11.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.709406,
+          40.409454
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_011",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:30Z",
+        "speed": 26.5,
+        "heading": 262.9,
+        "accuracy": 8.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70859,
+          40.410038
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_012",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:15Z",
+        "speed": 24.6,
+        "heading": 282.8,
+        "accuracy": 3.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7078,
+          40.410113
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_013",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:00Z",
+        "speed": 32.0,
+        "heading": 319.3,
+        "accuracy": 10.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707379,
+          40.409931
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_003_014",
+        "entity_id": "veh_patrullaje_urbano_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:45Z",
+        "speed": 24.6,
+        "heading": 329.4,
+        "accuracy": 5.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7073,
+          40.415417
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_001",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 29.3,
+        "heading": 8.8,
+        "accuracy": 11.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.705695,
+          40.41583
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_002",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:45Z",
+        "speed": 25.1,
+        "heading": 18.1,
+        "accuracy": 7.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.703775,
+          40.41543
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_003",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:30Z",
+        "speed": 24.9,
+        "heading": 52.6,
+        "accuracy": 10.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.702304,
+          40.414154
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_004",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:15Z",
+        "speed": 26.2,
+        "heading": 79.4,
+        "accuracy": 8.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70196,
+          40.412351
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_005",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:00Z",
+        "speed": 29.7,
+        "heading": 97.2,
+        "accuracy": 4.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.702983,
+          40.410646
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_006",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:45Z",
+        "speed": 29.1,
+        "heading": 124.2,
+        "accuracy": 4.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.705031,
+          40.409646
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_007",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:30Z",
+        "speed": 27.9,
+        "heading": 162.8,
+        "accuracy": 5.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70734,
+          40.409652
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_008",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:15Z",
+        "speed": 30.8,
+        "heading": 172.3,
+        "accuracy": 11.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.709093,
+          40.410533
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_009",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 27.4,
+        "heading": 201.8,
+        "accuracy": 10.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.709802,
+          40.411814
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_010",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:45Z",
+        "speed": 24.0,
+        "heading": 237.5,
+        "accuracy": 10.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7095,
+          40.412939
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_011",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:30Z",
+        "speed": 29.1,
+        "heading": 253.1,
+        "accuracy": 11.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.708648,
+          40.413549
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_012",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:15Z",
+        "speed": 29.9,
+        "heading": 284.6,
+        "accuracy": 4.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707823,
+          40.413627
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_013",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:00Z",
+        "speed": 27.4,
+        "heading": 299.6,
+        "accuracy": 5.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707383,
+          40.413436
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_004_014",
+        "entity_id": "veh_patrullaje_urbano_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:45Z",
+        "speed": 24.6,
+        "heading": 342.8,
+        "accuracy": 3.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7073,
+          40.419007
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_001",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 30.2,
+        "heading": 7.7,
+        "accuracy": 3.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.705626,
+          40.419438
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_002",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:45Z",
+        "speed": 27.3,
+        "heading": 28.2,
+        "accuracy": 4.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.703625,
+          40.41902
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_003",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:30Z",
+        "speed": 25.2,
+        "heading": 60.2,
+        "accuracy": 6.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.702091,
+          40.41769
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_004",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:15Z",
+        "speed": 30.9,
+        "heading": 86.9,
+        "accuracy": 10.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.701733,
+          40.415811
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_005",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:00Z",
+        "speed": 30.5,
+        "heading": 110.8,
+        "accuracy": 11.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.702799,
+          40.414033
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_006",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:45Z",
+        "speed": 24.2,
+        "heading": 133.6,
+        "accuracy": 5.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.704934,
+          40.41299
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_007",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:30Z",
+        "speed": 26.7,
+        "heading": 163.3,
+        "accuracy": 8.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707342,
+          40.412997
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_008",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:15Z",
+        "speed": 30.4,
+        "heading": 187.8,
+        "accuracy": 6.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.70917,
+          40.413916
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_009",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 30.5,
+        "heading": 201.6,
+        "accuracy": 11.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.709909,
+          40.415251
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_010",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:45Z",
+        "speed": 30.3,
+        "heading": 224.2,
+        "accuracy": 7.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.709594,
+          40.416423
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_011",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:30Z",
+        "speed": 31.0,
+        "heading": 265.0,
+        "accuracy": 11.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.708705,
+          40.417059
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_012",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:15Z",
+        "speed": 25.8,
+        "heading": 289.9,
+        "accuracy": 4.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707845,
+          40.417141
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_013",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:00Z",
+        "speed": 27.7,
+        "heading": 305.5,
+        "accuracy": 11.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.707386,
+          40.416942
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_patrullaje_urbano_005_014",
+        "entity_id": "veh_patrullaje_urbano_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:45Z",
+        "speed": 30.4,
+        "heading": 329.7,
+        "accuracy": 4.6,
+        "source": "gnss"
+      }
+    }
+  ]
+}

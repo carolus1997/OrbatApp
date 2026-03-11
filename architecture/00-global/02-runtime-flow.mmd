@@ -1,0 +1,21 @@
+sequenceDiagram
+  participant UI as Frontend
+  participant API as API v1
+  participant ORB as ORBAT Engine
+  participant TRK as Tracking Engine
+  participant DZ as Deployment Zone Engine
+  participant EVT as Event Engine
+  participant GEO as GEO Engine
+
+  UI->>API: GET /orbat/{id}/deployment-zone
+  API->>ORB: resolver hijos ORBAT
+  API->>TRK: ultimas posiciones válidas
+  API->>DZ: generar/reusar zona versionada
+  DZ-->>API: geometría + metadatos + quality_score
+  API-->>UI: zone payload
+
+  UI->>API: GET /geo/events?bbox=...&filters...
+  API->>EVT: obtener eventos canónicos
+  EVT->>GEO: CanonicalEvent -> GeoEventFeature
+  GEO-->>API: features agregadas por zoom
+  API-->>UI: capa de eventos renderizable

@@ -1,0 +1,22 @@
+flowchart TB
+  ORB[ORBAT Engine] --> DZ[Deployment Zone Engine]
+  TRK[Tracking Engine] --> DZ
+  EVT[Event Engine] --> GEO[GEO Engine]
+  ORB --> TRK
+  ORB --> EVT
+  GCD[Geocoding Engine] --> ORB
+  GCD --> TRK
+
+  subgraph Shared
+    VAL[Validation]
+    OBS[Observability]
+    AUTH[AuthN/AuthZ]
+    AUD[Audit]
+  end
+
+  ORB --> VAL
+  DZ --> VAL
+  TRK --> OBS
+  EVT --> OBS
+  GEO --> AUD
+  ORB --> AUTH

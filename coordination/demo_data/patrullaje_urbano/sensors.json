@@ -1,0 +1,86 @@
+[
+  {
+    "id": "sns_patrullaje_urbano_001",
+    "type": "camara_corporal",
+    "unit_assigned": "unit_patrullaje_urbano_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_patrullaje_urbano_002",
+    "type": "dron",
+    "unit_assigned": "unit_patrullaje_urbano_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_patrullaje_urbano_003",
+    "type": "camara_fija",
+    "unit_assigned": "unit_patrullaje_urbano_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_patrullaje_urbano_004",
+    "type": "sensor_termico",
+    "unit_assigned": "team_patrullaje_urbano_010101",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_patrullaje_urbano_005",
+    "type": "sensor_perimetral",
+    "unit_assigned": "team_patrullaje_urbano_010102",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_patrullaje_urbano_006",
+    "type": "camara_corporal",
+    "unit_assigned": "team_patrullaje_urbano_010103",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_patrullaje_urbano_007",
+    "type": "dron",
+    "unit_assigned": "team_patrullaje_urbano_010101",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_patrullaje_urbano_008",
+    "type": "camara_fija",
+    "unit_assigned": "team_patrullaje_urbano_010102",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_patrullaje_urbano_009",
+    "type": "sensor_termico",
+    "unit_assigned": "team_patrullaje_urbano_010103",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_patrullaje_urbano_010",
+    "type": "sensor_perimetral",
+    "unit_assigned": "team_patrullaje_urbano_010101",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_patrullaje_urbano_011",
+    "type": "camara_corporal",
+    "unit_assigned": "team_patrullaje_urbano_010102",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_patrullaje_urbano_012",
+    "type": "dron",
+    "unit_assigned": "team_patrullaje_urbano_010103",
+    "status": "active",
+    "mobility": "mobile"
+  }
+]

@@ -1,0 +1,10 @@
+flowchart TB
+  REQ[Reverse geocode request] --> CACHE{Cache hit?}
+  CACHE -- yes --> RES[Return cached]
+  CACHE -- no --> RL[Rate limiter]
+  RL --> TRY[Call Nominatim\n(timeout + retry)]
+  TRY --> OK{Response OK?}
+  OK -- yes --> SAVE[Store cache]
+  SAVE --> RES
+  OK -- no --> DEG[Degraded mode\nraw coords + low confidence]
+  DEG --> RES

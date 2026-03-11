@@ -1,0 +1,7 @@
+flowchart LR
+  SRC[GNSS Positions] --> NORM[Normalize]
+  NORM --> QUAL[Quality Gate\naccuracy/freshness]
+  QUAL --> STATE[Track State\nfresh/stale/lost]
+  STATE --> PUB[Publish updates]
+  PUB --> DZ[Deployment Zone Recalc Trigger]
+  PUB --> API[Tracking API]

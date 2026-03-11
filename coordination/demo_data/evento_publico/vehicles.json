@@ -1,0 +1,86 @@
+[
+  {
+    "id": "veh_evento_publico_001",
+    "type": "patrulla",
+    "identifier": "V-EVENTO_PUBLICO_001",
+    "unit_assigned": "team_evento_publico_010101",
+    "status": "standby"
+  },
+  {
+    "id": "veh_evento_publico_002",
+    "type": "SUV_seguridad",
+    "identifier": "V-EVENTO_PUBLICO_002",
+    "unit_assigned": "team_evento_publico_010102",
+    "status": "active"
+  },
+  {
+    "id": "veh_evento_publico_003",
+    "type": "moto_vigilancia",
+    "identifier": "V-EVENTO_PUBLICO_003",
+    "unit_assigned": "team_evento_publico_010103",
+    "status": "standby"
+  },
+  {
+    "id": "veh_evento_publico_004",
+    "type": "dron",
+    "identifier": "V-EVENTO_PUBLICO_004",
+    "unit_assigned": "team_evento_publico_010104",
+    "status": "standby"
+  },
+  {
+    "id": "veh_evento_publico_005",
+    "type": "centro_movil",
+    "identifier": "V-EVENTO_PUBLICO_005",
+    "unit_assigned": "team_evento_publico_010105",
+    "status": "active"
+  },
+  {
+    "id": "veh_evento_publico_006",
+    "type": "patrulla",
+    "identifier": "V-EVENTO_PUBLICO_006",
+    "unit_assigned": "team_evento_publico_010201",
+    "status": "standby"
+  },
+  {
+    "id": "veh_evento_publico_007",
+    "type": "SUV_seguridad",
+    "identifier": "V-EVENTO_PUBLICO_007",
+    "unit_assigned": "team_evento_publico_010202",
+    "status": "maintenance"
+  },
+  {
+    "id": "veh_evento_publico_008",
+    "type": "moto_vigilancia",
+    "identifier": "V-EVENTO_PUBLICO_008",
+    "unit_assigned": "team_evento_publico_010203",
+    "status": "active"
+  },
+  {
+    "id": "veh_evento_publico_009",
+    "type": "dron",
+    "identifier": "V-EVENTO_PUBLICO_009",
+    "unit_assigned": "team_evento_publico_010204",
+    "status": "maintenance"
+  },
+  {
+    "id": "veh_evento_publico_010",
+    "type": "centro_movil",
+    "identifier": "V-EVENTO_PUBLICO_010",
+    "unit_assigned": "team_evento_publico_010205",
+    "status": "standby"
+  },
+  {
+    "id": "veh_evento_publico_011",
+    "type": "patrulla",
+    "identifier": "V-EVENTO_PUBLICO_011",
+    "unit_assigned": "team_evento_publico_010101",
+    "status": "active"
+  },
+  {
+    "id": "veh_evento_publico_012",
+    "type": "SUV_seguridad",
+    "identifier": "V-EVENTO_PUBLICO_012",
+    "unit_assigned": "team_evento_publico_010102",
+    "status": "active"
+  }
+]

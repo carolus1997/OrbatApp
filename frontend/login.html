@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORBAT GEOSPATIAL // ACCESS CONTROL</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Orbitron:wght@400;600;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-void:        #020408;
+      --bg-primary:     #060c16;
+      --bg-panel:       #09111f;
+      --bg-panel-alt:   #0c1828;
+      --bg-hover:       #0f1f34;
+      --border-dim:     #0d1e30;
+      --border-mid:     #183550;
+      --border-bright:  #1e4a70;
+      --accent-green:       #00e87a;
+      --accent-green-dim:   #00a050;
+      --accent-green-glow:  rgba(0, 232, 122, 0.10);
+      --accent-amber:       #ffaa33;
+      --accent-red:         #ff3b52;
+      --accent-blue:        #3cb8e8;
+      --accent-cyan:        #00d4e8;
+      --text-bright:    #e4f2ff;
+      --text-primary:   #9abdd8;
+      --text-secondary: #5a88a8;
+      --text-muted:     #2a5070;
+      --text-dim:       #163045;
+      --font-mono:    'JetBrains Mono', 'Courier New', monospace;
+      --font-display: 'Orbitron', sans-serif;
+      --tr-fast: 140ms ease;
+      --tr-mid:  280ms ease;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      width: 100%; height: 100%;
+      background: var(--bg-void);
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      overflow: hidden;
+    }
+
+    /* CRT scanlines */
+    body::after {
+      content: '';
+      position: fixed; inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent, transparent 3px,
+        rgba(0, 3, 10, 0.07) 3px,
+        rgba(0, 3, 10, 0.07) 4px
+      );
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* Animated grid background */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image:
+        linear-gradient(var(--border-dim) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border-dim) 1px, transparent 1px);
+      background-size: 60px 60px;
+      opacity: 0.4;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .login-page {
+      position: relative;
+      z-index: 1;
+      width: 100%; height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 28px;
+      padding: 20px;
+    }
+
+    /* Classification banner */
+    .classif-banner {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: rgba(255, 170, 51, 0.10);
+      border-bottom: 1px solid rgba(255, 170, 51, 0.35);
+      color: var(--accent-amber);
+      font-size: 9px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 5px;
+      font-family: var(--font-display);
+    }
+    .classif-banner-bottom {
+      top: auto;
+      bottom: 0;
+      border-bottom: none;
+      border-top: 1px solid rgba(255, 170, 51, 0.35);
+    }
+
+    /* Logo */
+    .login-logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .login-logo-mark {
+      position: relative;
+      width: 52px; height: 52px;
+      border: 1.5px solid var(--accent-green-dim);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--accent-green);
+      font-size: 22px;
+    }
+    .login-logo-mark::before {
+      content: '';
+      position: absolute; top: -4px; left: -4px;
+      width: 9px; height: 9px;
+      border-top: 1.5px solid var(--accent-green);
+      border-left: 1.5px solid var(--accent-green);
+    }
+    .login-logo-mark::after {
+      content: '';
+      position: absolute; bottom: -4px; right: -4px;
+      width: 9px; height: 9px;
+      border-bottom: 1.5px solid var(--accent-green);
+      border-right: 1.5px solid var(--accent-green);
+    }
+    /* inner pulse ring */
+    .login-logo-mark-ring {
+      position: absolute;
+      inset: 4px;
+      border: 1px solid rgba(0, 232, 122, 0.2);
+      border-radius: 50%;
+      animation: ring-pulse 3s ease-in-out infinite;
+    }
+    @keyframes ring-pulse {
+      0%, 100% { opacity: 0.2; transform: scale(1); }
+      50%       { opacity: 0.7; transform: scale(1.15); }
+    }
+
+    .login-logo-title {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 900;
+      letter-spacing: 10px;
+      color: var(--text-bright);
+    }
+    .login-logo-sub {
+      font-size: 9px;
+      color: var(--text-secondary);
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    /* Card */
+    .login-card {
+      position: relative;
+      width: 100%;
+      max-width: 360px;
+      background: var(--bg-panel);
+      border: 1px solid var(--border-mid);
+    }
+
+    /* top accent bar */
+    .login-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent-green-dim), var(--accent-blue), var(--accent-green-dim));
+      background-size: 200% 100%;
+      animation: bar-sweep 4s linear infinite;
+    }
+    @keyframes bar-sweep {
+      0%   { background-position: 0% 0%; }
+      100% { background-position: 200% 0%; }
+    }
+
+    /* outer corner brackets */
+    .login-card-corner {
+      position: absolute;
+      width: 14px; height: 14px;
+      pointer-events: none;
+    }
+    .login-card-corner.tl {
+      top: -1px; left: -1px;
+      border-top: 2px solid var(--accent-green);
+      border-left: 2px solid var(--accent-green);
+    }
+    .login-card-corner.tr {
+      top: -1px; right: -1px;
+      border-top: 2px solid var(--accent-green);
+      border-right: 2px solid var(--accent-green);
+    }
+    .login-card-corner.bl {
+      bottom: -1px; left: -1px;
+      border-bottom: 2px solid var(--accent-green);
+      border-left: 2px solid var(--accent-green);
+    }
+    .login-card-corner.br {
+      bottom: -1px; right: -1px;
+      border-bottom: 2px solid var(--accent-green);
+      border-right: 2px solid var(--accent-green);
+    }
+
+    .login-card-hdr {
+      padding: 14px 20px 12px;
+      border-bottom: 1px solid var(--border-dim);
+      background: rgba(0,0,0,0.30);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .login-card-title {
+      font-family: var(--font-display);
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+    }
+    .login-card-id {
+      font-size: 8px;
+      color: var(--text-dim);
+      letter-spacing: 1px;
+    }
+
+    .login-card-body {
+      padding: 24px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+
+    .form-lbl {
+      font-size: 8px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+
+    .login-input-wrap {
+      position: relative;
+    }
+    .login-input-prefix {
+      position: absolute;
+      left: 10px;
+      top: 50%; transform: translateY(-50%);
+      color: var(--text-dim);
+      font-size: 12px;
+      pointer-events: none;
+      user-select: none;
+    }
+    .form-input {
+      width: 100%;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-mid);
+      color: var(--text-bright);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      padding: 10px 12px 10px 32px;
+      outline: none;
+      transition: border-color var(--tr-fast), box-shadow var(--tr-fast);
+      letter-spacing: 1px;
+    }
+    .form-input::placeholder { color: var(--text-dim); font-size: 10px; letter-spacing: 0.5px; }
+    .form-input:focus {
+      border-color: var(--accent-green-dim);
+      box-shadow: 0 0 0 1px var(--accent-green-glow) inset;
+    }
+
+    .login-options {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .login-check {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 10px;
+      color: var(--text-muted);
+      letter-spacing: 1px;
+      cursor: pointer;
+      user-select: none;
+    }
+    .login-check input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 14px; height: 14px;
+      border: 1px solid var(--border-mid);
+      background: var(--bg-primary);
+      cursor: pointer;
+      position: relative;
+      flex-shrink: 0;
+      transition: border-color var(--tr-fast), background var(--tr-fast);
+    }
+    .login-check input[type="checkbox"]:checked {
+      border-color: var(--accent-green-dim);
+      background: rgba(0, 232, 122, 0.10);
+    }
+    .login-check input[type="checkbox"]:checked::after {
+      content: '✔';
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 9px;
+      color: var(--accent-green);
+      line-height: 14px;
+      text-align: center;
+    }
+    .login-forgot {
+      font-size: 8px;
+      color: var(--text-dim);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-decoration: none;
+      transition: color var(--tr-fast);
+    }
+    .login-forgot:hover { color: var(--accent-blue); }
+
+    .login-btn {
+      width: 100%;
+      padding: 12px;
+      background: transparent;
+      border: 1px solid var(--accent-green-dim);
+      color: var(--accent-green);
+      font-family: var(--font-display);
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: all var(--tr-fast);
+    }
+    .login-btn::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: var(--accent-green-glow);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform var(--tr-mid);
+    }
+    .login-btn:hover::before { transform: scaleX(1); }
+    .login-btn:hover {
+      border-color: var(--accent-green);
+      box-shadow: 0 0 16px rgba(0, 232, 122, 0.12);
+    }
+    .login-btn span { position: relative; z-index: 1; }
+
+    .login-card-foot {
+      padding: 12px 20px;
+      border-top: 1px solid var(--border-dim);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(0,0,0,0.20);
+    }
+    .login-sys-status {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 8px;
+      color: var(--text-dim);
+      letter-spacing: 1px;
+    }
+    .login-status-dot {
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      background: var(--accent-green);
+      box-shadow: 0 0 5px var(--accent-green);
+      animation: pulse-dot 2.2s infinite;
+    }
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.3; }
+    }
+    .login-ver {
+      font-size: 8px;
+      color: var(--text-dim);
+      letter-spacing: 1px;
+    }
+
+    /* Error message */
+    .login-error {
+      font-size: 9px;
+      color: var(--accent-red);
+      letter-spacing: 1px;
+      text-align: center;
+      padding: 6px;
+      border: 1px solid rgba(255, 59, 82, 0.3);
+      background: rgba(255, 59, 82, 0.06);
+      display: none;
+    }
+    .login-error.show { display: block; }
+
+    /* Disclaimer */
+    .login-disclaimer {
+      font-size: 8px;
+      color: var(--text-dim);
+      letter-spacing: 1px;
+      text-align: center;
+      max-width: 360px;
+      line-height: 1.8;
+      text-transform: uppercase;
+    }
+
+    /* Active clock */
+    .login-clock {
+      font-family: var(--font-display);
+      font-size: 9px;
+      color: var(--accent-cyan);
+      letter-spacing: 2px;
+    }
+
+    @media (max-width: 480px) {
+      .login-logo-title { font-size: 16px; letter-spacing: 6px; }
+      .classif-banner { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="classif-banner">RESTRICTED ACCESS // AUTHORIZED PERSONNEL ONLY</div>
+  <div class="classif-banner classif-banner-bottom">RESTRICTED ACCESS // AUTHORIZED PERSONNEL ONLY</div>
+
+  <div class="login-page">
+
+    <div class="login-logo">
+      <div class="login-logo-mark">
+        <div class="login-logo-mark-ring"></div>
+        ⊕
+      </div>
+      <div class="login-logo-title">ORBAT</div>
+      <div class="login-logo-sub">// Geospatial Operations Center</div>
+    </div>
+
+    <div class="login-card">
+      <div class="login-card-corner tl"></div>
+      <div class="login-card-corner tr"></div>
+      <div class="login-card-corner bl"></div>
+      <div class="login-card-corner br"></div>
+
+      <div class="login-card-hdr">
+        <span class="login-card-title">Access Control</span>
+        <span class="login-clock" id="login-clock">00:00:00Z</span>
+      </div>
+
+      <form class="login-card-body" id="login-form" autocomplete="off" novalidate>
+        <div id="login-error" class="login-error">INVALID CREDENTIALS — ACCESS DENIED</div>
+
+        <div class="form-group">
+          <label class="form-lbl" for="login-user">User Identifier</label>
+          <div class="login-input-wrap">
+            <span class="login-input-prefix">◉</span>
+            <input
+              class="form-input"
+              id="login-user"
+              type="text"
+              placeholder="operator.id or callsign"
+              autocomplete="off"
+              spellcheck="false"
+              required
+            >
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-lbl" for="login-pass">Access Code</label>
+          <div class="login-input-wrap">
+            <span class="login-input-prefix">▣</span>
+            <input
+              class="form-input"
+              id="login-pass"
+              type="password"
+              placeholder="••••••••••••"
+              autocomplete="current-password"
+              required
+            >
+          </div>
+        </div>
+
+        <div class="login-options">
+          <label class="login-check">
+            <input type="checkbox" id="login-remember">
+            KEEP SESSION
+          </label>
+          <a class="login-forgot" href="#">RESET CODE</a>
+        </div>
+
+        <button class="login-btn" type="submit">
+          <span>⊛ REQUEST ACCESS</span>
+        </button>
+      </form>
+
+      <div class="login-card-foot">
+        <div class="login-sys-status">
+          <div class="login-status-dot"></div>
+          SYSTEM ONLINE
+        </div>
+        <div class="login-ver">v1.3.0</div>
+      </div>
+    </div>
+
+    <div class="login-disclaimer">
+      Unauthorized access to this system is prohibited.<br>
+      All sessions are monitored and recorded.<br>
+      By accessing, you confirm authorization.
+    </div>
+
+  </div>
+
+  <script>
+    // Clock
+    function updateClock() {
+      const t = new Date().toISOString().substring(11, 19) + 'Z';
+      document.getElementById('login-clock').textContent = t;
+    }
+    updateClock();
+    setInterval(updateClock, 1000);
+
+    // Login form
+    document.getElementById('login-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const user = document.getElementById('login-user').value.trim();
+      const pass = document.getElementById('login-pass').value;
+      const error = document.getElementById('login-error');
+
+      if (!user || !pass) {
+        error.classList.add('show');
+        return;
+      }
+
+      // Demo: accept any non-empty credentials
+      error.classList.remove('show');
+      const btn = this.querySelector('.login-btn span');
+      btn.textContent = '↺ AUTHENTICATING...';
+
+      setTimeout(() => {
+        window.location.href = 'index.html';
+      }, 800);
+    });
+  </script>
+</body>
+</html>

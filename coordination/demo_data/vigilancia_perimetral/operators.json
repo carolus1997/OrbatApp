@@ -1,0 +1,160 @@
+[
+  {
+    "id": "op_vigilancia_perimetral_001",
+    "name": "Carlos Ruiz",
+    "role": "supervisor",
+    "unit": "team_vigilancia_perimetral_010101",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_vigilancia_perimetral_001",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_vigilancia_perimetral_002",
+    "name": "Lucia Navarro",
+    "role": "operador",
+    "unit": "team_vigilancia_perimetral_010102",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_vigilancia_perimetral_002",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_vigilancia_perimetral_003",
+    "name": "Javier Diaz",
+    "role": "conductor",
+    "unit": "team_vigilancia_perimetral_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_vigilancia_perimetral_003",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_vigilancia_perimetral_004",
+    "name": "Marta Vega",
+    "role": "tecnico_drones",
+    "unit": "team_vigilancia_perimetral_010101",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_vigilancia_perimetral_004",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_vigilancia_perimetral_005",
+    "name": "Sergio Castro",
+    "role": "operador_CCTV",
+    "unit": "team_vigilancia_perimetral_010102",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_vigilancia_perimetral_005",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_vigilancia_perimetral_006",
+    "name": "Ana Serrano",
+    "role": "supervisor",
+    "unit": "team_vigilancia_perimetral_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_vigilancia_perimetral_006",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_vigilancia_perimetral_007",
+    "name": "Diego Fuentes",
+    "role": "operador",
+    "unit": "team_vigilancia_perimetral_010101",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_vigilancia_perimetral_007",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_vigilancia_perimetral_008",
+    "name": "Elena Santos",
+    "role": "conductor",
+    "unit": "team_vigilancia_perimetral_010102",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_vigilancia_perimetral_008",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_vigilancia_perimetral_009",
+    "name": "Raul Lopez",
+    "role": "tecnico_drones",
+    "unit": "team_vigilancia_perimetral_010103",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_vigilancia_perimetral_009",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_vigilancia_perimetral_010",
+    "name": "Nuria Ortega",
+    "role": "operador_CCTV",
+    "unit": "team_vigilancia_perimetral_010101",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_vigilancia_perimetral_010",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_vigilancia_perimetral_011",
+    "name": "Pablo Cano",
+    "role": "supervisor",
+    "unit": "team_vigilancia_perimetral_010102",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_vigilancia_perimetral_011",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_vigilancia_perimetral_012",
+    "name": "Irene Romero",
+    "role": "operador",
+    "unit": "team_vigilancia_perimetral_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_vigilancia_perimetral_012",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  }
+]

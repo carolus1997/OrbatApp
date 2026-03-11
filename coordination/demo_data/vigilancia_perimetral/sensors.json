@@ -1,0 +1,170 @@
+[
+  {
+    "id": "sns_vigilancia_perimetral_001",
+    "type": "camara_corporal",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_002",
+    "type": "dron",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_003",
+    "type": "camara_fija",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_004",
+    "type": "sensor_termico",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_005",
+    "type": "sensor_perimetral",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_006",
+    "type": "camara_corporal",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_007",
+    "type": "dron",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_008",
+    "type": "camara_fija",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_009",
+    "type": "sensor_termico",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_010",
+    "type": "sensor_perimetral",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_011",
+    "type": "camara_corporal",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_012",
+    "type": "dron",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_013",
+    "type": "camara_fija",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_014",
+    "type": "sensor_termico",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_015",
+    "type": "sensor_perimetral",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_016",
+    "type": "camara_corporal",
+    "unit_assigned": "unit_vigilancia_perimetral_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_017",
+    "type": "dron",
+    "unit_assigned": "team_vigilancia_perimetral_010102",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_018",
+    "type": "camara_fija",
+    "unit_assigned": "team_vigilancia_perimetral_010103",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_019",
+    "type": "sensor_termico",
+    "unit_assigned": "team_vigilancia_perimetral_010101",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_020",
+    "type": "sensor_perimetral",
+    "unit_assigned": "team_vigilancia_perimetral_010102",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_021",
+    "type": "camara_corporal",
+    "unit_assigned": "team_vigilancia_perimetral_010103",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_022",
+    "type": "dron",
+    "unit_assigned": "team_vigilancia_perimetral_010101",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_023",
+    "type": "camara_fija",
+    "unit_assigned": "team_vigilancia_perimetral_010102",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_vigilancia_perimetral_024",
+    "type": "sensor_termico",
+    "unit_assigned": "team_vigilancia_perimetral_010103",
+    "status": "active",
+    "mobility": "mobile"
+  }
+]

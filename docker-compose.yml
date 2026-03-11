@@ -1,0 +1,72 @@
+version: "3.9"
+
+# ── ORBAT Geospatial Stack ──────────────────────────────────────────────────
+# Services: PostGIS (spatial database) + GeoServer (OGC tile/feature server)
+#
+# Usage:
+#   docker compose up -d
+#   GeoServer UI → http://localhost:8080/geoserver  (admin / geoserver)
+#   PostGIS      → localhost:5432  db=orbat  user=orbat  pass=orbat
+
+networks:
+  orbat-net:
+    driver: bridge
+
+volumes:
+  postgis-data:
+  geoserver-data:
+
+services:
+
+  # ── PostGIS ───────────────────────────────────────────────────────────────
+  postgis:
+    image: postgis/postgis:16-3.4-alpine
+    container_name: orbat-postgis
+    restart: unless-stopped
+    networks: [orbat-net]
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB:       orbat
+      POSTGRES_USER:     orbat
+      POSTGRES_PASSWORD: orbat
+    volumes:
+      - postgis-data:/var/lib/postgresql/data
+      - ./geo/sql:/docker-entrypoint-initdb.d:ro   # init scripts (optional)
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U orbat -d orbat"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── GeoServer ─────────────────────────────────────────────────────────────
+  geoserver:
+    image: docker.osgeo.org/geoserver:2.25.2
+    container_name: orbat-geoserver
+    restart: unless-stopped
+    networks: [orbat-net]
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgis:
+        condition: service_healthy
+    environment:
+      # Admin credentials
+      GEOSERVER_ADMIN_USER:     admin
+      GEOSERVER_ADMIN_PASSWORD: geoserver
+      # Data directory (persisted)
+      GEOSERVER_DATA_DIR: /opt/geoserver_data
+      # JVM tuning
+      EXTRA_JAVA_OPTS: >-
+        -Xms256m -Xmx1g
+        -Dgwc.context.suffix=gwc
+        -DGEOSERVER_CSRF_DISABLED=true
+    volumes:
+      - geoserver-data:/opt/geoserver_data
+      - ./geo/sld:/opt/geoserver_data/styles/orbat:ro   # SLD files
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/geoserver/web/ > /dev/null"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s

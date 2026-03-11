@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORBAT // AD-HOC CREATE</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Orbitron:wght@400;600;900&display=swap" rel="stylesheet">
+  <style>
+    /* ── Variables ──────────────────────────────────────────────────────────── */
+    :root {
+      --bg-void:        #020408;
+      --bg-primary:     #060c16;
+      --bg-panel:       #09111f;
+      --bg-panel-alt:   #0c1828;
+      --bg-hover:       #0f1f34;
+      --border-dim:     #0d1e30;
+      --border-mid:     #183550;
+      --border-bright:  #1e4a70;
+      --accent-green:       #00e87a;
+      --accent-green-dim:   #00a050;
+      --accent-green-glow:  rgba(0, 232, 122, 0.10);
+      --accent-amber:       #ffaa33;
+      --accent-red:         #ff3b52;
+      --accent-blue:        #3cb8e8;
+      --accent-cyan:        #00d4e8;
+      --accent-violet:      #8866ff;
+      --text-bright:    #e4f2ff;
+      --text-primary:   #9abdd8;
+      --text-secondary: #5a88a8;
+      --text-muted:     #2a5070;
+      --text-dim:       #163045;
+      --font-mono:    'JetBrains Mono', 'Courier New', monospace;
+      --font-display: 'Orbitron', sans-serif;
+      --tr-fast: 140ms ease;
+      --tr-mid:  280ms ease;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      width: 100%; height: 100%;
+      background: var(--bg-void);
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 13px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      overflow: hidden;
+    }
+    body::after {
+      content: '';
+      position: fixed; inset: 0;
+      background: repeating-linear-gradient(
+        0deg, transparent, transparent 3px,
+        rgba(0, 3, 10, 0.07) 3px, rgba(0, 3, 10, 0.07) 4px
+      );
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* ── Page grid ──────────────────────────────────────────────────────────── */
+    #page {
+      display: grid;
+      grid-template-rows: 48px 28px 55vh 220px 30px;
+      height: 100vh;
+    }
+
+    /* ── Header ─────────────────────────────────────────────────────────────── */
+    #header {
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      gap: 16px;
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border-dim);
+      position: relative;
+      overflow: hidden;
+      z-index: 100;
+    }
+    #header::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, var(--accent-violet) 30%, var(--accent-blue) 60%, transparent 100%);
+      opacity: 0.5;
+    }
+
+    .logo {
+      display: flex; align-items: center; gap: 10px;
+      font-family: var(--font-display);
+      font-size: 13px; font-weight: 900; letter-spacing: 5px;
+      color: var(--text-bright); text-transform: uppercase; flex-shrink: 0;
+    }
+    .logo-mark {
+      position: relative; width: 26px; height: 26px;
+      border: 1.5px solid var(--accent-violet);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--accent-violet); font-size: 11px;
+    }
+    .logo-mark::before {
+      content: '';
+      position: absolute; top: -3px; left: -3px;
+      width: 5px; height: 5px;
+      border-top: 1.5px solid var(--accent-violet);
+      border-left: 1.5px solid var(--accent-violet);
+    }
+    .logo-mark::after {
+      content: '';
+      position: absolute; bottom: -3px; right: -3px;
+      width: 5px; height: 5px;
+      border-bottom: 1.5px solid var(--accent-violet);
+      border-right: 1.5px solid var(--accent-violet);
+    }
+    .logo-sub { font-size: 8px; font-weight: 400; color: var(--text-secondary); letter-spacing: 3px; }
+
+    .h-sep { width: 1px; height: 22px; background: var(--border-mid); flex-shrink: 0; }
+    .h-spacer { flex: 1; }
+
+    .h-pill {
+      display: flex; align-items: center; gap: 7px;
+      font-size: 9px; color: var(--text-secondary);
+      letter-spacing: 1.5px; text-transform: uppercase; flex-shrink: 0;
+    }
+    .status-dot {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--accent-green);
+      box-shadow: 0 0 6px var(--accent-green);
+      animation: pulse-dot 2.2s infinite; flex-shrink: 0;
+    }
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; box-shadow: 0 0 6px var(--accent-green); }
+      50%       { opacity: 0.4; box-shadow: 0 0 14px var(--accent-green); }
+    }
+    .h-time {
+      font-family: var(--font-display); font-size: 12px; font-weight: 600;
+      letter-spacing: 3px; color: var(--accent-cyan);
+    }
+
+    .h-nav-btn {
+      display: flex; align-items: center; gap: 6px;
+      padding: 4px 10px;
+      background: transparent;
+      border: 1px solid var(--border-mid);
+      color: var(--text-secondary);
+      font-family: var(--font-mono);
+      font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase;
+      text-decoration: none; cursor: pointer;
+      transition: all var(--tr-fast); flex-shrink: 0;
+    }
+    .h-nav-btn:hover { border-color: var(--border-bright); color: var(--text-primary); background: var(--bg-hover); }
+    .h-nav-btn.active { border-color: var(--accent-violet); color: var(--accent-violet); }
+    .h-nav-icon { font-size: 11px; }
+
+    /* ── Breadcrumb ─────────────────────────────────────────────────────────── */
+    #breadcrumb {
+      display: flex; align-items: center; gap: 8px;
+      padding: 0 16px;
+      background: rgba(0,0,0,0.40);
+      border-bottom: 1px solid var(--border-dim);
+      font-size: 9px; color: var(--text-muted);
+      letter-spacing: 1.5px; text-transform: uppercase;
+    }
+    .bc-sep { color: var(--border-mid); }
+    .bc-current { color: var(--accent-violet); }
+    .bc-hint { margin-left: auto; color: var(--text-dim); font-size: 8px; letter-spacing: 1px; }
+
+    /* ── Top section: input + output ─────────────────────────────────────────── */
+    #top-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      overflow: hidden;
+      border-bottom: 1px solid var(--border-dim);
+    }
+
+    /* ── Bottom section: ORBAT tree ─────────────────────────────────────────── */
+    #bottom-section {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background: var(--bg-panel);
+    }
+
+    /* ── Panels ──────────────────────────────────────────────────────────────── */
+    .panel {
+      display: flex; flex-direction: column;
+      overflow: hidden;
+      background: var(--bg-panel);
+    }
+    .panel + .panel { border-left: 1px solid var(--border-dim); }
+    .panel-hdr {
+      display: flex; align-items: center; gap: 8px;
+      padding: 6px 12px;
+      border-bottom: 1px solid var(--border-dim);
+      background: rgba(0,0,0,0.35); flex-shrink: 0;
+    }
+    .panel-title {
+      font-family: var(--font-display);
+      font-size: 10px; font-weight: 600;
+      letter-spacing: 2.5px; color: var(--text-secondary);
+      text-transform: uppercase; flex: 1;
+    }
+    .panel-badge {
+      font-size: 10px; padding: 1px 6px;
+      border: 1px solid var(--border-mid);
+      color: var(--text-muted); letter-spacing: 1px;
+    }
+    .panel-badge.valid   { border-color: var(--accent-green-dim); color: var(--accent-green); }
+    .panel-badge.invalid { border-color: rgba(255,59,82,0.4);     color: var(--accent-red);   }
+    .panel-badge.amber   { border-color: rgba(255,170,51,0.4);    color: var(--accent-amber);  }
+    .panel-badge.violet  { border-color: rgba(136,102,255,0.4);   color: var(--accent-violet); }
+    .panel-body { flex: 1; overflow: hidden; display: flex; flex-direction: column; }
+
+    /* ── Action bar ──────────────────────────────────────────────────────────── */
+    .action-bar {
+      display: flex; align-items: center; gap: 8px;
+      padding: 7px 12px;
+      border-bottom: 1px solid var(--border-dim);
+      background: rgba(0,0,0,0.20);
+      flex-shrink: 0; flex-wrap: wrap;
+    }
+
+    /* ── Buttons ─────────────────────────────────────────────────────────────── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 6px 14px;
+      background: transparent;
+      border: 1px solid var(--border-mid);
+      color: var(--text-secondary);
+      font-family: var(--font-mono);
+      font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase;
+      cursor: pointer; text-decoration: none;
+      transition: all var(--tr-fast);
+    }
+    .btn:hover { border-color: var(--border-bright); color: var(--text-primary); background: var(--bg-hover); }
+    .btn-green { border-color: var(--accent-green-dim); color: var(--accent-green); }
+    .btn-green:hover { background: var(--accent-green-glow); border-color: var(--accent-green); box-shadow: 0 0 8px rgba(0,232,122,0.12); }
+    .btn-violet { border-color: rgba(136,102,255,0.4); color: var(--accent-violet); }
+    .btn-violet:hover { background: rgba(136,102,255,0.08); border-color: var(--accent-violet); }
+    .btn-icon { font-size: 12px; line-height: 1; }
+
+    /* Format selector */
+    .fmt-select {
+      padding: 4px 8px;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-mid);
+      color: var(--text-secondary);
+      font-family: var(--font-mono);
+      font-size: 9px; letter-spacing: 1px;
+      cursor: pointer; outline: none;
+    }
+    .fmt-select:focus { border-color: var(--accent-violet); color: var(--text-primary); }
+
+    /* ── Template textarea ───────────────────────────────────────────────────── */
+    .input-wrap { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+    #template-input {
+      flex: 1;
+      width: 100%; height: 100%;
+      padding: 10px 12px;
+      background: transparent;
+      border: none; outline: none; resize: none;
+      color: var(--text-bright);
+      font-family: var(--font-mono);
+      font-size: 10px; line-height: 1.7;
+      tab-size: 2;
+    }
+    #template-input::placeholder { color: var(--text-dim); }
+    #template-input:focus { background: rgba(0,20,40,0.3); }
+
+    /* ── Output panel ────────────────────────────────────────────────────────── */
+    .output-wrap { flex: 1; overflow: auto; position: relative; }
+    #template-output {
+      margin: 0; padding: 12px;
+      font-family: var(--font-mono);
+      font-size: 10px; line-height: 1.7;
+      color: var(--text-secondary);
+      white-space: pre-wrap; word-break: break-all;
+      min-height: 100%;
+    }
+    .out-empty {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 8px;
+      color: var(--text-dim);
+      font-size: 9px; letter-spacing: 2px; text-transform: uppercase;
+    }
+    .out-empty-icon { font-size: 28px; color: var(--border-mid); }
+
+    /* JSON syntax */
+    .json-key  { color: var(--accent-blue);   }
+    .json-str  { color: var(--accent-green);  }
+    .json-num  { color: var(--accent-amber);  }
+    .json-bool { color: var(--accent-violet); }
+    .json-null { color: var(--text-muted);    }
+
+    /* ── ORBAT Tree ──────────────────────────────────────────────────────────── */
+    #tree-section-hdr {
+      display: flex; align-items: center; gap: 8px;
+      padding: 6px 12px;
+      border-top: 1px solid var(--border-dim);
+      border-bottom: 1px solid var(--border-dim);
+      background: rgba(0,0,0,0.40);
+      flex-shrink: 0;
+    }
+    .tree-title {
+      font-family: var(--font-display);
+      font-size: 8px; font-weight: 600;
+      letter-spacing: 2.5px; color: var(--text-secondary);
+      text-transform: uppercase;
+    }
+    .tree-search-wrap { display: flex; align-items: center; gap: 8px; flex: 1; }
+    #tree-search {
+      flex: 1; max-width: 300px;
+      padding: 3px 10px;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-mid);
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 10px; outline: none;
+    }
+    #tree-search:focus { border-color: var(--accent-violet); }
+    #tree-search::placeholder { color: var(--text-dim); }
+
+    #tree-wrap {
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 8px 12px;
+      /* Tactical scrollbar */
+      scrollbar-width: thin;
+      scrollbar-color: var(--border-mid) var(--bg-primary);
+    }
+    #tree-wrap::-webkit-scrollbar { width: 4px; }
+    #tree-wrap::-webkit-scrollbar-track { background: var(--bg-primary); }
+    #tree-wrap::-webkit-scrollbar-thumb { background: var(--border-mid); }
+    #tree-wrap::-webkit-scrollbar-thumb:hover { background: var(--border-bright); }
+
+    /* Tree node styles */
+    .tree-node {
+      display: block;
+      margin-bottom: 1px;
+    }
+    .tree-item {
+      display: flex; align-items: center; gap: 8px;
+      padding: 4px 8px;
+      border: 1px solid transparent;
+      cursor: default;
+      transition: all var(--tr-fast);
+      min-width: 0;
+    }
+    .tree-item:hover {
+      background: var(--bg-hover);
+      border-color: var(--border-dim);
+    }
+    .tree-icon {
+      font-size: 10px; flex-shrink: 0;
+      color: var(--text-muted);
+    }
+    .tree-id {
+      color: var(--accent-amber); font-size: 9px;
+      letter-spacing: 1px; flex-shrink: 0;
+      min-width: 80px;
+    }
+    .tree-name {
+      color: var(--text-primary); font-size: 10px;
+      flex: 1; white-space: nowrap; overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .tree-type {
+      font-size: 8px; color: var(--text-muted);
+      letter-spacing: 1px; text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .tree-status {
+      font-size: 8px; padding: 1px 5px;
+      border-radius: 1px; flex-shrink: 0;
+    }
+    .tree-status.active   { color: var(--accent-green); border: 1px solid rgba(0,232,122,0.3); }
+    .tree-status.inactive { color: var(--text-muted);   border: 1px solid var(--border-dim); }
+    .tree-status.standby  { color: var(--accent-amber); border: 1px solid rgba(255,170,51,0.3); }
+
+    .tree-children { /* revealed/hidden by JS toggle — no extra style needed */ }
+
+    .tree-empty {
+      display: flex; flex-direction: column; align-items: center;
+      justify-content: center; gap: 8px;
+      padding: 24px; color: var(--text-dim);
+      font-size: 9px; letter-spacing: 2px; text-transform: uppercase;
+    }
+    .tree-empty-icon { font-size: 24px; color: var(--border-mid); }
+
+    /* Echelon color dots */
+    .ech-dot {
+      width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0;
+    }
+    .ech-command  { background: var(--accent-amber); }
+    .ech-team     { background: var(--accent-blue); }
+    .ech-squad    { background: var(--accent-green); }
+    .ech-operator { background: var(--text-secondary); }
+    .ech-default  { background: var(--border-mid); }
+
+    /* Validation strip */
+    .validation-strip {
+      display: flex; align-items: center; gap: 12px;
+      padding: 5px 12px;
+      border-top: 1px solid var(--border-dim);
+      background: rgba(0,0,0,0.30);
+      flex-shrink: 0;
+      font-size: 9px; letter-spacing: 1px;
+    }
+    .vs-label { color: var(--text-dim); text-transform: uppercase; }
+    .vs-val { color: var(--text-secondary); }
+    .vs-val.ok  { color: var(--accent-green); }
+    .vs-val.err { color: var(--accent-red); }
+    .vs-spacer { flex: 1; }
+
+    /* ── Footer ──────────────────────────────────────────────────────────────── */
+    #footer {
+      display: flex; align-items: center;
+      padding: 0 16px; gap: 16px;
+      background: var(--bg-panel);
+      border-top: 1px solid var(--border-dim);
+      font-size: 9px; letter-spacing: 1px; color: var(--text-dim);
+    }
+    .footer-brand {
+      font-family: var(--font-display); font-size: 8px; font-weight: 600;
+      letter-spacing: 3px; color: var(--border-bright); text-transform: uppercase;
+    }
+    .footer-spacer { flex: 1; }
+    .footer-ver { color: var(--text-dim); font-size: 8px; }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .spinning { display: inline-block; animation: spin 0.8s linear infinite; }
+  </style>
+</head>
+<body>
+<div id="page">
+
+  <!-- ── Header ──────────────────────────────────────────────────────────────── -->
+  <header id="header">
+    <div class="logo">
+      <div class="logo-mark">✦</div>
+      ORBAT
+      <span class="logo-sub">// AD-HOC CREATE</span>
+    </div>
+
+    <div class="h-sep"></div>
+
+    <div class="h-pill">
+      <div class="status-dot" id="api-dot"></div>
+      <span id="api-txt">API</span>
+    </div>
+
+    <div class="h-sep"></div>
+    <div class="h-spacer"></div>
+
+    <a class="h-nav-btn" href="index.html" title="Mapa ORBAT">
+      <span class="h-nav-icon">◎</span> MAP
+    </a>
+    <a class="h-nav-btn" href="orbat_bulk.html" title="Bulk Create">
+      <span class="h-nav-icon">≡</span> BULK
+    </a>
+    <a class="h-nav-btn active" href="orbat_ad_hoc.html" title="Ad Hoc Create">
+      <span class="h-nav-icon">✦</span> AD-HOC
+    </a>
+
+    <div class="h-sep"></div>
+
+    <a class="h-nav-btn" href="login.html" title="Access Control">
+      <span class="h-nav-icon">◉</span> USER
+    </a>
+
+    <div class="h-sep"></div>
+    <div class="h-time" id="h-time">00:00:00Z</div>
+  </header>
+
+  <!-- ── Breadcrumb ────────────────────────────────────────────────────────── -->
+  <div id="breadcrumb">
+    <span>ORBAT</span>
+    <span class="bc-sep">›</span>
+    <span class="bc-current">Creación Ad Hoc</span>
+    <span class="bc-hint">Soporta JSON canónico y CSV · selecciona formato antes de validar</span>
+  </div>
+
+  <!-- ── Top: Template input + Response ─────────────────────────────────────── -->
+  <div id="top-section">
+
+    <!-- LEFT: Template Input -->
+    <div class="panel">
+      <div class="panel-hdr">
+        <span class="panel-title">Template Input</span>
+        <span class="panel-badge" id="fmt-badge" style="color:var(--accent-violet);border-color:rgba(136,102,255,0.4)">JSON</span>
+        <span class="panel-badge" id="val-badge">NOT VALIDATED</span>
+      </div>
+
+      <div class="action-bar">
+        <select class="fmt-select" id="template-format">
+          <option value="json">JSON</option>
+          <option value="csv">CSV</option>
+        </select>
+        <button class="btn btn-violet" id="template-validate">
+          <span class="btn-icon" id="val-icon">⊛</span> VALIDATE
+        </button>
+        <button class="btn btn-green" id="template-import">
+          <span class="btn-icon" id="imp-icon">↓</span> IMPORT
+        </button>
+        <button class="btn" id="load-preset">
+          <span class="btn-icon">◈</span> PRESET
+        </button>
+        <button class="btn" id="adhoc-clear">
+          <span class="btn-icon">⊗</span> CLEAR
+        </button>
+      </div>
+
+      <div class="panel-body">
+        <div class="input-wrap">
+          <textarea id="template-input"
+            placeholder='{"template_version":"1.0","meta":{"name":"Demo Op"},"nodes":[{"id":"CMD-1","parent_id":null,"name":"Command","type":"command","order":0,"status":"active"}]}'
+            spellcheck="false"
+            autocomplete="off"></textarea>
+        </div>
+      </div>
+
+      <div class="validation-strip">
+        <span class="vs-label">Format</span>
+        <span class="vs-val" id="vs-fmt">JSON</span>
+        <span class="vs-label">Nodes</span>
+        <span class="vs-val" id="vs-nodes">—</span>
+        <span class="vs-label">Errors</span>
+        <span class="vs-val" id="vs-errors">—</span>
+        <span class="vs-spacer"></span>
+        <span class="vs-label" id="vs-ts-lbl" style="display:none">Last run</span>
+        <span class="vs-val" id="vs-ts"></span>
+      </div>
+    </div>
+
+    <!-- RIGHT: Response -->
+    <div class="panel">
+      <div class="panel-hdr">
+        <span class="panel-title">API Response</span>
+        <span class="panel-badge" id="out-badge">IDLE</span>
+      </div>
+
+      <div class="action-bar">
+        <button class="btn" id="out-copy-btn"><span class="btn-icon">⧉</span> COPY</button>
+        <button class="btn" id="out-clear-btn"><span class="btn-icon">⊗</span> CLEAR</button>
+        <span style="margin-left:auto;font-size:8px;color:var(--text-dim)" id="out-ts"></span>
+      </div>
+
+      <div class="panel-body">
+        <div class="output-wrap">
+          <div class="out-empty" id="out-empty">
+            <div class="out-empty-icon">✦</div>
+            <div>NO RESPONSE YET</div>
+            <div style="font-size:8px;color:var(--text-dim)">Validate or Import a template</div>
+          </div>
+          <pre id="template-output" style="display:none"></pre>
+        </div>
+      </div>
+
+      <div class="validation-strip">
+        <span class="vs-label">Status</span>
+        <span class="vs-val" id="vs-http">—</span>
+        <span class="vs-label">Imported</span>
+        <span class="vs-val" id="vs-imported">—</span>
+        <span class="vs-spacer"></span>
+        <span class="vs-label">Valid</span>
+        <span class="vs-val" id="vs-valid">—</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── Bottom: ORBAT Index Tree ───────────────────────────────────────────── -->
+  <div id="bottom-section">
+    <div id="tree-section-hdr">
+      <span class="tree-title">ORBAT Index</span>
+      <div class="h-sep"></div>
+      <div class="tree-search-wrap">
+        <input id="tree-search" type="text" placeholder="Search by id / name / path…" autocomplete="off" spellcheck="false">
+        <button class="btn" id="tree-refresh"><span class="btn-icon">↺</span> REFRESH</button>
+      </div>
+      <div class="h-sep"></div>
+      <span class="panel-badge" id="tree-count-badge">0 NODES</span>
+    </div>
+    <div id="tree-wrap">
+      <div class="tree-empty" id="tree-empty">
+        <div class="tree-empty-icon">⬡</div>
+        <div>NO UNITS INDEXED</div>
+        <div style="font-size:8px;color:var(--text-dim)">Import a template or seed demo data</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Footer ──────────────────────────────────────────────────────────────── -->
+  <footer id="footer">
+    <span class="footer-brand">ORBAT</span>
+    <div class="h-sep"></div>
+    <span style="color:var(--text-dim)">Mode: AD-HOC</span>
+    <div class="footer-spacer"></div>
+    <span class="footer-ver">v1.3.0</span>
+  </footer>
+
+</div>
+
+<script>
+  /* Clock */
+  function tick() {
+    document.getElementById('h-time').textContent =
+      new Date().toISOString().substring(11, 19) + 'Z';
+  }
+  tick(); setInterval(tick, 1000);
+
+  /* API ping */
+  async function pingApi() {
+    const dot = document.getElementById('api-dot');
+    const txt = document.getElementById('api-txt');
+    try {
+      const r = await fetch('/api/v1/orbat/tree', { method: 'GET' });
+      if (r.ok) {
+        dot.style.background = 'var(--accent-green)';
+        dot.style.boxShadow = '0 0 6px var(--accent-green)';
+        txt.textContent = 'API ONLINE';
+        txt.style.color = 'var(--accent-green)';
+      } else throw new Error();
+    } catch {
+      dot.style.background = 'var(--accent-red)';
+      dot.style.boxShadow = '0 0 6px var(--accent-red)';
+      dot.style.animationName = 'none';
+      txt.textContent = 'API OFFLINE';
+      txt.style.color = 'var(--accent-red)';
+    }
+  }
+  pingApi();
+
+  /* Format badge update */
+  document.getElementById('template-format').addEventListener('change', function() {
+    const b = document.getElementById('fmt-badge');
+    const vl = document.getElementById('vs-fmt');
+    b.textContent = this.value.toUpperCase();
+    vl.textContent = this.value.toUpperCase();
+  });
+
+  /* Clear input */
+  document.getElementById('adhoc-clear').addEventListener('click', () => {
+    document.getElementById('template-input').value = '';
+    clearOutput();
+    document.getElementById('val-badge').textContent = 'NOT VALIDATED';
+    document.getElementById('val-badge').className = 'panel-badge';
+  });
+
+  /* JSON syntax highlight */
+  function syntaxHighlight(json) {
+    return json.replace(
+      /("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g,
+      (match) => {
+        let cls = 'json-num';
+        if (/^"/.test(match)) cls = /:$/.test(match) ? 'json-key' : 'json-str';
+        else if (/true|false/.test(match)) cls = 'json-bool';
+        else if (/null/.test(match)) cls = 'json-null';
+        return `<span class="${cls}">${match}</span>`;
+      }
+    );
+  }
+
+  /* Output helpers */
+  function clearOutput() {
+    document.getElementById('template-output').style.display = 'none';
+    document.getElementById('out-empty').style.display = 'flex';
+    document.getElementById('out-badge').textContent = 'IDLE';
+    document.getElementById('out-badge').className = 'panel-badge';
+    document.getElementById('vs-http').textContent = '—';
+    document.getElementById('vs-imported').textContent = '—';
+    document.getElementById('vs-valid').textContent = '—';
+    document.getElementById('out-ts').textContent = '';
+  }
+
+  /* Copy output */
+  document.getElementById('out-copy-btn').addEventListener('click', () => {
+    const text = document.getElementById('template-output').textContent;
+    if (text) navigator.clipboard.writeText(text).catch(() => {});
+  });
+  document.getElementById('out-clear-btn').addEventListener('click', clearOutput);
+
+  /* Spinner helpers */
+  function spinBtn(iconId) {
+    document.getElementById(iconId).classList.add('spinning');
+    setTimeout(() => document.getElementById(iconId).classList.remove('spinning'), 3000);
+  }
+  document.getElementById('template-validate').addEventListener('click', () => spinBtn('val-icon'), true);
+  document.getElementById('template-import').addEventListener('click', () => spinBtn('imp-icon'), true);
+
+  /* Intercept template module show() → re-render with syntax highlighting.
+     Uses disconnect/observe to avoid infinite loop (innerHTML mutations fire
+     as microtasks AFTER _rendering is reset, so a flag alone is insufficient). */
+  const _pre = document.getElementById('template-output');
+  let _obs;
+
+  function _handleAdHocMutation() {
+    _obs.disconnect();
+
+    const text = _pre.textContent;
+    if (!text || text === 'Sin ejecutar') { _obs.observe(_pre, { childList: true }); return; }
+
+    let parsed;
+    try { parsed = JSON.parse(text); } catch { _obs.observe(_pre, { childList: true }); return; }
+
+    _pre.innerHTML = syntaxHighlight(JSON.stringify(parsed, null, 2));
+    _pre.style.display = 'block';
+    document.getElementById('out-empty').style.display = 'none';
+
+    const hasError  = !!(parsed.error);
+    const isValid   = parsed.valid === true;
+    const imported  = parsed.imported ?? parsed.created;
+
+    document.getElementById('out-badge').textContent =
+      hasError ? 'ERROR' : (isValid ? 'VALID' : (imported !== undefined ? 'IMPORTED' : 'OK'));
+    document.getElementById('out-badge').className =
+      'panel-badge' + (hasError ? ' invalid' : (isValid ? ' valid' : ' violet'));
+
+    if (parsed.valid !== undefined) {
+      const vb = document.getElementById('val-badge');
+      vb.textContent = parsed.valid ? 'VALID' : 'INVALID';
+      vb.className = 'panel-badge ' + (parsed.valid ? 'valid' : 'invalid');
+
+      const errs = (parsed.errors || []).length;
+      const veEl = document.getElementById('vs-errors');
+      veEl.textContent = errs || '0';
+      veEl.className = 'vs-val' + (errs > 0 ? ' err' : ' ok');
+
+      const nodeCount = (parsed.normalized_nodes || []).length;
+      if (nodeCount) document.getElementById('vs-nodes').textContent = nodeCount;
+
+      const vvEl = document.getElementById('vs-valid');
+      vvEl.textContent = parsed.valid ? 'YES' : 'NO';
+      vvEl.className = 'vs-val' + (parsed.valid ? ' ok' : ' err');
+    }
+    if (imported !== undefined) {
+      document.getElementById('vs-imported').textContent = imported;
+    }
+
+    const ts = new Date().toISOString().substring(11, 19) + 'Z';
+    document.getElementById('vs-ts-lbl').style.display = '';
+    document.getElementById('vs-ts').textContent = ts;
+    document.getElementById('out-ts').textContent = ts;
+
+    _obs.observe(_pre, { childList: true });
+  }
+
+  _obs = new MutationObserver(_handleAdHocMutation);
+  _obs.observe(_pre, { childList: true });
+
+  /* Tree count badge — updated whenever renderOrbatTree rewrites tree-wrap */
+  const _treeWrap = document.getElementById('tree-wrap');
+  const _treeObs = new MutationObserver(() => {
+    const count = _treeWrap.querySelectorAll('.tree-item').length;
+    document.getElementById('tree-count-badge').textContent = count + ' NODES';
+    document.getElementById('tree-empty').style.display = count ? 'none' : '';
+  });
+  _treeObs.observe(_treeWrap, { childList: true, subtree: false });
+</script>
+
+<script type="module" src="modules/orbat-ad-hoc-create/index.js?v=20260307d"></script>
+
+</body>
+</html>

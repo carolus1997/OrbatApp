@@ -1,0 +1,662 @@
+[
+  {
+    "id": "op_evento_publico_001",
+    "name": "Carlos Ruiz",
+    "role": "supervisor",
+    "unit": "team_evento_publico_010101",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_001",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_002",
+    "name": "Lucia Navarro",
+    "role": "operador",
+    "unit": "team_evento_publico_010102",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_002",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_003",
+    "name": "Javier Diaz",
+    "role": "conductor",
+    "unit": "team_evento_publico_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_003",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_004",
+    "name": "Marta Vega",
+    "role": "tecnico_drones",
+    "unit": "team_evento_publico_010104",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_004",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_evento_publico_005",
+    "name": "Sergio Castro",
+    "role": "operador_CCTV",
+    "unit": "team_evento_publico_010105",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_005",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_evento_publico_006",
+    "name": "Ana Serrano",
+    "role": "supervisor",
+    "unit": "team_evento_publico_010201",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_006",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_007",
+    "name": "Diego Fuentes",
+    "role": "operador",
+    "unit": "team_evento_publico_010202",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_007",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_008",
+    "name": "Elena Santos",
+    "role": "conductor",
+    "unit": "team_evento_publico_010203",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_008",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_009",
+    "name": "Raul Lopez",
+    "role": "tecnico_drones",
+    "unit": "team_evento_publico_010204",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_009",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_evento_publico_010",
+    "name": "Nuria Ortega",
+    "role": "operador_CCTV",
+    "unit": "team_evento_publico_010205",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_010",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_evento_publico_011",
+    "name": "Pablo Cano",
+    "role": "supervisor",
+    "unit": "team_evento_publico_010101",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_011",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_012",
+    "name": "Irene Romero",
+    "role": "operador",
+    "unit": "team_evento_publico_010102",
+    "status": "on_break",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_012",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_013",
+    "name": "Hector Nunez",
+    "role": "conductor",
+    "unit": "team_evento_publico_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_013",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_014",
+    "name": "Paula Rey",
+    "role": "tecnico_drones",
+    "unit": "team_evento_publico_010104",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_014",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_evento_publico_015",
+    "name": "Ruben Gomez",
+    "role": "operador_CCTV",
+    "unit": "team_evento_publico_010105",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_015",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_evento_publico_016",
+    "name": "Clara Martinez",
+    "role": "supervisor",
+    "unit": "team_evento_publico_010201",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_016",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_017",
+    "name": "Adrian Pardo",
+    "role": "operador",
+    "unit": "team_evento_publico_010202",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_017",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_018",
+    "name": "Noelia Molina",
+    "role": "conductor",
+    "unit": "team_evento_publico_010203",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_018",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_019",
+    "name": "Tomas Herrera",
+    "role": "tecnico_drones",
+    "unit": "team_evento_publico_010204",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_019",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_evento_publico_020",
+    "name": "Silvia Iglesias",
+    "role": "operador_CCTV",
+    "unit": "team_evento_publico_010205",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_020",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_evento_publico_021",
+    "name": "David Ruiz",
+    "role": "supervisor",
+    "unit": "team_evento_publico_010101",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_021",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_022",
+    "name": "Alicia Navarro",
+    "role": "operador",
+    "unit": "team_evento_publico_010102",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_022",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_023",
+    "name": "Miguel Diaz",
+    "role": "conductor",
+    "unit": "team_evento_publico_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_023",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_024",
+    "name": "Beatriz Vega",
+    "role": "tecnico_drones",
+    "unit": "team_evento_publico_010104",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_024",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_evento_publico_025",
+    "name": "Alvaro Castro",
+    "role": "operador_CCTV",
+    "unit": "team_evento_publico_010105",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_025",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_evento_publico_026",
+    "name": "Celia Serrano",
+    "role": "supervisor",
+    "unit": "team_evento_publico_010201",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_026",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_027",
+    "name": "Manuel Fuentes",
+    "role": "operador",
+    "unit": "team_evento_publico_010202",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_027",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_028",
+    "name": "Sara Santos",
+    "role": "conductor",
+    "unit": "team_evento_publico_010203",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_028",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_029",
+    "name": "Victor Lopez",
+    "role": "tecnico_drones",
+    "unit": "team_evento_publico_010204",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_029",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_evento_publico_030",
+    "name": "Laura Ortega",
+    "role": "operador_CCTV",
+    "unit": "team_evento_publico_010205",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_030",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_evento_publico_031",
+    "name": "Carlos Cano",
+    "role": "supervisor",
+    "unit": "team_evento_publico_010101",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_031",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_032",
+    "name": "Lucia Romero",
+    "role": "operador",
+    "unit": "team_evento_publico_010102",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_032",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_033",
+    "name": "Javier Nunez",
+    "role": "conductor",
+    "unit": "team_evento_publico_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_033",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_034",
+    "name": "Marta Rey",
+    "role": "tecnico_drones",
+    "unit": "team_evento_publico_010104",
+    "status": "on_break",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_034",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_evento_publico_035",
+    "name": "Sergio Gomez",
+    "role": "operador_CCTV",
+    "unit": "team_evento_publico_010105",
+    "status": "on_break",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_035",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_evento_publico_036",
+    "name": "Ana Martinez",
+    "role": "supervisor",
+    "unit": "team_evento_publico_010201",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_036",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_037",
+    "name": "Diego Pardo",
+    "role": "operador",
+    "unit": "team_evento_publico_010202",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_037",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_038",
+    "name": "Elena Molina",
+    "role": "conductor",
+    "unit": "team_evento_publico_010203",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_038",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_039",
+    "name": "Raul Herrera",
+    "role": "tecnico_drones",
+    "unit": "team_evento_publico_010204",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_039",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_evento_publico_040",
+    "name": "Nuria Iglesias",
+    "role": "operador_CCTV",
+    "unit": "team_evento_publico_010205",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_040",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_evento_publico_041",
+    "name": "Pablo Ruiz",
+    "role": "supervisor",
+    "unit": "team_evento_publico_010101",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_041",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_042",
+    "name": "Irene Navarro",
+    "role": "operador",
+    "unit": "team_evento_publico_010102",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_042",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_043",
+    "name": "Hector Diaz",
+    "role": "conductor",
+    "unit": "team_evento_publico_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_043",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_044",
+    "name": "Paula Vega",
+    "role": "tecnico_drones",
+    "unit": "team_evento_publico_010104",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_044",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_evento_publico_045",
+    "name": "Ruben Castro",
+    "role": "operador_CCTV",
+    "unit": "team_evento_publico_010105",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_045",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_evento_publico_046",
+    "name": "Clara Serrano",
+    "role": "supervisor",
+    "unit": "team_evento_publico_010201",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_046",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_047",
+    "name": "Adrian Fuentes",
+    "role": "operador",
+    "unit": "team_evento_publico_010202",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_047",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_048",
+    "name": "Noelia Santos",
+    "role": "conductor",
+    "unit": "team_evento_publico_010203",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_048",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_evento_publico_049",
+    "name": "Tomas Lopez",
+    "role": "tecnico_drones",
+    "unit": "team_evento_publico_010204",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_049",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_evento_publico_050",
+    "name": "Silvia Ortega",
+    "role": "operador_CCTV",
+    "unit": "team_evento_publico_010205",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_evento_publico_050",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  }
+]

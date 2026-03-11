@@ -1,0 +1,247 @@
+[
+  {
+    "id": "sns_evento_publico_001",
+    "type": "camara_corporal",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_002",
+    "type": "dron",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_003",
+    "type": "camara_fija",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_004",
+    "type": "sensor_termico",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_005",
+    "type": "sensor_perimetral",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_006",
+    "type": "camara_corporal",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_007",
+    "type": "dron",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_008",
+    "type": "camara_fija",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_009",
+    "type": "sensor_termico",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_010",
+    "type": "sensor_perimetral",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_011",
+    "type": "camara_corporal",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_012",
+    "type": "dron",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_013",
+    "type": "camara_fija",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_014",
+    "type": "sensor_termico",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_015",
+    "type": "sensor_perimetral",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_016",
+    "type": "camara_corporal",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_017",
+    "type": "dron",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_018",
+    "type": "camara_fija",
+    "unit_assigned": "unit_evento_publico_company",
+    "status": "active",
+    "mobility": "fixed"
+  },
+  {
+    "id": "sns_evento_publico_019",
+    "type": "sensor_termico",
+    "unit_assigned": "team_evento_publico_010204",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_020",
+    "type": "sensor_perimetral",
+    "unit_assigned": "team_evento_publico_010205",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_021",
+    "type": "camara_corporal",
+    "unit_assigned": "team_evento_publico_010101",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_022",
+    "type": "dron",
+    "unit_assigned": "team_evento_publico_010102",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_023",
+    "type": "camara_fija",
+    "unit_assigned": "team_evento_publico_010103",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_024",
+    "type": "sensor_termico",
+    "unit_assigned": "team_evento_publico_010104",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_025",
+    "type": "sensor_perimetral",
+    "unit_assigned": "team_evento_publico_010105",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_026",
+    "type": "camara_corporal",
+    "unit_assigned": "team_evento_publico_010201",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_027",
+    "type": "dron",
+    "unit_assigned": "team_evento_publico_010202",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_028",
+    "type": "camara_fija",
+    "unit_assigned": "team_evento_publico_010203",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_029",
+    "type": "sensor_termico",
+    "unit_assigned": "team_evento_publico_010204",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_030",
+    "type": "sensor_perimetral",
+    "unit_assigned": "team_evento_publico_010205",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_031",
+    "type": "camara_corporal",
+    "unit_assigned": "team_evento_publico_010101",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_032",
+    "type": "dron",
+    "unit_assigned": "team_evento_publico_010102",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_033",
+    "type": "camara_fija",
+    "unit_assigned": "team_evento_publico_010103",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_034",
+    "type": "sensor_termico",
+    "unit_assigned": "team_evento_publico_010104",
+    "status": "active",
+    "mobility": "mobile"
+  },
+  {
+    "id": "sns_evento_publico_035",
+    "type": "sensor_perimetral",
+    "unit_assigned": "team_evento_publico_010105",
+    "status": "active",
+    "mobility": "mobile"
+  }
+]

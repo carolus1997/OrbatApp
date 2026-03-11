@@ -1,0 +1,8 @@
+flowchart LR
+  IN[Child points + ORBAT tree] --> FILT[Filter stale/outliers]
+  FILT --> AS[Alpha Shape]
+  AS --> SM[Chaikin Smoothing]
+  SM --> VAL[Geometry Validation]
+  VAL --> STAB[Temporal Stabilizer\n(hysteresis + blending)]
+  STAB --> VER[Zone Version Store]
+  VER --> API[Deployment Zone API]

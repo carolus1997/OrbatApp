@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-03-05T20:23:50.368266Z",
+  "generator": "demo_data_generator",
+  "scenarios": [
+    {
+      "scenario": "patrullaje_urbano",
+      "operators": 15,
+      "teams": 3,
+      "vehicles": 5,
+      "sensors": 12,
+      "track_points": 112,
+      "events": 90
+    },
+    {
+      "scenario": "evento_publico",
+      "operators": 50,
+      "teams": 10,
+      "vehicles": 12,
+      "sensors": 35,
+      "track_points": 352,
+      "events": 260
+    },
+    {
+      "scenario": "vigilancia_perimetral",
+      "operators": 12,
+      "teams": 3,
+      "vehicles": 4,
+      "sensors": 24,
+      "track_points": 126,
+      "events": 120
+    }
+  ],
+  "available_formats": [
+    "json",
+    "geojson",
+    "csv"
+  ]
+}

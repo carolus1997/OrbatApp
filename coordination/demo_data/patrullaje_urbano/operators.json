@@ -1,0 +1,200 @@
+[
+  {
+    "id": "op_patrullaje_urbano_001",
+    "name": "Carlos Ruiz",
+    "role": "supervisor",
+    "unit": "team_patrullaje_urbano_010101",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_001",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_002",
+    "name": "Lucia Navarro",
+    "role": "operador",
+    "unit": "team_patrullaje_urbano_010102",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_002",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_003",
+    "name": "Javier Diaz",
+    "role": "conductor",
+    "unit": "team_patrullaje_urbano_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_003",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_004",
+    "name": "Marta Vega",
+    "role": "tecnico_drones",
+    "unit": "team_patrullaje_urbano_010101",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_004",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_005",
+    "name": "Sergio Castro",
+    "role": "operador_CCTV",
+    "unit": "team_patrullaje_urbano_010102",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_005",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_006",
+    "name": "Ana Serrano",
+    "role": "supervisor",
+    "unit": "team_patrullaje_urbano_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_006",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_007",
+    "name": "Diego Fuentes",
+    "role": "operador",
+    "unit": "team_patrullaje_urbano_010101",
+    "status": "standby",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_007",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_008",
+    "name": "Elena Santos",
+    "role": "conductor",
+    "unit": "team_patrullaje_urbano_010102",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_008",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_009",
+    "name": "Raul Lopez",
+    "role": "tecnico_drones",
+    "unit": "team_patrullaje_urbano_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_009",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_010",
+    "name": "Nuria Ortega",
+    "role": "operador_CCTV",
+    "unit": "team_patrullaje_urbano_010101",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_010",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_011",
+    "name": "Pablo Cano",
+    "role": "supervisor",
+    "unit": "team_patrullaje_urbano_010102",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_011",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_012",
+    "name": "Irene Romero",
+    "role": "operador",
+    "unit": "team_patrullaje_urbano_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_012",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_013",
+    "name": "Hector Nunez",
+    "role": "conductor",
+    "unit": "team_patrullaje_urbano_010101",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_013",
+    "equipment": [
+      "bodycam",
+      "gps_tracker",
+      "radio"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_014",
+    "name": "Paula Rey",
+    "role": "tecnico_drones",
+    "unit": "team_patrullaje_urbano_010102",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_014",
+    "equipment": [
+      "control_dron",
+      "gps_tracker",
+      "radio",
+      "tablet_tactica"
+    ]
+  },
+  {
+    "id": "op_patrullaje_urbano_015",
+    "name": "Ruben Gomez",
+    "role": "operador_CCTV",
+    "unit": "team_patrullaje_urbano_010103",
+    "status": "active",
+    "photo": "https://placehold.co/300x300?text=op_patrullaje_urbano_015",
+    "equipment": [
+      "gps_tracker",
+      "radio",
+      "terminal_video"
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "veh_patrullaje_urbano_001",
+    "type": "patrulla",
+    "identifier": "V-PATRULLAJE_URBANO_001",
+    "unit_assigned": "team_patrullaje_urbano_010101",
+    "status": "active"
+  },
+  {
+    "id": "veh_patrullaje_urbano_002",
+    "type": "SUV_seguridad",
+    "identifier": "V-PATRULLAJE_URBANO_002",
+    "unit_assigned": "team_patrullaje_urbano_010102",
+    "status": "active"
+  },
+  {
+    "id": "veh_patrullaje_urbano_003",
+    "type": "moto_vigilancia",
+    "identifier": "V-PATRULLAJE_URBANO_003",
+    "unit_assigned": "team_patrullaje_urbano_010103",
+    "status": "active"
+  },
+  {
+    "id": "veh_patrullaje_urbano_004",
+    "type": "dron",
+    "identifier": "V-PATRULLAJE_URBANO_004",
+    "unit_assigned": "team_patrullaje_urbano_010101",
+    "status": "standby"
+  },
+  {
+    "id": "veh_patrullaje_urbano_005",
+    "type": "centro_movil",
+    "identifier": "V-PATRULLAJE_URBANO_005",
+    "unit_assigned": "team_patrullaje_urbano_010102",
+    "status": "active"
+  }
+]

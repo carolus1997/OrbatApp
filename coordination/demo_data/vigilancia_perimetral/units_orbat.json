@@ -1,0 +1,50 @@
+[
+  {
+    "id": "unit_vigilancia_perimetral_company",
+    "name": "Proteccion Global Iberia",
+    "type": "empresa",
+    "echelon": "company",
+    "status": "active",
+    "parent_id": null
+  },
+  {
+    "id": "unit_vigilancia_perimetral_div_01",
+    "name": "Division 1",
+    "type": "division",
+    "echelon": "division",
+    "status": "active",
+    "parent_id": "unit_vigilancia_perimetral_company"
+  },
+  {
+    "id": "unit_vigilancia_perimetral_sec_01_01",
+    "name": "Seccion 1-1",
+    "type": "section",
+    "echelon": "section",
+    "status": "active",
+    "parent_id": "unit_vigilancia_perimetral_div_01"
+  },
+  {
+    "id": "team_vigilancia_perimetral_010101",
+    "name": "Equipo 1-1-1",
+    "type": "team",
+    "echelon": "team",
+    "status": "active",
+    "parent_id": "unit_vigilancia_perimetral_sec_01_01"
+  },
+  {
+    "id": "team_vigilancia_perimetral_010102",
+    "name": "Equipo 1-1-2",
+    "type": "team",
+    "echelon": "team",
+    "status": "active",
+    "parent_id": "unit_vigilancia_perimetral_sec_01_01"
+  },
+  {
+    "id": "team_vigilancia_perimetral_010103",
+    "name": "Equipo 1-1-3",
+    "type": "team",
+    "echelon": "team",
+    "status": "active",
+    "parent_id": "unit_vigilancia_perimetral_sec_01_01"
+  }
+]

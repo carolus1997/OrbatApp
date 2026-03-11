@@ -1,0 +1,43 @@
+flowchart LR
+  subgraph FE[Frontend Operacional]
+    MAP[Map Shell]
+    TOC[ORBAT TOC]
+    INS[Zone Inspector]
+    EVT[Event Layer]
+    FORM[Unit/Position Forms]
+  end
+
+  subgraph API[API v1]
+    GW[REST Gateway]
+  end
+
+  subgraph BE[Backend Core]
+    ORB[ORBAT Engine]
+    DZ[Deployment Zone Engine]
+    TRK[Tracking Engine]
+    EVTENG[Event Engine]
+    GEO[GEO Engine]
+    GCD[Geocoding Engine]
+  end
+
+  subgraph EXT[Externos]
+    NOM[Nominatim]
+  end
+
+  MAP --> GW
+  TOC --> GW
+  INS --> GW
+  EVT --> GW
+  FORM --> GW
+
+  GW --> ORB
+  GW --> DZ
+  GW --> TRK
+  GW --> EVTENG
+  GW --> GEO
+  GW --> GCD
+
+  TRK --> DZ
+  ORB --> DZ
+  EVTENG --> GEO
+  GCD --> NOM

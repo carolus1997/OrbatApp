@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ORBAT GEOSPATIAL // TOC</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=20260308d">
+  <link rel="stylesheet" href="style.css?v=20260308d">
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="app">
+
+  <header id="header">
+    <div class="logo">
+      <div class="logo-mark">⊕</div>
+      ORBAT
+      <span class="logo-sub">// GEOSPATIAL OPS</span>
+    </div>
+
+    <div class="h-sep"></div>
+
+    <div class="h-pill">
+      <div class="status-dot" id="api-dot"></div>
+      <span id="api-txt">CONNECTING</span>
+    </div>
+
+    <div class="h-sep"></div>
+
+    <div class="h-pill" style="color:var(--text-muted)">
+      OP:&nbsp;<span class="h-op-id" id="op-id">ALPHA-ZERO</span>
+    </div>
+
+    <div class="h-spacer"></div>
+
+    <span class="h-coords" id="h-coords">LAT -- &nbsp; LON --</span>
+    <div class="h-sep"></div>
+    <div class="mobile-tabs">
+      <button type="button" class="tab-btn" id="btn-toc">TOC</button>
+      <button type="button" class="tab-btn" id="btn-map">MAP</button>
+      <button type="button" class="tab-btn" id="btn-detail">DETAIL</button>
+    </div>
+    <div class="h-sep"></div>
+        <a class="h-user-btn" href="orbat_bulk.html" title="ORBAT Bulk">
+      <span class="h-user-icon">B</span>
+      <span class="h-user-lbl">BULK</span>
+    </a>
+    <div class="h-sep"></div>
+    <a class="h-user-btn" href="orbat_ad_hoc.html" title="ORBAT Ad Hoc">
+      <span class="h-user-icon">A</span>
+      <span class="h-user-lbl">AD-HOC</span>
+    </a>
+    <div class="h-sep"></div>    <a class="h-user-btn" href="login.html" title="Access Control">
+      <span class="h-user-icon">◉</span>
+      <span class="h-user-lbl">USER</span>
+    </a>
+    <div class="h-sep"></div>
+    <div class="h-time" id="h-time">00:00:00Z</div>
+  </header>
+
+  <main id="main">
+    <aside class="panel" id="left-panel">
+      <div class="panel-hdr">
+        <span class="panel-title">ORBAT Structure</span>
+        <span class="panel-badge" id="unit-count-badge">0 UNITS</span>
+        <button type="button" class="panel-icon-btn" id="orbat-vis-btn" onclick="toggleOrbatLayers()" title="Hide ORBAT on map">◉</button>
+        <button type="button" class="panel-icon-btn" id="panel-collapse-btn" onclick="toggleLeftPanel()" title="Collapse panel">◀</button>
+      </div>
+
+      <!-- Search bar -->
+      <div class="tree-search-bar">
+        <span class="tree-search-icon">⌕</span>
+        <input class="tree-search-input" id="tree-search" type="text" placeholder="Search units…" autocomplete="off"
+          oninput="treeSetSearch(this.value)" onkeydown="if(event.key==='Escape'){this.value='';treeSetSearch('')}">
+        <span class="tree-search-count" id="tree-search-count"></span>
+        <button class="tree-search-clear" id="tree-search-clear" onclick="document.getElementById('tree-search').value='';treeSetSearch('')" title="Clear search">✕</button>
+      </div>
+      <!-- Tree actions -->
+      <div class="tree-actions">
+        <button type="button" class="tree-act-btn" onclick="treeExpandAll()" title="Expand all">▼ ALL</button>
+        <button type="button" class="tree-act-btn" onclick="treeCollapseAll()" title="Collapse all">▶ ALL</button>
+      </div>
+
+      <div id="tree-scroll">
+        <div class="tree-empty" id="tree-empty">
+          <span class="tree-empty-icon">⬡</span>
+          NO UNITS LOADED<br>
+          <span style="font-size:9px;opacity:0.6">Seed demo or add a unit</span>
+        </div>
+      </div>
+
+      <div id="controls">
+        <button type="button" class="btn btn-green" onclick="app.openModal('add-unit')">
+          <span class="btn-icon">+</span> ADD UNIT
+        </button>
+        <button type="button" class="btn" onclick="app.openModal('ingest')">
+          <span class="btn-icon">↓</span> INGEST POSITION
+        </button>
+        <button type="button" class="btn" onclick="app.refresh()">
+          <span class="btn-icon">↺</span> REFRESH ALL
+        </button>
+        <button type="button" class="btn btn-amber" onclick="app.openModal('add-event')">
+          <span class="btn-icon">⚡</span> ADD EVENT
+        </button>
+        <label class="btn" style="cursor:pointer" title="Import events from CSV (label,lat,lon,severity,notes)">
+          <span class="btn-icon">↑</span> EVENTS CSV
+          <input type="file" accept=".csv,text/csv" style="display:none"
+            onchange="LocalEvents.importCsv(this)">
+        </label>
+        <button type="button" class="btn btn-red" onclick="app.confirmClearOrbat()" title="Delete all units">
+          <span class="btn-icon">⊗</span> CLEAR ORBAT
+        </button>
+      </div>
+      <div class="panel-resize-handle panel-resize-handle-right-edge" id="left-resize-handle"></div>
+    </aside>
+
+    <section id="map-wrap">
+      <div id="map"></div>
+
+      <!-- Vertical draw toolbar — left side -->
+      <div id="map-toolbar">
+        <div class="mtb-group">
+          <button type="button" class="mtb-btn" id="geotools-open-btn" data-tip="GeoTools">GT</button>
+          <button type="button" class="mtb-btn" id="measure-line-btn"    data-tip="Line (click again to exit)">╱</button>
+          <button type="button" class="mtb-btn" id="measure-polygon-btn" data-tip="Polygon (click again to exit)">⬡</button>
+          <button type="button" class="mtb-btn" id="measure-buffer-btn"  data-tip="Buffer (click again to exit)">◎</button>
+          <button type="button" class="mtb-btn" id="measure-note-btn"    data-tip="Note (click again to exit)">✎</button>
+        </div>
+        <div class="mtb-sep"></div>
+        <div class="mtb-group">
+          <button type="button" class="mtb-btn mtb-finish"  id="measure-finish-btn" data-tip="Commit shape (dbl-click)">✔</button>
+          <button type="button" class="mtb-btn mtb-cancel"  id="measure-cancel-btn" data-tip="Discard active points">✕</button>
+          <button type="button" class="mtb-btn mtb-danger"  id="measure-clear-btn"  data-tip="Clear all shapes">⊗</button>
+          <button type="button" class="mtb-btn mtb-danger"  id="erase-btn" data-tip="Erase element (click unit/shape)"
+            onclick="MapWidgets.toggleErase()">✗</button>
+        </div>
+        <div class="mtb-sep"></div>
+        <div class="mtb-group">
+          <button type="button" class="mtb-btn" id="fav-open-btn" data-tip="Bookmarks" onclick="Favorites.open()">★</button>
+          <button type="button" class="mtb-btn" id="ogc-open-btn" data-tip="OGC Services" onclick="OgcServices.open()">⊞</button>
+          <button type="button" class="mtb-btn" id="msb-open-btn" data-tip="Bookmarks" onclick="MarkerSidebar.toggle()">⚑</button>
+        </div>
+        <div id="mtb-tooltip" class="mtb-tooltip"></div>
+      </div>
+
+      <aside id="geotools-panel" class="geotools-panel">
+        <div class="gt-panel-hdr">
+          <span class="gt-panel-title">GeoTools</span>
+          <button type="button" class="gt-close-btn" id="gt-close-btn">x</button>
+        </div>
+        <div class="gt-tool-row">
+          <button type="button" class="gt-tool-btn" id="gt-tool-converter" data-mode="gt-converter">Converter</button>
+          <button type="button" class="gt-tool-btn" id="gt-tool-rings" data-mode="gt-rings">Rings</button>
+          <button type="button" class="gt-tool-btn" id="gt-tool-bearing" data-mode="gt-bearing">Bearing</button>
+        </div>
+        <div class="gt-tool-row">
+          <button type="button" class="gt-tool-btn" id="gt-tool-sector" data-mode="gt-sector">Sector</button>
+          <button type="button" class="gt-tool-btn" id="gt-tool-proximity" data-mode="gt-proximity">Proximity</button>
+          <button type="button" class="gt-tool-btn" id="gt-tool-dispersion" data-mode="gt-dispersion">Dispersion</button>
+        </div>
+        <div class="gt-block">
+          <div class="gt-block-title">Cursor HUD</div>
+          <div class="gt-btn-row">
+            <button type="button" class="gt-btn" id="gt-pin-cursor-btn">Pin Cursor</button>
+            <button type="button" class="gt-btn" id="gt-unpin-cursor-btn">Unpin</button>
+          </div>
+          <div class="gt-kv"><span>DD</span><strong id="gt-cursor-dd">--</strong></div>
+          <div class="gt-kv"><span>MGRS</span><strong id="gt-cursor-mgrs">--</strong></div>
+          <div class="gt-kv"><span>PINNED</span><strong id="gt-cursor-pinned">--</strong></div>
+        </div>
+        <div class="gt-block">
+          <div class="gt-block-title">Coordinate Converter</div>
+          <div class="gt-form-row">
+            <input id="gt-lat-input" class="gt-input" type="number" step="0.000001" placeholder="Latitude">
+            <input id="gt-lon-input" class="gt-input" type="number" step="0.000001" placeholder="Longitude">
+          </div>
+          <div class="gt-btn-row">
+            <button type="button" class="gt-btn" id="gt-convert-input-btn">Convert</button>
+            <button type="button" class="gt-btn" id="gt-convert-cursor-btn">Use Cursor</button>
+          </div>
+          <div class="gt-kv"><span>DD</span><strong id="gt-dd-output">--</strong></div>
+          <div class="gt-kv"><span>DMS</span><strong id="gt-dms-output">--</strong></div>
+          <div class="gt-kv"><span>UTM</span><strong id="gt-utm-output">--</strong></div>
+          <div class="gt-kv"><span>MGRS</span><strong id="gt-mgrs-output">--</strong></div>
+        </div>
+        <div class="gt-block">
+          <div class="gt-block-title">Range Rings</div>
+          <label class="gt-lbl" for="gt-rings-input">Radii meters</label>
+          <input id="gt-rings-input" class="gt-input" type="text" value="100,250,500" placeholder="100,250,500">
+          <div class="gt-help">Activate `Rings` and click the map.</div>
+        </div>
+        <div class="gt-block">
+          <div class="gt-block-title">Bearing & Distance</div>
+          <div class="gt-help">Activate `Bearing`, click start and end points.</div>
+        </div>
+        <div class="gt-block">
+          <div class="gt-block-title">Operational Tools</div>
+          <div class="gt-kv"><span>Proximity dataset</span><strong id="gt-dataset-output">units</strong></div>
+          <div class="gt-kv"><span>Source refs</span><strong id="gt-source-refs-output">0</strong></div>
+        </div>
+        <div class="gt-block">
+          <div class="gt-block-title">Actions</div>
+          <label class="gt-check">
+            <input id="gt-export-refs-input" type="checkbox" checked>
+            <span>Include operational refs</span>
+          </label>
+          <div class="gt-btn-row">
+            <button type="button" class="gt-btn" id="gt-export-btn">Export GeoJSON</button>
+            <button type="button" class="gt-btn gt-btn-danger" id="gt-clear-btn">Clear</button>
+          </div>
+          <div class="gt-summary" id="gt-summary">Ready</div>
+        </div>
+      </aside>
+
+      <div id="gt-sector-popup" class="gt-popup">
+        <div class="gt-popup-title">Sector Params</div>
+        <label class="gt-lbl" for="gt-sector-bearing-input">Bearing deg</label>
+        <input id="gt-sector-bearing-input" class="gt-input" type="number" value="0" min="0" max="359" step="1">
+        <label class="gt-lbl" for="gt-sector-spread-input">Spread deg</label>
+        <input id="gt-sector-spread-input" class="gt-input" type="number" value="60" min="1" max="180" step="1">
+        <label class="gt-lbl" for="gt-sector-radius-input">Radius m</label>
+        <input id="gt-sector-radius-input" class="gt-input" type="number" value="250" min="1" step="1">
+        <div class="gt-help">Activate `Sector` and click anchor point.</div>
+      </div>
+
+      <div id="gt-proximity-popup" class="gt-popup">
+        <div class="gt-popup-title">Proximity Params</div>
+        <label class="gt-lbl" for="gt-proximity-radius-input">Radius m</label>
+        <input id="gt-proximity-radius-input" class="gt-input" type="number" value="250" min="1" step="1">
+        <label class="gt-lbl" for="gt-proximity-dataset-input">Dataset</label>
+        <select id="gt-proximity-dataset-input" class="gt-input">
+          <option value="units">Units</option>
+          <option value="events">Events</option>
+          <option value="shapes">Shapes</option>
+        </select>
+        <div class="gt-help">Activate `Proximity` and click anchor point.</div>
+      </div>
+
+      <div id="gt-dispersion-popup" class="gt-popup">
+        <div class="gt-popup-title">Dispersion Params</div>
+        <label class="gt-lbl" for="gt-dispersion-dataset-input">Dataset</label>
+        <select id="gt-dispersion-dataset-input" class="gt-input">
+          <option value="visible-units">Visible units</option>
+          <option value="selected-unit-family">Selected unit family</option>
+        </select>
+        <button type="button" class="gt-btn" id="gt-run-dispersion-btn">Run Dispersion</button>
+      </div>
+
+      <!-- Right panel: legend + zoom -->
+      <div id="map-tools">
+        <div id="map-legend" class="map-widget">
+          <div class="widget-title">Legend</div>
+          <div class="legend-row"><span class="swatch link"></span> Parent-child link</div>
+          <div class="legend-row"><span class="swatch unit"></span> Unit position</div>
+          <div class="legend-row"><span class="swatch measure"></span> Measure / Buffer</div>
+          <div class="legend-row"><span class="swatch fav"></span> Bookmark</div>
+          <div id="ogc-legend-rows"></div>
+        </div>
+        <div class="map-widget" style="display:flex;gap:4px;padding:5px;min-width:0">
+          <button type="button" class="mtb-btn" id="zoom-in-btn"  data-tip="Zoom in"  style="flex:1;border-color:var(--border-dim)">+</button>
+          <button type="button" class="mtb-btn" id="zoom-out-btn" data-tip="Zoom out" style="flex:1;border-color:var(--border-dim)">−</button>
+        </div>
+      </div>
+
+      <!-- Draw status bar (bottom strip, shown while drawing) -->
+      <div id="draw-status" class="draw-status hidden">
+        <span class="draw-st-icon" id="draw-status-icon">╱</span>
+        <span class="draw-st-vsep"></span>
+        <span class="draw-st-msg" id="draw-status-msg">LINE MODE</span>
+        <span class="draw-st-pts" id="draw-status-pts">0 PTS</span>
+        <span class="draw-st-vsep"></span>
+        <span class="draw-st-live" id="draw-status-live">--</span>
+        <span class="draw-buffer-wrap" id="draw-buffer-wrap">
+          <span class="draw-st-hint">R:</span>
+          <input class="draw-buffer-input" id="buffer-radius" type="number" value="80" min="1" step="1">
+          <span class="draw-st-hint">m</span>
+        </span>
+        <div class="draw-st-spacer"></div>
+        <span class="draw-st-hint">DBL-CLICK TO FINISH</span>
+        <button type="button" class="draw-st-esc" onclick="MapWidgets.setMode('none')">ESC</button>
+      </div>
+
+      <!-- Bookmark name popup (positioned at click or map centre) -->
+      <div id="fnp" class="fnp" style="display:none">
+        <div class="fnp-hdr">
+          <span class="fnp-title">★ BOOKMARK</span>
+          <button type="button" class="fnp-close" id="fnp-close">✕</button>
+        </div>
+        <input class="fnp-input" id="fnp-input" type="text" placeholder="Name…" maxlength="60" autocomplete="off">
+        <div class="fnp-risk" id="fnp-risk"><!-- risk dots injected by JS --></div>
+        <div class="fnp-foot">
+          <button type="button" class="fnp-cancel" id="fnp-cancel">CANCEL</button>
+          <button type="button" class="fnp-save" id="fnp-save">SAVE ★</button>
+        </div>
+      </div>
+
+      <!-- Marker sidebar (slides in from the right of the map) -->
+      <div id="marker-sidebar" class="marker-sidebar">
+        <div class="msb-hdr">
+          <span class="msb-title">⚑ BOOKMARKS</span>
+          <div class="msb-tabs">
+            <button class="msb-tab msb-tab-active" id="msb-tab-list" onclick="MarkerSidebar.showTab('list')">LIST</button>
+            <button class="msb-tab" id="msb-tab-cfg" onclick="MarkerSidebar.showTab('cfg')">CONFIG</button>
+          </div>
+          <button class="msb-close" onclick="MarkerSidebar.close()">✕</button>
+        </div>
+        <div class="msb-view" id="msb-view-list"></div>
+        <div class="msb-view msb-hidden" id="msb-view-cfg"></div>
+        <div class="msb-foot">
+          <button class="btn btn-green" onclick="Favorites.startPickForSidebar()">+ BOOKMARK</button>
+          <label class="btn" style="cursor:pointer" title="Import bookmarks from CSV (name,lat,lon,category)">
+            ⇑ IMPORT CSV
+            <input type="file" accept=".csv,text/csv" style="display:none"
+              onchange="const r=new FileReader();r.onload=e=>Favorites.importCsv(e.target.result);r.readAsText(this.files[0]);this.value=''">
+          </label>
+        </div>
+      </div>
+
+      <!-- Note popup (positioned at click coordinates) -->
+      <div id="note-popup" class="note-popup" style="display:none">
+        <div class="note-popup-hdr">
+          <span class="note-popup-title">✎ NOTE</span>
+          <button type="button" class="note-popup-close" id="note-popup-close">✕</button>
+        </div>
+        <textarea class="note-popup-text" id="note-popup-text" rows="3" placeholder="Enter note text..."></textarea>
+        <div class="note-popup-foot">
+          <div class="note-color-picker">
+            <div class="note-color-dot c-amber active" data-color="amber" title="Amber"></div>
+            <div class="note-color-dot c-red"   data-color="red"   title="Red"></div>
+            <div class="note-color-dot c-green" data-color="green" title="Green"></div>
+            <div class="note-color-dot c-blue"  data-color="blue"  title="Blue"></div>
+          </div>
+          <button type="button" class="note-popup-save" id="note-popup-save">SAVE</button>
+        </div>
+      </div>
+
+      <div class="corner corner-tl"></div>
+      <div class="corner corner-tr"></div>
+      <div class="corner corner-bl"></div>
+      <div class="corner corner-br"></div>
+      <div class="map-hud" id="hud-tl">
+        <div id="hud-zoom">ZOOM: --</div>
+        <div id="hud-feats">FEATURES: --</div>
+        <div id="hud-events">EVENTS: --</div>
+      </div>
+      <div class="map-zoom-pill" id="zoom-pill">ZOOM: --</div>
+    </section>
+
+    <aside class="panel panel-right" id="right-panel">
+      <div class="panel-resize-handle panel-resize-handle-left-edge" id="right-resize-handle"></div>
+      <div class="panel-hdr">
+        <span class="panel-title">Unit Detail</span>
+        <span class="panel-badge" id="fresh-badge">--</span>
+      </div>
+
+      <div id="detail-scroll">
+        <div class="detail-empty" id="detail-empty">
+          <div class="detail-empty-icon">◎</div>
+          <div>SELECT A UNIT</div>
+          <div style="font-size:9px;opacity:0.5;margin-top:4px">Click on map or tree</div>
+        </div>
+      </div>
+
+      <div class="panel-hdr" style="border-top:1px solid var(--border-dim)">
+        <span class="panel-title">Event Log</span>
+        <span class="panel-badge" id="ev-count">0</span>
+      </div>
+      <div id="event-log"></div>
+    </aside>
+  </main>
+
+  <footer id="footer" style="position:relative">
+    <span class="footer-lbl">FEED</span>
+    <div class="ticker-wrap">
+      <div class="ticker-inner" id="ticker">
+        <span class="ticker-item"><span class="tk">SYS</span><span class="tv">ORBAT GEOSPATIAL PLATFORM // TACTICAL OPERATIONS CENTER // ONLINE</span></span>
+        <span class="ticker-item"><span class="tk">SYS</span><span class="tv">ORBAT GEOSPATIAL PLATFORM // TACTICAL OPERATIONS CENTER // ONLINE</span></span>
+      </div>
+    </div>
+    <div class="footer-stats">
+      <div class="stat-item"><span class="stat-lbl">UNITS</span><span class="stat-val" id="s-total">0</span></div>
+      <div class="stat-item"><span class="stat-lbl">FRESH</span><span class="stat-val green" id="s-fresh">0</span></div>
+      <div class="stat-item"><span class="stat-lbl">STALE</span><span class="stat-val amber" id="s-stale">0</span></div>
+      <div class="stat-item"><span class="stat-lbl">LOST</span><span class="stat-val red" id="s-lost">0</span></div>
+      <div class="stat-item"><span class="stat-lbl">RENDER</span><span class="stat-val" id="s-render">--</span></div>
+    </div>
+  </footer>
+</div>
+
+<!-- ── ADD UNIT MODAL ─────────────────────────────────────────────────── -->
+<div class="modal-overlay" id="m-add-unit" style="display:none">
+  <div class="modal">
+    <div class="modal-hdr">
+      <span class="modal-title">Create Unit</span>
+      <button type="button" class="modal-close" onclick="app.closeModal('add-unit')">x</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-lbl">Unit ID</label>
+          <input class="form-input" id="au-id" placeholder="ALPHA-1">
+        </div>
+        <div class="form-group">
+          <label class="form-lbl">Name</label>
+          <input class="form-input" id="au-name" placeholder="Alpha Team 1">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-lbl">Echelon</label>
+          <select class="form-select" id="au-echelon">
+            <option value="company">Company</option>
+            <option value="platoon">Platoon</option>
+            <option value="squad" selected>Squad</option>
+            <option value="operator">Operator</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-lbl">Type</label>
+          <select class="form-select" id="au-type">
+            <option value="security">Security</option>
+            <option value="surveillance">Surveillance</option>
+            <option value="response">Response</option>
+            <option value="command">Command</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-lbl">Parent Unit ID (optional)</label>
+        <input class="form-input" id="au-parent" placeholder="Parent ID or leave empty">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-lbl">Latitude</label>
+          <input class="form-input" id="au-lat" type="number" step="0.000001" placeholder="40.4168">
+        </div>
+        <div class="form-group">
+          <label class="form-lbl">Longitude</label>
+          <input class="form-input" id="au-lon" type="number" step="0.000001" placeholder="-3.7038">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-lbl">Address (optional)</label>
+        <input class="form-input" id="au-address" placeholder="Suggested by reverse geocoding">
+      </div>
+      <div class="form-group">
+        <label class="form-lbl">Geocode confidence (0-1)</label>
+        <input class="form-input" id="au-geoc" type="number" step="0.01" min="0" max="1" value="0">
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button type="button" class="btn" onclick="app.enableMapPick()">SET FROM MAP</button>
+      <button type="button" class="btn" onclick="app.closeModal('add-unit')">CANCEL</button>
+      <button type="button" class="btn btn-green" onclick="app.submitUnit()">CREATE</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── EDIT UNIT MODAL ────────────────────────────────────────────────── -->
+<div class="modal-overlay" id="m-edit-unit" style="display:none">
+  <div class="modal">
+    <div class="modal-hdr">
+      <span class="modal-title">Edit Unit</span>
+      <button type="button" class="modal-close" onclick="app.closeModal('edit-unit')">x</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-lbl">Unit ID</label>
+        <input class="form-input" id="eu-id" readonly>
+      </div>
+      <div class="form-group">
+        <label class="form-lbl">Name</label>
+        <input class="form-input" id="eu-name">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-lbl">Type</label>
+          <input class="form-input" id="eu-type">
+        </div>
+        <div class="form-group">
+          <label class="form-lbl">Echelon</label>
+          <input class="form-input" id="eu-echelon">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-lbl">Status</label>
+        <input class="form-input" id="eu-status">
+      </div>
+      <div class="form-group">
+        <label class="form-lbl">Parent Unit ID</label>
+        <input class="form-input" id="eu-parent">
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button type="button" class="btn" onclick="app.closeModal('edit-unit')">CANCEL</button>
+      <button type="button" class="btn btn-green" onclick="app.submitEditUnit()">SAVE</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── INGEST POSITION MODAL ──────────────────────────────────────────── -->
+<div class="modal-overlay" id="m-ingest" style="display:none">
+  <div class="modal">
+    <div class="modal-hdr">
+      <span class="modal-title">Ingest Position</span>
+      <button type="button" class="modal-close" onclick="app.closeModal('ingest')">x</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-lbl">Unit ID</label>
+        <input class="form-input" id="ip-uid" placeholder="ALPHA-1">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-lbl">Latitude</label>
+          <input class="form-input" id="ip-lat" type="number" step="0.0001" placeholder="40.4168">
+        </div>
+        <div class="form-group">
+          <label class="form-lbl">Longitude</label>
+          <input class="form-input" id="ip-lon" type="number" step="0.0001" placeholder="-3.7038">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-lbl">Accuracy (m)</label>
+          <input class="form-input" id="ip-acc" type="number" value="5">
+        </div>
+        <div class="form-group">
+          <label class="form-lbl">Source</label>
+          <select class="form-select" id="ip-src">
+            <option value="bodycam">Bodycam</option>
+            <option value="manual">Manual</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-lbl">Address hint (optional)</label>
+        <input class="form-input" id="ip-address" placeholder="Suggested by reverse geocoding">
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button type="button" class="btn" onclick="app.enableMapPick('ingest')">SET FROM MAP</button>
+      <button type="button" class="btn" onclick="app.closeModal('ingest')">CANCEL</button>
+      <button type="button" class="btn btn-green" onclick="app.submitIngest()">INGEST</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── BOOKMARKS MODAL ────────────────────────────────────────────────── -->
+<div class="modal-overlay" id="m-favorites" style="display:none">
+  <div class="modal">
+    <div class="modal-hdr">
+      <span class="modal-title">★ Bookmarks</span>
+      <button type="button" class="modal-close" onclick="Favorites.close()">x</button>
+    </div>
+    <div class="modal-body" style="padding:0">
+      <div id="fav-list"></div>
+    </div>
+    <div class="modal-foot">
+      <button type="button" class="btn" onclick="Favorites.close()">CLOSE</button>
+      <button type="button" class="btn" onclick="Favorites.enableMapPick()">↯ PICK ON MAP</button>
+      <button type="button" class="btn btn-green" onclick="Favorites.addCurrentView()">★ SAVE VIEW</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── OGC SERVICES MODAL ─────────────────────────────────────────────── -->
+<div class="modal-overlay" id="m-ogc" style="display:none">
+  <div class="modal modal-ogc">
+    <div class="modal-hdr">
+      <span class="modal-title">⊞ OGC Services</span>
+      <button type="button" class="modal-close" onclick="OgcServices.close()">x</button>
+    </div>
+    <div class="modal-body">
+
+      <!-- 1. Service endpoint ───────────────────────── -->
+      <div class="ogc-block">
+        <div class="ogc-block-hdr">1 · Service endpoint</div>
+        <div class="ogc-form-grid">
+          <div class="form-group ogc-type-group">
+            <label class="form-lbl">Type</label>
+            <select class="form-select" id="ogc-type" onchange="OgcServices.onTypeChange()">
+              <option value="wms">WMS</option>
+              <option value="wmts">WMTS (KVP)</option>
+              <option value="xyz">XYZ / TMS</option>
+            </select>
+          </div>
+          <div class="form-group ogc-url-group">
+            <label class="form-lbl">Service URL</label>
+            <input class="form-input" id="ogc-url" placeholder="https://example.com/ows">
+          </div>
+        </div>
+        <button type="button" class="btn ogc-caps-btn" id="ogc-caps-btn" onclick="OgcServices.getCapabilities()">
+          ⬇ GET CAPABILITIES
+        </button>
+        <div id="ogc-caps-status" class="ogc-caps-status" style="display:none"></div>
+      </div>
+
+      <!-- 2. Layer selection ────────────────────────── -->
+      <div class="ogc-block" id="ogc-layer-block">
+        <div class="ogc-block-hdr">2 · Layer</div>
+        <div class="form-group">
+          <label class="form-lbl" id="ogc-layers-lbl">Layer name / ID</label>
+          <select class="form-select" id="ogc-layer-select" style="display:none" onchange="OgcServices.onLayerSelect()"></select>
+          <input class="form-input" id="ogc-layers" placeholder="layer_name">
+        </div>
+        <div class="ogc-form-grid" style="margin-top:8px">
+          <div class="form-group">
+            <label class="form-lbl">Display name</label>
+            <input class="form-input" id="ogc-name" placeholder="My layer">
+          </div>
+          <div class="form-group ogc-opacity-group">
+            <label class="form-lbl">Opacity (0 – 1)</label>
+            <input class="form-input" id="ogc-opacity" type="number" min="0" max="1" step="0.05" value="0.85">
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Active layers ─────────────────────────── -->
+      <div class="ogc-block ogc-block-list">
+        <div class="ogc-block-hdr">3 · Active layers</div>
+        <div id="ogc-list"><div class="ogc-empty">No layers added yet</div></div>
+      </div>
+
+    </div>
+    <div class="modal-foot">
+      <button type="button" class="btn" onclick="OgcServices.close()">CLOSE</button>
+      <button type="button" class="btn btn-green" onclick="OgcServices.add()">ADD LAYER</button>
+    </div>
+  </div>
+</div>
+
+
+<div id="notifs"></div>
+
+<!-- ── CLEAR ORBAT CONFIRM MODAL ──────────────────────────────────────── -->
+<div class="modal-overlay" id="m-clear-orbat" style="display:none">
+  <div class="modal" style="max-width:360px">
+    <div class="modal-hdr">
+      <span class="modal-title" style="color:var(--accent-red)">⊗ Clear ORBAT</span>
+      <button type="button" class="modal-close" onclick="app.closeModal('clear-orbat')">x</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size:11px;color:var(--text-primary);line-height:1.6;margin-bottom:12px">
+        This will permanently delete <strong id="clear-orbat-count">0</strong> unit(s).<br>
+        This action cannot be undone.
+      </p>
+      <div class="form-group">
+        <label class="form-lbl">Type <strong style="color:var(--accent-red)">CLEAR</strong> to confirm</label>
+        <input class="form-input" id="clear-orbat-input" placeholder="CLEAR" autocomplete="off"
+          oninput="document.getElementById('clear-orbat-ok').disabled = this.value !== 'CLEAR'">
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button type="button" class="btn" onclick="app.closeModal('clear-orbat')">CANCEL</button>
+      <button type="button" class="btn btn-red" id="clear-orbat-ok" disabled onclick="app.clearOrbat()">DELETE ALL</button>
+    </div>
+  </div>
+</div>
+
+<!-- ── ADD EVENT MODAL ────────────────────────────────────────────────── -->
+<div class="modal-overlay" id="m-add-event" style="display:none">
+  <div class="modal">
+    <div class="modal-hdr">
+      <span class="modal-title">⚡ Add Event</span>
+      <button type="button" class="modal-close" onclick="app.closeModal('add-event')">x</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-group">
+        <label class="form-lbl">Label</label>
+        <input class="form-input" id="ae-label" placeholder="Event description">
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-lbl">Latitude</label>
+          <input class="form-input" id="ae-lat" type="number" step="0.000001" placeholder="40.4168">
+        </div>
+        <div class="form-group">
+          <label class="form-lbl">Longitude</label>
+          <input class="form-input" id="ae-lon" type="number" step="0.000001" placeholder="-3.7038">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-lbl">Severity</label>
+        <select class="form-select" id="ae-severity">
+          <option value="critical">Critical</option>
+          <option value="high">High</option>
+          <option value="medium" selected>Medium</option>
+          <option value="low">Low</option>
+          <option value="info">Info</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-lbl">Notes</label>
+        <textarea class="form-input" id="ae-notes" rows="2" placeholder="Additional notes..."></textarea>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button type="button" class="btn" onclick="LocalEvents.enableMapPick()">SET FROM MAP</button>
+      <button type="button" class="btn" onclick="app.closeModal('add-event')">CANCEL</button>
+      <button type="button" class="btn btn-green" onclick="LocalEvents.submitAdd()">ADD EVENT</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// expose drawState for inline onclick on erase button
+document.addEventListener('DOMContentLoaded', () => {
+  window.drawState = window.drawState || { mode: 'none' };
+});
+</script>
+<script src="geotools.js?v=20260309a"></script>
+<script src="app.js?v=20260309a"></script>
+</body>
+</html>

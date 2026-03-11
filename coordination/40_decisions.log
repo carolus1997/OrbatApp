@@ -1,0 +1,53 @@
+2026-03-05 — Se adopta arquitectura modular monolith con boundaries por motor y evolucion a microservicios via contratos estables — Architect
+2026-03-05 — Se define PostgreSQL + PostGIS como almacenamiento operacional principal para Fase 1 — Architect
+2026-03-05 — La integracion multi-fuente se implementa con patron Adapter + CanonicalEvent v1 + bus de eventos interno — Architect
+2026-03-05 — Se adopta representacion geoespacial multi-escala: Operador punto, Equipo cluster, Seccion poligono, Compania area operacional — Architect
+2026-03-05 — Graph Engine inicia como proyeccion de relaciones operacionales; evaluacion posterior de motor de grafo dedicado segun carga analitica — Architect
+2026-03-05 — Tracking Engine opera con estados de frescura (fresh/stale/lost) y APIs de ultima posicion mas trazas temporales — Architect
+2026-03-05 — Se confirma SLA de tracking en tiempo real con objetivo p95 <= 1s y se adopta SLI E2E para validacion operativa — Architect
+2026-03-05 — Se separa el canal de tracking del resto de eventos para proteger latencia y evitar head-of-line blocking — Architect
+2026-03-05 — Se define proyeccion latest-position en memoria con persistencia asincrona para cumplir consulta de ultima posicion sub-segundo — Architect
+2026-03-05 — Se cierra CanonicalEvent v1.0.0 con envelope obligatorio, tipos minimos y reglas de compatibilidad e idempotencia — Architect
+2026-03-05 — Trade-off aceptado: persistencia asincrona de latest-position para priorizar latencia de consulta frente a consistencia inmediata total — Architect
+2026-03-05 — Se extiende la arquitectura objetivo a alcance end-to-end backend + frontend operacional con ownership compartido de contratos — Architect
+2026-03-05 — Se cierra contrato geo agregado para UI en /api/v1/geo/features con versionado por header y politica semver 1.x — Architect
+2026-03-05 — Se adopta SSE como sincronizacion front principal con fallback a polling 1s/2s/5s segun degradacion de red — Architect
+2026-03-05 — Se establecen lineamientos responsive tacticos (desktop/tablet/movil) y limites de complejidad visual para evitar sobrecarga operacional — Architect
+2026-03-05 — Se formaliza arquitectura inicial v0.5 para revision de direccion con alcance end-to-end backend + frontend — Architect
+2026-03-05 — Se acepta estado de alineacion tecnica: vertical slice P0 completado; dependencia abierta solo en retencion/auditoria — Architect
+2026-03-06 — Se incorpora Event Engine como bounded context para Event API v1 (ingest + timeline) con idempotencia obligatoria por clave compuesta — Architect
+2026-03-06 — Se incorpora Geocoding Engine con adaptador Nominatim, cache, rate limiting y fallback degradado para evitar bloqueo operativo — Architect
+2026-03-06 — Se define contrato click-to-coordinate front-back con persistencia en borrador y confirmacion final de unidad — Architect
+2026-03-06 — Trade-off aceptado: direccion contextual puede quedar vacia en degradacion, pero se permite alta por coordenadas para continuidad operativa — Architect
+2026-03-06 — Se mantiene aislamiento de carga: geocoding y timeline fuera de ruta critica de tracking para proteger SLA p95 <= 1s — Architect
+2026-03-06 — Se adopta semantica /api/v1/tracking/positions/{unit} sin datos como 200 con status no_track y trail vacio (se descarta 404) — Architect
+2026-03-06 — Se define contrato de compatibilidad frontend para geocoding/pick con version de contrato 1.x y API publica estable app.enableMapPick — Architect
+2026-03-06 — Se adopta cache busting obligatorio por content hash en app.js y politica cache-control diferenciada para evitar desalineacion index/app — Architect
+2026-03-06 — Se confirma degradacion geocoding: continuar con coordenadas crudas cuando Nominatim falle, marcando confianza baja — Architect
+2026-03-06 — Se adopta Unit Lifecycle con soft delete por defecto y hard delete restringido a flujo administrativo controlado — Architect
+2026-03-06 — Se define regla de borrado seguro: unidades con hijos/dependencias activas responden 409 con causa y acciones de remediacion — Architect
+2026-03-06 — Se extiende contrato geocoding/map-click a dos flujos UI (alta de unidad e ingest position) con contrato comun de confirmacion — Architect
+2026-03-06 — Se define Event Geo Layer con transformacion CanonicalEvent->GeoEventFeature, agregacion por zoom y filtros por tipo/fuente/severidad — Architect
+2026-03-06 — Se fija politica de resiliencia geocoding: timeout 800ms, retry max 2, cache L1/L2 y fallback a coordenada cruda con confidence low — Architect
+2026-03-06 — Se establece contrato tecnico obligatorio de map-pick con 5 etapas trazables (capture, validate, geocode, persist, confirm) — Architect
+2026-03-06 — Se fija criterio de exito map-pick: >=99% en 100 intentos por flujo, sin perdida de coordenadas y con tolerancia maxima <=1e-6 grados — Architect
+2026-03-06 — Se adopta gate de release obligatorio: no cerrar iteracion sin validacion E2E en entorno real de usuario con evidencia firmada — Architect
+2026-03-06 — Trade-off aceptado: ante falla de Nominatim se prioriza continuidad operativa con coordenada cruda sobre completitud de direccion — Architect
+
+2026-03-07 — Se reprioriza el modelo geoespacial: clustering reemplazado por Deployment Zone por nodo ORBAT — Architect
+2026-03-07 — Se selecciona Alpha Shape adaptativo como algoritmo base de zona con suavizado Chaikin acotado — Architect
+2026-03-07 — Se adopta estrategia anti-jitter con umbrales de recalculo, histeresis temporal y blending con geometria previa — Architect
+2026-03-07 — Se define contrato API v1 de deployment-zone con versionado de geometria, quality_score y estados operativos — Architect
+2026-03-07 — Se establece fallback formal para 0/1/2 puntos y subarboles dispersos (incluyendo MultiPolygon fragmentado) — Architect
+
+2026-03-07 — Se reprioriza arquitectura a ORBAT Management (alta masiva, indexado jerarquico y creacion ad hoc por plantillas) — Architect
+2026-03-07 — Se define esquema canonico orbat_template_v1 para JSON y CSV con normalizacion comun previa a persistencia — Architect
+2026-03-07 — Se adopta flujo en dos fases para lotes: prevalidate + commit para reducir riesgo de corrupcion estructural — Architect
+2026-03-07 — Se adopta validacion estructural strict/tolerant con errores duros bloqueantes (ciclos, padres invalidos, ids duplicados) — Architect
+2026-03-07 — Se define estrategia de rendimiento para arbol grande: indexacion por path/depth, cache versionada y virtualizacion frontend — Architect
+2026-03-09 â€” Se confirma separacion tactica GeoTools en tres capas: GeoMath puro, geoToolsState serializable y GeoTools como adaptador UI/MapLibre â€” Architect
+2026-03-09 â€” Se adopta source dedicado geotools-features y convenciÃ³n de layers gt-* aislada de measure-features y geo-features â€” Architect
+2026-03-09 â€” Se fija regla de integracion: GeoTools consume snapshots de unidades, eventos, ORBAT y shapes locales sin mutar las capas operativas existentes â€” Architect
+2026-03-09 â€” Trade-off aceptado: Proximity Query y Unit Dispersion arrancan en frontend sobre snapshots locales; backend dedicado queda para P1 si la carga lo exige â€” Architect
+2026-03-09 â€” Se abre linea C3IS con contrato inicial gpx_import_v1 por flujo batch validado y fuera de la ruta critica de tracking realtime â€” Architect
+2026-03-09 â€” Se reserva namespace /api/v1/c3is para puente futuro con GPS real y estrategia de idempotencia por source + external_track_id + timestamp â€” Architect

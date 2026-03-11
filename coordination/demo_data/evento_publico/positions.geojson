@@ -1,0 +1,7045 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1616,
+          41.381977
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_001",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 4.4,
+        "heading": 2.1,
+        "accuracy": 6.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162813,
+          41.382284
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_002",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 9.4,
+        "heading": 22.5,
+        "accuracy": 7.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.164264,
+          41.381986
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_003",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 5.6,
+        "heading": 54.4,
+        "accuracy": 5.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165375,
+          41.381036
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_004",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 6.2,
+        "heading": 85.1,
+        "accuracy": 6.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165635,
+          41.379694
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_005",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 3.1,
+        "heading": 103.2,
+        "accuracy": 8.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.164862,
+          41.378424
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_006",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 4.2,
+        "heading": 135.1,
+        "accuracy": 8.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163315,
+          41.377679
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_007",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 4.6,
+        "heading": 159.3,
+        "accuracy": 5.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16157,
+          41.377684
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_008",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 7.2,
+        "heading": 184.9,
+        "accuracy": 6.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.160245,
+          41.37834
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_009",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 2.1,
+        "heading": 203.0,
+        "accuracy": 5.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.159709,
+          41.379294
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_010",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 4.4,
+        "heading": 235.5,
+        "accuracy": 9.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.159937,
+          41.380131
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_011",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 3.5,
+        "heading": 260.1,
+        "accuracy": 7.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.160582,
+          41.380585
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_012",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 7.1,
+        "heading": 281.7,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161205,
+          41.380643
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_013",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 5.4,
+        "heading": 306.0,
+        "accuracy": 9.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161537,
+          41.380502
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_014",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 5.2,
+        "heading": 327.1,
+        "accuracy": 11.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1616,
+          41.380402
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_015",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 9.9,
+        "heading": 0.5,
+        "accuracy": 11.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161639,
+          41.380458
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010101_016",
+        "entity_id": "team_evento_publico_010101",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 9.5,
+        "heading": 16.9,
+        "accuracy": 9.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1616,
+          41.385567
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_001",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 7.5,
+        "heading": 2.8,
+        "accuracy": 9.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162882,
+          41.385892
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_002",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 9.5,
+        "heading": 23.1,
+        "accuracy": 7.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.164416,
+          41.385577
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_003",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 3.8,
+        "heading": 60.7,
+        "accuracy": 11.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165591,
+          41.384572
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_004",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 5.8,
+        "heading": 76.4,
+        "accuracy": 7.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165866,
+          41.383153
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_005",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 9.9,
+        "heading": 100.6,
+        "accuracy": 3.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165049,
+          41.381811
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_006",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 7.6,
+        "heading": 137.2,
+        "accuracy": 4.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163413,
+          41.381023
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_007",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 8.1,
+        "heading": 160.7,
+        "accuracy": 6.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161568,
+          41.381028
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_008",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 8.6,
+        "heading": 185.7,
+        "accuracy": 8.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.160168,
+          41.381722
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_009",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 7.4,
+        "heading": 208.2,
+        "accuracy": 8.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.159601,
+          41.38273
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_010",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 8.3,
+        "heading": 232.6,
+        "accuracy": 9.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.159842,
+          41.383616
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_011",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 6.2,
+        "heading": 255.1,
+        "accuracy": 5.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.160523,
+          41.384096
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_012",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 9.3,
+        "heading": 275.9,
+        "accuracy": 3.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161183,
+          41.384157
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_013",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 8.6,
+        "heading": 317.5,
+        "accuracy": 5.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161534,
+          41.384007
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_014",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 3.6,
+        "heading": 335.9,
+        "accuracy": 3.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1616,
+          41.383902
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_015",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 3.3,
+        "heading": 8.1,
+        "accuracy": 5.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161641,
+          41.383961
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010102_016",
+        "entity_id": "team_evento_publico_010102",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 5.5,
+        "heading": 30.4,
+        "accuracy": 3.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1616,
+          41.389157
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_001",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 5.4,
+        "heading": 4.0,
+        "accuracy": 9.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162952,
+          41.389499
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_002",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 6.3,
+        "heading": 17.0,
+        "accuracy": 6.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.164568,
+          41.389167
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_003",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 9.2,
+        "heading": 61.3,
+        "accuracy": 6.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165807,
+          41.388108
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_004",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 5.8,
+        "heading": 73.1,
+        "accuracy": 5.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166097,
+          41.386613
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_005",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 3.4,
+        "heading": 95.8,
+        "accuracy": 7.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165235,
+          41.385198
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_006",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 7.1,
+        "heading": 133.5,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163511,
+          41.384368
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_007",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 9.7,
+        "heading": 152.2,
+        "accuracy": 4.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161566,
+          41.384373
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_008",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 9.1,
+        "heading": 179.5,
+        "accuracy": 10.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16009,
+          41.385104
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_009",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 9.3,
+        "heading": 203.8,
+        "accuracy": 9.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.159493,
+          41.386167
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_010",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 2.6,
+        "heading": 241.3,
+        "accuracy": 3.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.159747,
+          41.3871
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_011",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 9.0,
+        "heading": 250.5,
+        "accuracy": 8.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.160465,
+          41.387606
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_012",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 8.9,
+        "heading": 276.0,
+        "accuracy": 8.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16116,
+          41.387671
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_013",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 9.9,
+        "heading": 307.3,
+        "accuracy": 11.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16153,
+          41.387513
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_014",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 3.0,
+        "heading": 344.8,
+        "accuracy": 11.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1616,
+          41.387402
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_015",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 8.7,
+        "heading": 6.1,
+        "accuracy": 5.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161643,
+          41.387464
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010103_016",
+        "entity_id": "team_evento_publico_010103",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 9.8,
+        "heading": 26.0,
+        "accuracy": 3.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1616,
+          41.392747
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_001",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 6.8,
+        "heading": 358.9,
+        "accuracy": 8.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163021,
+          41.393107
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_002",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 7.4,
+        "heading": 33.2,
+        "accuracy": 6.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.164721,
+          41.392758
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_003",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 4.0,
+        "heading": 42.5,
+        "accuracy": 7.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166023,
+          41.391645
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_004",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 5.5,
+        "heading": 78.1,
+        "accuracy": 9.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166327,
+          41.390073
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_005",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 8.0,
+        "heading": 108.7,
+        "accuracy": 6.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165422,
+          41.388585
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_006",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 3.1,
+        "heading": 138.8,
+        "accuracy": 5.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163609,
+          41.387712
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_007",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 3.9,
+        "heading": 163.0,
+        "accuracy": 4.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161564,
+          41.387718
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_008",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 6.6,
+        "heading": 182.0,
+        "accuracy": 7.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.160012,
+          41.388487
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_009",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 8.2,
+        "heading": 212.6,
+        "accuracy": 5.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.159385,
+          41.389604
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_010",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 3.9,
+        "heading": 239.6,
+        "accuracy": 5.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.159652,
+          41.390585
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_011",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 9.9,
+        "heading": 258.3,
+        "accuracy": 10.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.160407,
+          41.391117
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_012",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 5.3,
+        "heading": 279.1,
+        "accuracy": 4.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161137,
+          41.391185
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_013",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 6.5,
+        "heading": 311.2,
+        "accuracy": 7.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161527,
+          41.391019
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_014",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 7.9,
+        "heading": 328.7,
+        "accuracy": 3.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1616,
+          41.390902
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_015",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 7.4,
+        "heading": 2.1,
+        "accuracy": 6.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161646,
+          41.390968
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010104_016",
+        "entity_id": "team_evento_publico_010104",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 2.4,
+        "heading": 23.6,
+        "accuracy": 6.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1616,
+          41.396337
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_001",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 6.2,
+        "heading": 357.8,
+        "accuracy": 5.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163091,
+          41.396715
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_002",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 4.0,
+        "heading": 22.4,
+        "accuracy": 5.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.164873,
+          41.396349
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_003",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 2.6,
+        "heading": 50.6,
+        "accuracy": 7.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166239,
+          41.395181
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_004",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 5.0,
+        "heading": 78.1,
+        "accuracy": 8.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166558,
+          41.393532
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_005",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 8.6,
+        "heading": 94.2,
+        "accuracy": 5.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165609,
+          41.391972
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_006",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 5.0,
+        "heading": 131.0,
+        "accuracy": 6.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163707,
+          41.391057
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_007",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 2.3,
+        "heading": 146.2,
+        "accuracy": 10.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161563,
+          41.391063
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_008",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 8.4,
+        "heading": 182.2,
+        "accuracy": 7.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.159935,
+          41.391869
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_009",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 7.4,
+        "heading": 200.6,
+        "accuracy": 10.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.159277,
+          41.393041
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_010",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 3.7,
+        "heading": 240.2,
+        "accuracy": 9.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.159557,
+          41.39407
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_011",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 4.4,
+        "heading": 266.0,
+        "accuracy": 9.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.160348,
+          41.394627
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_012",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 3.7,
+        "heading": 277.4,
+        "accuracy": 5.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161115,
+          41.394699
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_013",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 7.9,
+        "heading": 314.3,
+        "accuracy": 4.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161523,
+          41.394525
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_014",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 8.0,
+        "heading": 343.5,
+        "accuracy": 5.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1616,
+          41.394402
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_015",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 7.6,
+        "heading": 5.0,
+        "accuracy": 3.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.161648,
+          41.394471
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010105_016",
+        "entity_id": "team_evento_publico_010105",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 5.2,
+        "heading": 21.5,
+        "accuracy": 10.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1651,
+          41.382427
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_001",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 7.9,
+        "heading": 350.3,
+        "accuracy": 4.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16666,
+          41.382822
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_002",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 6.4,
+        "heading": 27.5,
+        "accuracy": 8.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168525,
+          41.382439
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_003",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 7.8,
+        "heading": 47.5,
+        "accuracy": 3.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169954,
+          41.381217
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_004",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 3.6,
+        "heading": 71.9,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170288,
+          41.379492
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_005",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 6.6,
+        "heading": 98.0,
+        "accuracy": 5.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169294,
+          41.377859
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_006",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 6.4,
+        "heading": 137.8,
+        "accuracy": 7.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.167304,
+          41.376901
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_007",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 4.7,
+        "heading": 160.0,
+        "accuracy": 3.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165061,
+          41.376907
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_008",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 5.9,
+        "heading": 185.0,
+        "accuracy": 8.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163358,
+          41.377751
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_009",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 7.9,
+        "heading": 205.5,
+        "accuracy": 11.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162669,
+          41.378977
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_010",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 7.9,
+        "heading": 229.1,
+        "accuracy": 11.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162962,
+          41.380054
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_011",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 3.1,
+        "heading": 258.8,
+        "accuracy": 8.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163791,
+          41.380638
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_012",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 3.5,
+        "heading": 291.4,
+        "accuracy": 3.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.164592,
+          41.380713
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_013",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 9.9,
+        "heading": 318.5,
+        "accuracy": 7.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16502,
+          41.380531
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_014",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 6.2,
+        "heading": 342.0,
+        "accuracy": 6.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1651,
+          41.380402
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_015",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 2.6,
+        "heading": 7.3,
+        "accuracy": 3.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16515,
+          41.380474
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010201_016",
+        "entity_id": "team_evento_publico_010201",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 2.4,
+        "heading": 16.9,
+        "accuracy": 9.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1651,
+          41.386017
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_001",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 6.3,
+        "heading": 355.7,
+        "accuracy": 8.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166729,
+          41.38643
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_002",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 6.0,
+        "heading": 29.7,
+        "accuracy": 6.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168677,
+          41.38603
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_003",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 5.4,
+        "heading": 60.4,
+        "accuracy": 11.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.17017,
+          41.384754
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_004",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 3.4,
+        "heading": 85.7,
+        "accuracy": 11.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170519,
+          41.382951
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_005",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 6.2,
+        "heading": 98.0,
+        "accuracy": 11.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169481,
+          41.381246
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_006",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 7.0,
+        "heading": 124.0,
+        "accuracy": 11.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.167402,
+          41.380246
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_007",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 4.8,
+        "heading": 160.6,
+        "accuracy": 5.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165059,
+          41.380252
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_008",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 2.6,
+        "heading": 189.7,
+        "accuracy": 11.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16328,
+          41.381133
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_009",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 5.7,
+        "heading": 201.1,
+        "accuracy": 9.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162561,
+          41.382414
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_010",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 7.6,
+        "heading": 228.0,
+        "accuracy": 8.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162867,
+          41.383539
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_011",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 8.6,
+        "heading": 249.4,
+        "accuracy": 5.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163732,
+          41.384149
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_012",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 9.9,
+        "heading": 286.6,
+        "accuracy": 11.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16457,
+          41.384227
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_013",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 2.3,
+        "heading": 307.5,
+        "accuracy": 9.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165016,
+          41.384036
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_014",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 5.0,
+        "heading": 334.7,
+        "accuracy": 5.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1651,
+          41.383902
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_015",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 7.1,
+        "heading": 5.0,
+        "accuracy": 7.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165152,
+          41.383978
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010202_016",
+        "entity_id": "team_evento_publico_010202",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 2.7,
+        "heading": 33.7,
+        "accuracy": 8.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1651,
+          41.389607
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_001",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 3.4,
+        "heading": 7.0,
+        "accuracy": 5.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166798,
+          41.390038
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_002",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 2.1,
+        "heading": 19.9,
+        "accuracy": 8.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16883,
+          41.38962
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_003",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 3.2,
+        "heading": 58.0,
+        "accuracy": 6.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170386,
+          41.38829
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_004",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 8.6,
+        "heading": 85.9,
+        "accuracy": 4.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.17075,
+          41.386411
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_005",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 4.4,
+        "heading": 104.4,
+        "accuracy": 8.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169668,
+          41.384633
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_006",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 6.5,
+        "heading": 135.9,
+        "accuracy": 6.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.167501,
+          41.38359
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_007",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 7.4,
+        "heading": 155.5,
+        "accuracy": 9.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165057,
+          41.383597
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_008",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 5.1,
+        "heading": 185.3,
+        "accuracy": 5.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163203,
+          41.384516
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_009",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 8.3,
+        "heading": 210.1,
+        "accuracy": 5.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162453,
+          41.385851
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_010",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 2.6,
+        "heading": 237.0,
+        "accuracy": 3.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162772,
+          41.387023
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_011",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 4.8,
+        "heading": 249.8,
+        "accuracy": 5.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163674,
+          41.387659
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_012",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 3.9,
+        "heading": 275.1,
+        "accuracy": 6.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.164547,
+          41.387741
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_013",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 6.8,
+        "heading": 311.7,
+        "accuracy": 10.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165012,
+          41.387542
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_014",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 6.8,
+        "heading": 344.6,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1651,
+          41.387402
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_015",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 4.6,
+        "heading": 3.6,
+        "accuracy": 6.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165154,
+          41.387481
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010203_016",
+        "entity_id": "team_evento_publico_010203",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 8.3,
+        "heading": 25.8,
+        "accuracy": 6.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1651,
+          41.393197
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_001",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 2.7,
+        "heading": 8.9,
+        "accuracy": 6.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166868,
+          41.393645
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_002",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 5.6,
+        "heading": 31.0,
+        "accuracy": 11.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168982,
+          41.393211
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_003",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 2.8,
+        "heading": 43.3,
+        "accuracy": 9.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170602,
+          41.391826
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_004",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 5.4,
+        "heading": 78.5,
+        "accuracy": 7.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170981,
+          41.389871
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_005",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 6.1,
+        "heading": 95.2,
+        "accuracy": 8.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169854,
+          41.38802
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_006",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 2.7,
+        "heading": 130.0,
+        "accuracy": 7.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.167599,
+          41.386935
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_007",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 6.8,
+        "heading": 160.4,
+        "accuracy": 4.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165056,
+          41.386942
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_008",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 8.9,
+        "heading": 170.7,
+        "accuracy": 3.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163125,
+          41.387898
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_009",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 5.3,
+        "heading": 211.8,
+        "accuracy": 6.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162345,
+          41.389288
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_010",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 7.8,
+        "heading": 233.2,
+        "accuracy": 10.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162677,
+          41.390508
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_011",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 9.9,
+        "heading": 252.7,
+        "accuracy": 6.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163616,
+          41.39117
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_012",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 6.2,
+        "heading": 287.3,
+        "accuracy": 10.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.164525,
+          41.391255
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_013",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 3.4,
+        "heading": 304.8,
+        "accuracy": 7.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165009,
+          41.391048
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_014",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 4.1,
+        "heading": 328.1,
+        "accuracy": 6.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1651,
+          41.390902
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_015",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 3.3,
+        "heading": 356.5,
+        "accuracy": 10.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165157,
+          41.390984
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010204_016",
+        "entity_id": "team_evento_publico_010204",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 4.4,
+        "heading": 32.4,
+        "accuracy": 8.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1651,
+          41.396787
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_001",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 6.8,
+        "heading": 356.0,
+        "accuracy": 5.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166937,
+          41.397253
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_002",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 6.8,
+        "heading": 29.7,
+        "accuracy": 5.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169134,
+          41.396802
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_003",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 5.8,
+        "heading": 45.1,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170818,
+          41.395363
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_004",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 5.2,
+        "heading": 73.7,
+        "accuracy": 6.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171211,
+          41.39333
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_005",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 7.9,
+        "heading": 105.8,
+        "accuracy": 6.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170041,
+          41.391407
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_006",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 9.7,
+        "heading": 134.6,
+        "accuracy": 7.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.167697,
+          41.390279
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_007",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 4.6,
+        "heading": 150.3,
+        "accuracy": 8.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165054,
+          41.390286
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_008",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 8.3,
+        "heading": 177.8,
+        "accuracy": 8.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163048,
+          41.39128
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_009",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 9.5,
+        "heading": 200.3,
+        "accuracy": 7.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162236,
+          41.392725
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_010",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 10.0,
+        "heading": 225.6,
+        "accuracy": 11.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.162582,
+          41.393993
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_011",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 8.1,
+        "heading": 248.4,
+        "accuracy": 10.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.163557,
+          41.39468
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_012",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 7.8,
+        "heading": 292.5,
+        "accuracy": 6.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.164502,
+          41.394769
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_013",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 3.7,
+        "heading": 315.4,
+        "accuracy": 3.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165005,
+          41.394554
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_014",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 8.7,
+        "heading": 326.6,
+        "accuracy": 11.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1651,
+          41.394402
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_015",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 8.8,
+        "heading": 6.9,
+        "accuracy": 9.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165159,
+          41.394488
+        ]
+      },
+      "properties": {
+        "track_id": "trk_team_evento_publico_010205_016",
+        "entity_id": "team_evento_publico_010205",
+        "entity_type": "unit",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 7.4,
+        "heading": 19.5,
+        "accuracy": 10.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686,
+          41.382877
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_001",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 28.8,
+        "heading": 8.3,
+        "accuracy": 6.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170506,
+          41.383361
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_002",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 24.9,
+        "heading": 20.7,
+        "accuracy": 6.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172786,
+          41.382892
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_003",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 29.3,
+        "heading": 44.9,
+        "accuracy": 10.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174533,
+          41.381399
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_004",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 28.9,
+        "heading": 78.6,
+        "accuracy": 7.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174941,
+          41.37929
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_005",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 29.2,
+        "heading": 106.1,
+        "accuracy": 6.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.173726,
+          41.377295
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_006",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 31.7,
+        "heading": 125.5,
+        "accuracy": 3.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171294,
+          41.376124
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_007",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 30.4,
+        "heading": 146.8,
+        "accuracy": 9.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168552,
+          41.376131
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_008",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 24.8,
+        "heading": 174.9,
+        "accuracy": 7.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166471,
+          41.377162
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_009",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 30.0,
+        "heading": 207.4,
+        "accuracy": 3.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165629,
+          41.378661
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_010",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 29.5,
+        "heading": 226.5,
+        "accuracy": 3.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165987,
+          41.379977
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_011",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 27.0,
+        "heading": 257.1,
+        "accuracy": 9.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.167,
+          41.380691
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_012",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 29.4,
+        "heading": 287.4,
+        "accuracy": 3.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.167979,
+          41.380782
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_013",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 25.2,
+        "heading": 319.4,
+        "accuracy": 6.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168502,
+          41.38056
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_014",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 27.9,
+        "heading": 331.1,
+        "accuracy": 4.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686,
+          41.380403
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_015",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 31.4,
+        "heading": 352.7,
+        "accuracy": 10.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168661,
+          41.380491
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_001_016",
+        "entity_id": "veh_evento_publico_001",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 30.7,
+        "heading": 31.3,
+        "accuracy": 11.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686,
+          41.386468
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_001",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 29.9,
+        "heading": 0.3,
+        "accuracy": 4.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170576,
+          41.386968
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_002",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 28.4,
+        "heading": 22.4,
+        "accuracy": 6.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172938,
+          41.386483
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_003",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 27.4,
+        "heading": 50.8,
+        "accuracy": 7.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174749,
+          41.384935
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_004",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 30.4,
+        "heading": 79.9,
+        "accuracy": 4.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175172,
+          41.38275
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_005",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 25.5,
+        "heading": 106.3,
+        "accuracy": 9.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.173913,
+          41.380682
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_006",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 27.2,
+        "heading": 133.7,
+        "accuracy": 10.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171392,
+          41.379468
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_007",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 31.1,
+        "heading": 153.7,
+        "accuracy": 11.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16855,
+          41.379476
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_008",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 27.4,
+        "heading": 170.6,
+        "accuracy": 8.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166393,
+          41.380545
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_009",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 25.7,
+        "heading": 201.8,
+        "accuracy": 9.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165521,
+          41.382098
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_010",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 29.6,
+        "heading": 238.0,
+        "accuracy": 5.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165892,
+          41.383462
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_011",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 28.6,
+        "heading": 263.8,
+        "accuracy": 5.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166941,
+          41.384201
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_012",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 28.3,
+        "heading": 280.9,
+        "accuracy": 4.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.167957,
+          41.384296
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_013",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 25.6,
+        "heading": 301.7,
+        "accuracy": 6.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168498,
+          41.384065
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_014",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 29.4,
+        "heading": 335.0,
+        "accuracy": 4.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686,
+          41.383903
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_015",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 31.7,
+        "heading": 357.2,
+        "accuracy": 6.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168663,
+          41.383994
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_002_016",
+        "entity_id": "veh_evento_publico_002",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 27.1,
+        "heading": 24.6,
+        "accuracy": 8.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686,
+          41.390058
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_001",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 28.6,
+        "heading": 358.5,
+        "accuracy": 10.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170645,
+          41.390576
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_002",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 27.9,
+        "heading": 26.5,
+        "accuracy": 7.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.173091,
+          41.390074
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_003",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 31.4,
+        "heading": 60.2,
+        "accuracy": 7.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174965,
+          41.388472
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_004",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 25.4,
+        "heading": 70.7,
+        "accuracy": 8.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175403,
+          41.386209
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_005",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 26.3,
+        "heading": 96.9,
+        "accuracy": 5.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1741,
+          41.384069
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_006",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 30.7,
+        "heading": 131.3,
+        "accuracy": 7.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171491,
+          41.382813
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_007",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 30.9,
+        "heading": 163.7,
+        "accuracy": 11.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168549,
+          41.382821
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_008",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 27.9,
+        "heading": 174.4,
+        "accuracy": 7.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166316,
+          41.383927
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_009",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 27.1,
+        "heading": 207.5,
+        "accuracy": 9.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165413,
+          41.385535
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_010",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 29.2,
+        "heading": 230.2,
+        "accuracy": 9.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165797,
+          41.386947
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_011",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 27.9,
+        "heading": 262.0,
+        "accuracy": 7.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166883,
+          41.387712
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_012",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 27.6,
+        "heading": 277.0,
+        "accuracy": 5.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.167934,
+          41.38781
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_013",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 28.5,
+        "heading": 315.3,
+        "accuracy": 6.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168494,
+          41.387571
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_014",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 25.8,
+        "heading": 325.8,
+        "accuracy": 9.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686,
+          41.387403
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_015",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 25.8,
+        "heading": 356.7,
+        "accuracy": 8.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168665,
+          41.387497
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_003_016",
+        "entity_id": "veh_evento_publico_003",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 30.2,
+        "heading": 28.1,
+        "accuracy": 5.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686,
+          41.393648
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_001",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 31.0,
+        "heading": 350.6,
+        "accuracy": 3.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170714,
+          41.394184
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_002",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 26.1,
+        "heading": 33.0,
+        "accuracy": 5.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.173243,
+          41.393664
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_003",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 24.7,
+        "heading": 58.9,
+        "accuracy": 8.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175181,
+          41.392008
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_004",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 24.9,
+        "heading": 83.6,
+        "accuracy": 9.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175634,
+          41.389669
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_005",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 25.7,
+        "heading": 107.9,
+        "accuracy": 4.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174286,
+          41.387456
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_006",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 29.5,
+        "heading": 136.1,
+        "accuracy": 4.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171589,
+          41.386157
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_007",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 28.9,
+        "heading": 153.3,
+        "accuracy": 5.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168547,
+          41.386166
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_008",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 28.9,
+        "heading": 186.2,
+        "accuracy": 5.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166238,
+          41.387309
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_009",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 30.5,
+        "heading": 212.4,
+        "accuracy": 10.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165304,
+          41.388972
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_010",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 28.6,
+        "heading": 232.7,
+        "accuracy": 6.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165702,
+          41.390431
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_011",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 28.8,
+        "heading": 251.2,
+        "accuracy": 4.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166825,
+          41.391223
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_012",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 31.8,
+        "heading": 279.5,
+        "accuracy": 8.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.167912,
+          41.391324
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_013",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 28.6,
+        "heading": 318.4,
+        "accuracy": 8.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168491,
+          41.391077
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_014",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 28.1,
+        "heading": 343.2,
+        "accuracy": 6.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686,
+          41.390903
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_015",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 30.5,
+        "heading": 353.7,
+        "accuracy": 3.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168668,
+          41.391001
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_004_016",
+        "entity_id": "veh_evento_publico_004",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 30.0,
+        "heading": 25.0,
+        "accuracy": 10.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686,
+          41.397238
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_001",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 30.2,
+        "heading": 358.1,
+        "accuracy": 11.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170784,
+          41.397791
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_002",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 30.0,
+        "heading": 29.7,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.173396,
+          41.397255
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_003",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 31.0,
+        "heading": 50.7,
+        "accuracy": 7.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175397,
+          41.395544
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_004",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 27.9,
+        "heading": 79.0,
+        "accuracy": 11.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175865,
+          41.393129
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_005",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 31.0,
+        "heading": 110.1,
+        "accuracy": 6.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174473,
+          41.390843
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_006",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 24.7,
+        "heading": 138.4,
+        "accuracy": 12.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171687,
+          41.389501
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_007",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 29.1,
+        "heading": 158.6,
+        "accuracy": 11.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168545,
+          41.38951
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_008",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 30.8,
+        "heading": 186.4,
+        "accuracy": 10.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166161,
+          41.390691
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_009",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 27.2,
+        "heading": 215.6,
+        "accuracy": 5.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165196,
+          41.392408
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_010",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 30.6,
+        "heading": 231.9,
+        "accuracy": 10.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165607,
+          41.393916
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_011",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 26.6,
+        "heading": 253.5,
+        "accuracy": 10.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.166766,
+          41.394733
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_012",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 28.4,
+        "heading": 276.2,
+        "accuracy": 3.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.167889,
+          41.394838
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_013",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 30.8,
+        "heading": 315.2,
+        "accuracy": 6.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168487,
+          41.394583
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_014",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 31.2,
+        "heading": 340.4,
+        "accuracy": 3.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1686,
+          41.394403
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_015",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 24.4,
+        "heading": 3.5,
+        "accuracy": 9.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.16867,
+          41.394504
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_005_016",
+        "entity_id": "veh_evento_publico_005",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 30.7,
+        "heading": 17.1,
+        "accuracy": 8.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1721,
+          41.383328
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_001",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 24.4,
+        "heading": 2.5,
+        "accuracy": 4.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174353,
+          41.383899
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_002",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 29.8,
+        "heading": 30.9,
+        "accuracy": 6.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.177047,
+          41.383345
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_003",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 27.4,
+        "heading": 43.4,
+        "accuracy": 4.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.179111,
+          41.381581
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_004",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 24.8,
+        "heading": 71.6,
+        "accuracy": 9.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.179594,
+          41.379088
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_005",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 24.6,
+        "heading": 105.0,
+        "accuracy": 11.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.178158,
+          41.37673
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_006",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 28.2,
+        "heading": 127.8,
+        "accuracy": 8.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175284,
+          41.375346
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_007",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 24.1,
+        "heading": 151.6,
+        "accuracy": 7.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172043,
+          41.375355
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_008",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 25.0,
+        "heading": 187.7,
+        "accuracy": 5.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169584,
+          41.376574
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_009",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 29.6,
+        "heading": 205.8,
+        "accuracy": 11.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168589,
+          41.378345
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_010",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 25.8,
+        "heading": 223.8,
+        "accuracy": 4.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169012,
+          41.3799
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_011",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 30.4,
+        "heading": 249.9,
+        "accuracy": 4.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170209,
+          41.380744
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_012",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 26.9,
+        "heading": 279.6,
+        "accuracy": 9.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171367,
+          41.380852
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_013",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 27.1,
+        "heading": 315.7,
+        "accuracy": 6.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171984,
+          41.380589
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_014",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 31.0,
+        "heading": 338.0,
+        "accuracy": 6.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1721,
+          41.380403
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_015",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 29.4,
+        "heading": 352.3,
+        "accuracy": 10.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172172,
+          41.380507
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_006_016",
+        "entity_id": "veh_evento_publico_006",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 28.5,
+        "heading": 29.0,
+        "accuracy": 5.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1721,
+          41.386918
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_001",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 29.2,
+        "heading": 355.0,
+        "accuracy": 3.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174422,
+          41.387507
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_002",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 28.8,
+        "heading": 30.2,
+        "accuracy": 8.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.177199,
+          41.386936
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_003",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 26.3,
+        "heading": 60.4,
+        "accuracy": 3.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.179327,
+          41.385117
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_004",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 24.2,
+        "heading": 84.3,
+        "accuracy": 4.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.179825,
+          41.382548
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_005",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 31.0,
+        "heading": 97.2,
+        "accuracy": 11.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.178345,
+          41.380117
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_006",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 28.9,
+        "heading": 122.7,
+        "accuracy": 11.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175382,
+          41.37869
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_007",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 27.1,
+        "heading": 157.6,
+        "accuracy": 6.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172042,
+          41.3787
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_008",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 30.3,
+        "heading": 186.4,
+        "accuracy": 5.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169506,
+          41.379956
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_009",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 25.9,
+        "heading": 204.0,
+        "accuracy": 9.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168481,
+          41.381782
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_010",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 25.9,
+        "heading": 234.8,
+        "accuracy": 9.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168917,
+          41.383385
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_011",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 24.6,
+        "heading": 265.6,
+        "accuracy": 6.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.17015,
+          41.384254
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_012",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 24.1,
+        "heading": 280.8,
+        "accuracy": 6.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171344,
+          41.384366
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_013",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 26.5,
+        "heading": 307.1,
+        "accuracy": 8.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.17198,
+          41.384094
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_014",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 30.7,
+        "heading": 333.6,
+        "accuracy": 7.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1721,
+          41.383903
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_015",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 28.4,
+        "heading": 354.4,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172174,
+          41.384011
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_007_016",
+        "entity_id": "veh_evento_publico_007",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 27.8,
+        "heading": 36.5,
+        "accuracy": 3.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1721,
+          41.390508
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_001",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 24.6,
+        "heading": 8.4,
+        "accuracy": 9.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174492,
+          41.391114
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_002",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 31.8,
+        "heading": 18.9,
+        "accuracy": 4.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.177352,
+          41.390527
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_003",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 26.6,
+        "heading": 53.3,
+        "accuracy": 11.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.179544,
+          41.388653
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_004",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 30.1,
+        "heading": 80.3,
+        "accuracy": 6.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.180056,
+          41.386007
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_005",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 29.1,
+        "heading": 99.3,
+        "accuracy": 6.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.178532,
+          41.383504
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_006",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 27.5,
+        "heading": 138.0,
+        "accuracy": 7.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.17548,
+          41.382035
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_007",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 25.9,
+        "heading": 149.6,
+        "accuracy": 5.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.17204,
+          41.382045
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_008",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 31.4,
+        "heading": 172.8,
+        "accuracy": 11.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169428,
+          41.383338
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_009",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 28.9,
+        "heading": 197.4,
+        "accuracy": 8.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168372,
+          41.385219
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_010",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 29.3,
+        "heading": 235.2,
+        "accuracy": 7.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168822,
+          41.38687
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_011",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 25.4,
+        "heading": 248.1,
+        "accuracy": 7.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170092,
+          41.387765
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_012",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 25.1,
+        "heading": 273.8,
+        "accuracy": 3.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171321,
+          41.38788
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_013",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 28.0,
+        "heading": 306.3,
+        "accuracy": 10.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171977,
+          41.3876
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_014",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 28.1,
+        "heading": 341.6,
+        "accuracy": 4.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1721,
+          41.387403
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_015",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 26.1,
+        "heading": 358.4,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172177,
+          41.387514
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_008_016",
+        "entity_id": "veh_evento_publico_008",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 30.0,
+        "heading": 34.2,
+        "accuracy": 10.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1721,
+          41.394098
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_001",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 31.2,
+        "heading": 3.5,
+        "accuracy": 5.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174561,
+          41.394722
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_002",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 24.9,
+        "heading": 30.6,
+        "accuracy": 3.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.177504,
+          41.394117
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_003",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 24.0,
+        "heading": 58.7,
+        "accuracy": 7.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.17976,
+          41.39219
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_004",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 24.1,
+        "heading": 68.3,
+        "accuracy": 6.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.180287,
+          41.389467
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_005",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 26.9,
+        "heading": 111.5,
+        "accuracy": 5.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.178719,
+          41.386891
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_006",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 25.4,
+        "heading": 138.1,
+        "accuracy": 10.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175579,
+          41.385379
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_007",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 24.3,
+        "heading": 160.8,
+        "accuracy": 9.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172038,
+          41.385389
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_008",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 29.7,
+        "heading": 183.6,
+        "accuracy": 5.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169351,
+          41.386721
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_009",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 25.8,
+        "heading": 201.2,
+        "accuracy": 6.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168264,
+          41.388656
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_010",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 31.3,
+        "heading": 228.4,
+        "accuracy": 11.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168727,
+          41.390354
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_011",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 30.6,
+        "heading": 259.3,
+        "accuracy": 12.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.170034,
+          41.391275
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_012",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 25.0,
+        "heading": 287.1,
+        "accuracy": 10.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171299,
+          41.391394
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_013",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 24.4,
+        "heading": 303.9,
+        "accuracy": 9.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171973,
+          41.391106
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_014",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 28.1,
+        "heading": 326.1,
+        "accuracy": 7.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1721,
+          41.390903
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_015",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 27.2,
+        "heading": 8.5,
+        "accuracy": 10.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172179,
+          41.391017
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_009_016",
+        "entity_id": "veh_evento_publico_009",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 30.9,
+        "heading": 32.2,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1721,
+          41.397688
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_001",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 31.5,
+        "heading": 350.5,
+        "accuracy": 4.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.17463,
+          41.39833
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_002",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 28.3,
+        "heading": 28.5,
+        "accuracy": 5.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.177657,
+          41.397708
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_003",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 29.5,
+        "heading": 41.8,
+        "accuracy": 10.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.179976,
+          41.395726
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_004",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 26.7,
+        "heading": 82.5,
+        "accuracy": 11.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.180518,
+          41.392927
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_005",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 27.0,
+        "heading": 107.9,
+        "accuracy": 6.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.178905,
+          41.390278
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_006",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 26.5,
+        "heading": 123.0,
+        "accuracy": 10.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175677,
+          41.388724
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_007",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 31.9,
+        "heading": 153.1,
+        "accuracy": 5.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172037,
+          41.388734
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_008",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 31.7,
+        "heading": 189.9,
+        "accuracy": 7.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169273,
+          41.390103
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_009",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 25.1,
+        "heading": 201.9,
+        "accuracy": 5.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168156,
+          41.392092
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_010",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 24.4,
+        "heading": 226.7,
+        "accuracy": 11.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.168632,
+          41.393839
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_011",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 30.8,
+        "heading": 256.1,
+        "accuracy": 4.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.169975,
+          41.394786
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_012",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 31.2,
+        "heading": 282.8,
+        "accuracy": 9.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171276,
+          41.394908
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_013",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 30.0,
+        "heading": 311.0,
+        "accuracy": 4.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171969,
+          41.394612
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_014",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 28.0,
+        "heading": 337.9,
+        "accuracy": 4.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1721,
+          41.394403
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_015",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 27.2,
+        "heading": 2.8,
+        "accuracy": 7.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172181,
+          41.394521
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_010_016",
+        "entity_id": "veh_evento_publico_010",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 24.5,
+        "heading": 30.0,
+        "accuracy": 5.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1756,
+          41.383778
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_001",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 25.0,
+        "heading": 357.2,
+        "accuracy": 4.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.178199,
+          41.384437
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_002",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 30.2,
+        "heading": 24.8,
+        "accuracy": 6.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.181308,
+          41.383799
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_003",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 27.7,
+        "heading": 58.6,
+        "accuracy": 9.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.18369,
+          41.381762
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_004",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 24.7,
+        "heading": 83.5,
+        "accuracy": 11.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.184246,
+          41.378886
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_005",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 26.4,
+        "heading": 107.2,
+        "accuracy": 3.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.18259,
+          41.376165
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_006",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 28.8,
+        "heading": 123.2,
+        "accuracy": 8.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.179274,
+          41.374568
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_007",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 30.9,
+        "heading": 147.7,
+        "accuracy": 11.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175535,
+          41.374579
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_008",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 29.7,
+        "heading": 189.8,
+        "accuracy": 3.7,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172696,
+          41.375985
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_009",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 27.2,
+        "heading": 197.2,
+        "accuracy": 12.0,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171549,
+          41.378029
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_010",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 26.4,
+        "heading": 238.4,
+        "accuracy": 4.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172037,
+          41.379824
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_011",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 25.4,
+        "heading": 266.9,
+        "accuracy": 8.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.173418,
+          41.380797
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_012",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 30.8,
+        "heading": 284.7,
+        "accuracy": 10.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174754,
+          41.380921
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_013",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 28.4,
+        "heading": 301.3,
+        "accuracy": 3.8,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175466,
+          41.380618
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_014",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 24.8,
+        "heading": 341.1,
+        "accuracy": 10.6,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1756,
+          41.380404
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_015",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 25.0,
+        "heading": 352.2,
+        "accuracy": 10.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175683,
+          41.380524
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_011_016",
+        "entity_id": "veh_evento_publico_011",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 30.2,
+        "heading": 21.2,
+        "accuracy": 4.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1756,
+          41.387368
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_001",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:00Z",
+        "speed": 31.5,
+        "heading": 351.0,
+        "accuracy": 6.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.178269,
+          41.388045
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_002",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:00:40Z",
+        "speed": 31.4,
+        "heading": 24.4,
+        "accuracy": 8.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.18146,
+          41.387389
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_003",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:01:20Z",
+        "speed": 29.8,
+        "heading": 51.5,
+        "accuracy": 5.9,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.183906,
+          41.385299
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_004",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:00Z",
+        "speed": 27.1,
+        "heading": 75.9,
+        "accuracy": 5.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.184477,
+          41.382346
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_005",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:02:40Z",
+        "speed": 26.8,
+        "heading": 111.3,
+        "accuracy": 3.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.182777,
+          41.379552
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_006",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:03:20Z",
+        "speed": 26.2,
+        "heading": 127.8,
+        "accuracy": 8.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.179372,
+          41.377913
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_007",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:00Z",
+        "speed": 25.2,
+        "heading": 157.0,
+        "accuracy": 3.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175533,
+          41.377924
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_008",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:04:40Z",
+        "speed": 28.9,
+        "heading": 183.4,
+        "accuracy": 10.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.172619,
+          41.379367
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_009",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:05:20Z",
+        "speed": 28.0,
+        "heading": 213.9,
+        "accuracy": 5.5,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.17144,
+          41.381466
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_010",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:00Z",
+        "speed": 27.8,
+        "heading": 223.8,
+        "accuracy": 10.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.171942,
+          41.383308
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_011",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:06:40Z",
+        "speed": 27.1,
+        "heading": 256.2,
+        "accuracy": 7.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.173359,
+          41.384307
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_012",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:07:20Z",
+        "speed": 29.1,
+        "heading": 289.6,
+        "accuracy": 6.2,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.174731,
+          41.384435
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_013",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:00Z",
+        "speed": 26.0,
+        "heading": 319.3,
+        "accuracy": 8.3,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175462,
+          41.384123
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_014",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:08:40Z",
+        "speed": 28.3,
+        "heading": 325.6,
+        "accuracy": 5.1,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1756,
+          41.383904
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_015",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:09:20Z",
+        "speed": 27.1,
+        "heading": 5.2,
+        "accuracy": 4.4,
+        "source": "gnss"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.175685,
+          41.384027
+        ]
+      },
+      "properties": {
+        "track_id": "trk_veh_evento_publico_012_016",
+        "entity_id": "veh_evento_publico_012",
+        "entity_type": "vehicle",
+        "timestamp": "2026-03-05T07:10:00Z",
+        "speed": 27.8,
+        "heading": 32.4,
+        "accuracy": 5.2,
+        "source": "gnss"
+      }
+    }
+  ]
+}

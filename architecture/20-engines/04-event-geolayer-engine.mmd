@@ -1,0 +1,6 @@
+flowchart LR
+  CE[CanonicalEvent] --> MAP[Geo mapping rules]
+  MAP --> GEF[GeoEventFeature]
+  GEF --> AGG[Zoom Aggregation]
+  AGG --> FIL[Type/source/severity filters]
+  FIL --> GL[Geo Event Layer API]

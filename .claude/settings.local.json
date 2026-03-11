@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(where python3)",
+      "Bash(where py)",
+      "Read(//c/Users/usuario/AppData/Local/Programs/Python//**)",
+      "Bash(ls /c/Python*)",
+      "Bash(py:*)",
+      "Bash(curl:*)",
+      "Bash(xargs grep:*)",
+      "Bash(node:*)",
+      "Bash(/c/Users/usuario/Desktop/Proyectos/ORBAT/frontend/style.css:*)",
+      "Bash(\"/c/Users/usuario/Desktop/Proyectos/ORBAT/frontend/style.css\":*)"
+    ]
+  }
+}
